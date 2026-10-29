@@ -1,0 +1,422 @@
+/* JURISPLAY · conteúdo da plataforma
+   Para publicar um vídeo, preencha o campo `video` do episódio com a URL do arquivo
+   (.mp4, .webm ou .m3u8). Legendas opcionais em `subs` (arquivo .vtt).
+   Casos e personagens fictícios. Penas conferidas em outubro de 2026. */
+window.JP_DATA = (function () {
+  const IMG = 'assets/img/';
+
+  const seasons = [
+    { n: 1, name: 'Dos Crimes contra a Pessoa', range: 'Art. 121 ao 154', img: IMG + 'temporadas/t1.jpg', status: 'disponivel',
+      desc: 'Vida, integridade física, honra e liberdade. Do homicídio à violação de domicílio, os crimes que atingem diretamente a pessoa.' },
+    { n: 2, name: 'Dos Crimes contra o Patrimônio', range: 'Art. 155 ao 183', img: IMG + 'temporadas/t2.jpg', status: 'disponivel',
+      desc: 'Um celular furtado numa sexta-feira atravessa a temporada inteira: furto, roubo, extorsão, estelionato e receptação, até voltar para a dona. Atualizada pela Lei 15.397/2026.' },
+    { n: 3, name: 'Dos Crimes contra a Administração Pública', range: 'Art. 312 ao 359', img: IMG + 'temporadas/t3.jpg', status: 'disponivel',
+      desc: 'Peculato, concussão, corrupção e falso testemunho. Quando quem deveria servir ao público usa o cargo em benefício próprio, e quem tenta comprá-lo.' },
+    { n: 4, name: 'Dos Crimes contra a Fé Pública', range: 'Art. 289 ao 311-A', img: IMG + 'temporadas/t4.jpg', status: 'disponivel',
+      desc: 'Moeda falsa, documentos adulterados e declarações mentirosas. Os crimes que atacam a confiança que todos depositam em papéis oficiais.' },
+    { n: 5, name: 'Dos Crimes contra a Incolumidade Pública', range: 'Art. 250 ao 285', img: IMG + 'temporadas/t5.jpg', status: 'breve',
+      desc: 'Incêndio, explosão, desabamento e crimes contra a saúde pública. Em produção.',
+      planned: [['250', 'Incêndio'], ['251', 'Explosão'], ['256', 'Desabamento ou desmoronamento'], ['273', 'Falsificação de produto medicinal'], ['282', 'Exercício ilegal da medicina']] }
+  ];
+
+  const cast = [
+    { i: 'HR', n: 'Delegada Helena Rocha', r: 'Polícia Civil', d: '47 anos. Fala pouco e pergunta muito. É ela quem transforma o fato em tipo penal: "isso é furto, não roubo".' },
+    { i: 'CM', n: 'Investigador Caíque Moura', r: 'Investigação', d: '29 anos. Câmeras, IMEI, rastro de Pix. Traz a prova e o humor da série.' },
+    { i: 'IB', n: 'Promotora Iara Bastos', r: 'Ministério Público', d: 'Acusa e lê a lei em voz alta. É por ela que o público fica sabendo o que mudou em cada artigo.' },
+    { i: 'OL', n: 'Defensor Otávio Lins', r: 'Defensoria Pública', d: 'Defende os réus com teses reais. Mostra que a defesa é parte da justiça.' },
+    { i: 'MS', n: 'Juíza Marta Siqueira', r: 'Vara Criminal', d: 'Decide e explica o porquê em uma frase. Suas falas são o resumo que o espectador leva para a prova.' },
+    { i: 'VC', n: 'A Voz do Código', r: 'Narradora', d: 'Fecha cada episódio com tela preta e uma frase. Liga um caso ao outro.' }
+  ];
+
+  const E = (o) => Object.assign({ video: '', subs: '', img: IMG + 'episodios/' + o.id + '.jpg' }, o);
+
+  const episodes = [
+    /* ============ TEMPORADA 1 · PESSOA ============ */
+    E({ id: '121', s: 1, n: 1, crime: 'Homicídio Qualificado', title: 'O Café da Herança', tag: 'Motivações, causas e consequências.', dur: 18, rate: '16',
+      logline: 'Seu Jairo, 74 anos, morre depois do café da manhã. O laudo encontra veneno, e o sobrinho que preparou o café é o único herdeiro e deve R$ 300 mil.',
+      guests: [{ n: 'Jairo Mendes', r: 'Vítima, 74 anos', d: 'Comerciante aposentado, dono de três imóveis.' }, { n: 'Vinícius Mendes', r: 'Sobrinho e herdeiro, 39 anos', d: 'Endividado, morava com o tio havia seis meses.' }, { n: 'Dra. Lúcia Paz', r: 'Perita criminal', d: 'Encontra o veneno no exame toxicológico.' }],
+      verdict: { tipo: 'Matar alguém.',
+        penas: [['Homicídio simples (caput)', 'Reclusão de 6 a 20 anos'], ['Qualificado (§2º): motivo torpe ou fútil, veneno, fogo, asfixia, tortura, emboscada, recurso que dificulte a defesa, entre outros', 'Reclusão de 12 a 30 anos'], ['Privilegiado (§1º): relevante valor moral ou social, ou violenta emoção após injusta provocação', 'Redução de 1/6 a 1/3'], ['Culposo (§3º)', 'Detenção de 1 a 3 anos']],
+        keys: ['Conduta de matar alguém', 'Dolo: vontade de matar ou aceitação do risco', 'Qualificadoras ligadas ao motivo, ao meio, ao modo ou ao fim'],
+        not: 'Latrocínio (art. 157, §3º, II): a morte acontece para roubar e é crime contra o patrimônio. Feminicídio: desde 2024 é crime autônomo, no art. 121-A.',
+        changed: 'Homicídio qualificado é crime hediondo (Lei 8.072/1990). Com a Lei 14.994/2024, o feminicídio saiu do art. 121 e virou o art. 121-A, com pena de 20 a 40 anos.' },
+      quiz: { q: 'Vinícius envenenou o tio para ficar com a herança. Como o crime é classificado?', o: ['Homicídio simples, porque não houve violência física', 'Homicídio qualificado pelo veneno e pelo motivo torpe', 'Latrocínio, porque havia interesse em dinheiro'], c: 1,
+        e: 'Veneno é meio insidioso (§2º, III) e matar por herança é motivo torpe (§2º, I). Não é latrocínio, porque não houve roubo. É crime hediondo.' } }),
+
+    E({ id: '129', s: 1, n: 2, crime: 'Lesão Corporal', title: 'Fechada no Cruzamento', tag: 'Tipos, agravantes e penalidades.', dur: 17, rate: '14',
+      logline: 'Uma fechada no trânsito vira briga. Um soco deixa o motoboy Edson 45 dias sem trabalhar. O tamanho do estrago muda o artigo.',
+      guests: [{ n: 'Edson Lima', r: 'Vítima, motoboy, 31 anos', d: 'Fica sem poder pilotar por um mês e meio.' }, { n: 'Marcelo Torres', r: 'Autor, 44 anos', d: 'Empresário que perdeu a cabeça no sinal vermelho.' }, { n: 'Dona Fátima', r: 'Testemunha', d: 'Vende flores na esquina e viu tudo.' }],
+      verdict: { tipo: 'Ofender a integridade corporal ou a saúde de outrem.',
+        penas: [['Lesão leve (caput)', 'Detenção de 3 meses a 1 ano'], ['Grave (§1º): incapacidade por mais de 30 dias, perigo de vida, debilidade permanente, aceleração de parto', 'Reclusão de 1 a 5 anos'], ['Gravíssima (§2º): incapacidade permanente para o trabalho, perda de membro ou função, deformidade permanente, aborto', 'Reclusão de 2 a 8 anos'], ['Seguida de morte (§3º)', 'Reclusão de 4 a 12 anos'], ['Culposa (§6º)', 'Detenção de 2 meses a 1 ano']],
+        keys: ['Ofensa à integridade corporal ou à saúde', 'Dolo de ferir, não de matar', 'A gravidade é medida pelo resultado, comprovado no exame de corpo de delito'],
+        not: 'Tentativa de homicídio: a intenção era matar. Vias de fato (Lei das Contravenções Penais, art. 21): agressão que não deixa lesão.',
+        changed: 'Lesão leve e lesão culposa dependem de representação da vítima (Lei 9.099/1995, art. 88), exceto em violência doméstica contra a mulher.' },
+      quiz: { q: 'Edson ficou 45 dias sem poder trabalhar por causa do soco. Qual a classificação?', o: ['Lesão leve, porque foi um soco só', 'Lesão grave, por incapacidade para as ocupações habituais por mais de 30 dias', 'Lesão gravíssima'], c: 1,
+        e: 'O §1º, I prevê lesão grave quando a vítima fica incapacitada para as ocupações habituais por mais de 30 dias. A pena passa a ser de 1 a 5 anos de reclusão.' } }),
+
+    E({ id: '147', s: 1, n: 3, crime: 'Ameaça', title: 'Mensagem das 3 da Manhã', tag: 'Quando a palavra se torna crime.', dur: 16, rate: '14',
+      logline: 'Depois de uma sociedade desfeita, Rogério começa a receber mensagens de madrugada: "Sei onde seu filho estuda." Nenhuma agressão, mas o medo é real.',
+      guests: [{ n: 'Rogério Alves', r: 'Vítima, 46 anos', d: 'Dono de academia, guarda print de todas as mensagens.' }, { n: 'Fábio Rangel', r: 'Ex-sócio, 48 anos', d: 'Saiu da sociedade sentindo-se passado para trás.' }],
+      verdict: { tipo: 'Ameaçar alguém, por palavra, escrito ou gesto, ou qualquer outro meio simbólico, de causar-lhe mal injusto e grave.',
+        penas: [['Ameaça (caput)', 'Detenção de 1 a 6 meses, ou multa'], ['Contra a mulher por razões da condição do sexo feminino (§1º)', 'Pena aplicada em dobro']],
+        keys: ['Promessa de mal injusto e grave', 'Por palavra, escrito, gesto ou outro meio simbólico', 'Basta ser capaz de intimidar; o mal não precisa acontecer'],
+        not: 'Constrangimento ilegal (art. 146): a ameaça serve para obrigar a vítima a fazer ou deixar de fazer algo. Extorsão (art. 158): a ameaça busca vantagem econômica.',
+        changed: 'A ação depende de representação da vítima, exceto quando a ameaça é contra a mulher por razões da condição do sexo feminino (regras incluídas pela Lei 14.994/2024).' },
+      quiz: { q: 'Para o processo contra Fábio seguir, o que é necessário?', o: ['Nada, o Ministério Público age sozinho em qualquer ameaça', 'A representação de Rogério, a vítima', 'Que a ameaça tenha sido cumprida'], c: 1,
+        e: 'Aqui a ameaça é crime de ação penal pública condicionada à representação. E o crime existe mesmo que o mal prometido nunca aconteça.' } }),
+
+    E({ id: '135', s: 1, n: 4, crime: 'Omissão de Socorro', title: 'Ninguém Parou', tag: 'O dever de ajudar.', dur: 18, rate: '12',
+      logline: 'Uma ciclista cai na avenida depois de passar num buraco. Três carros desviam e seguem. A câmera de um prédio grava tudo.',
+      guests: [{ n: 'Carla Nogueira', r: 'Vítima, ciclista, 27 anos', d: 'Fratura o braço e fica dez minutos no asfalto.' }, { n: 'Paulo Bessa', r: 'Motorista, 52 anos', d: 'Viu, desviou e foi para a reunião.' }, { n: 'Seu Raimundo', r: 'Porteiro', d: 'O único que ligou para o SAMU.' }],
+      verdict: { tipo: 'Deixar de prestar assistência, quando possível fazê-lo sem risco pessoal, a pessoa ferida ou em grave e iminente perigo, ou não pedir, nesses casos, o socorro da autoridade pública.',
+        penas: [['Omissão de socorro (caput)', 'Detenção de 1 a 6 meses, ou multa'], ['Se resulta lesão corporal grave (parágrafo único)', 'Pena aumentada de metade'], ['Se resulta morte (parágrafo único)', 'Pena triplicada']],
+        keys: ['Possibilidade de ajudar sem risco pessoal', 'Ou deixar de pedir socorro à autoridade pública', 'Vítima ferida, inválida, em grave perigo, ou criança abandonada ou extraviada'],
+        not: 'Se o motorista causou o acidente e fugiu sem socorrer, aplicam-se os arts. 304 e 305 do Código de Trânsito. Quem tinha dever legal de agir pode responder pelo resultado (art. 13, §2º).',
+        changed: 'Ligar para o SAMU ou para a polícia já cumpre o dever: a lei aceita o pedido de socorro à autoridade pública.' },
+      quiz: { q: 'Paulo viu Carla caída e não podia descer do carro com segurança, mas poderia ter ligado para o SAMU. Ele cometeu crime?', o: ['Não, porque havia risco em descer do carro', 'Sim, porque podia ao menos pedir socorro à autoridade pública', 'Só se Carla tivesse morrido'], c: 1,
+        e: 'O art. 135 pune também quem deixa de pedir socorro à autoridade quando não pode ajudar diretamente. Bastava uma ligação.' } }),
+
+    E({ id: '138', s: 1, n: 5, crime: 'Calúnia', title: 'O Áudio do Grupo', tag: 'Acusar alguém de um crime falso.', dur: 17, rate: '12',
+      logline: 'No grupo do condomínio, um morador manda um áudio: "A síndica desviou o dinheiro do fundo de obras." As contas estão em dia. A síndica decide ir à Justiça.',
+      guests: [{ n: 'Neide Prado', r: 'Síndica, 59 anos', d: 'Doze anos no cargo, nunca teve uma conta rejeitada.' }, { n: 'Osvaldo Reis', r: 'Morador, 63 anos', d: 'Perdeu a eleição para síndico no ano passado.' }],
+      verdict: { tipo: 'Caluniar alguém, imputando-lhe falsamente fato definido como crime.',
+        penas: [['Calúnia (caput)', 'Detenção de 6 meses a 2 anos e multa'], ['Quem, sabendo falsa a imputação, a propala ou divulga (§1º)', 'Mesma pena'], ['Na presença de várias pessoas ou por meio que facilite a divulgação (art. 141, III)', 'Aumento de 1/3'], ['Divulgada em redes sociais (art. 141, §2º)', 'Pena aplicada em triplo']],
+        keys: ['Atribuir a alguém um fato específico', 'O fato é definido como crime', 'A imputação é falsa e chega ao conhecimento de terceiros'],
+        not: 'Difamação (art. 139): o fato ofende a reputação, mas não é crime. Injúria (art. 140): não há fato, só ofensa à dignidade. Denunciação caluniosa (art. 339): a falsa acusação é levada às autoridades.',
+        changed: 'Em regra, a ação é privada: a vítima apresenta queixa-crime em até 6 meses (art. 145). Na calúnia cabe exceção da verdade: o acusado pode tentar provar que o fato é verdadeiro.' },
+      quiz: { q: 'Osvaldo disse no grupo que a síndica desviou dinheiro, e isso era falso. Qual crime?', o: ['Injúria', 'Difamação', 'Calúnia'], c: 2,
+        e: 'Ele atribuiu à síndica um fato específico definido como crime, e o fato era falso. Isso é calúnia.' } }),
+
+    E({ id: '140', s: 1, n: 6, crime: 'Injúria', title: 'Mesa 12', tag: 'A ofensa que fere a dignidade.', dur: 16, rate: '12',
+      logline: 'Irritado com a demora, um cliente chama a garçonete de "burra e incompetente" na frente do salão inteiro. Não há fato, não há acusação. Só a ofensa.',
+      guests: [{ n: 'Jéssica Rocha', r: 'Vítima, garçonete, 23 anos', d: 'Primeiro emprego, trabalha e estuda à noite.' }, { n: 'Henrique Valle', r: 'Cliente, 50 anos', d: 'Esperou 40 minutos pelo prato e descontou nela.' }, { n: 'Seu Alcides', r: 'Dono do restaurante', d: 'O mesmo do episódio do furto. Guarda as imagens de novo.' }],
+      verdict: { tipo: 'Injuriar alguém, ofendendo-lhe a dignidade ou o decoro.',
+        penas: [['Injúria (caput)', 'Detenção de 1 a 6 meses, ou multa'], ['Injúria real, com violência ou vias de fato (§2º)', 'Detenção de 3 meses a 1 ano e multa, além da pena da violência'], ['Com elementos de religião, condição de pessoa idosa ou com deficiência (§3º)', 'Reclusão de 1 a 3 anos e multa']],
+        keys: ['Ofensa à dignidade ou ao decoro', 'Não se atribui um fato, só uma qualidade negativa', 'Basta que a vítima tome conhecimento da ofensa'],
+        not: 'Injúria racial: desde a Lei 14.532/2023 está na Lei do Racismo (Lei 7.716/1989, art. 2º-A), com reclusão de 2 a 5 anos. Calúnia e difamação atribuem fatos à vítima.',
+        changed: 'O juiz pode deixar de aplicar a pena se a vítima provocou a ofensa de forma reprovável, ou se houve retorsão imediata (§1º).' },
+      quiz: { q: '"Burra e incompetente", dito na frente dos clientes, é qual crime?', o: ['Calúnia', 'Injúria', 'Difamação'], c: 1,
+        e: 'Não houve atribuição de fato, só ofensa à dignidade e ao decoro. É injúria, com aumento de 1/3 por ter sido na presença de várias pessoas (art. 141, III).' } }),
+
+    E({ id: '148', s: 1, n: 7, crime: 'Sequestro e Cárcere Privado', title: 'O Quarto dos Fundos', tag: 'Quando tirar a liberdade é crime.', dur: 19, rate: '16',
+      logline: 'Seu Benedito, 81 anos, para de aparecer na missa. A vizinha descobre que o filho o tranca no quarto dos fundos e fica com o cartão da aposentadoria.',
+      guests: [{ n: 'Benedito Souza', r: 'Vítima, 81 anos', d: 'Viúvo, aposentado da ferrovia.' }, { n: 'Ronaldo Souza', r: 'Filho, 50 anos', d: 'Mudou-se para a casa do pai "para cuidar dele".' }, { n: 'Dona Zilda', r: 'Vizinha', d: 'Estranha o silêncio e chama a polícia.' }],
+      verdict: { tipo: 'Privar alguém de sua liberdade, mediante sequestro ou cárcere privado.',
+        penas: [['Forma simples (caput)', 'Reclusão de 1 a 3 anos'], ['Vítima ascendente, descendente, cônjuge, companheiro ou maior de 60 anos; mais de 15 dias; vítima menor de 18 (§1º)', 'Reclusão de 2 a 5 anos'], ['Grave sofrimento físico ou moral à vítima (§2º)', 'Reclusão de 2 a 8 anos']],
+        keys: ['Privação da liberdade de locomoção', 'Sequestro (restrição ampla) ou cárcere privado (confinamento)', 'Crime permanente: a consumação dura enquanto durar a privação'],
+        not: 'Extorsão mediante sequestro (art. 159): a liberdade é trocada por resgate. Ficar com o cartão do idoso também pode configurar crime do Estatuto da Pessoa Idosa (Lei 10.741/2003, art. 102).',
+        changed: 'Por ser crime permanente, a prisão em flagrante é possível a qualquer momento enquanto a vítima estiver presa.' },
+      quiz: { q: 'Benedito tem 81 anos e foi trancado pelo próprio filho. Qual a pena prevista?', o: ['Reclusão de 1 a 3 anos, forma simples', 'Reclusão de 2 a 5 anos, forma qualificada do §1º', 'Detenção de 1 a 6 meses'], c: 1,
+        e: 'A vítima é ascendente do autor e tem mais de 60 anos: as duas situações estão no §1º, I, com pena de 2 a 5 anos.' } }),
+
+    E({ id: '150', s: 1, n: 8, crime: 'Violação de Domicílio', title: 'A Chave Reserva', tag: 'A casa é asilo inviolável.', dur: 17, rate: '12',
+      logline: 'A inquilina Patrícia volta do trabalho e encontra o proprietário dentro do apartamento, "só conferindo a pintura". Ele tem a chave. Ela não autorizou.',
+      guests: [{ n: 'Patrícia Lemos', r: 'Inquilina, 33 anos', d: 'Paga o aluguel em dia há dois anos.' }, { n: 'Seu Armando', r: 'Proprietário, 67 anos', d: 'Acha que, sendo dono, pode entrar quando quiser.' }],
+      verdict: { tipo: 'Entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia ou em suas dependências.',
+        penas: [['Forma simples (caput)', 'Detenção de 1 a 3 meses, ou multa'], ['À noite, em lugar ermo, com violência, arma ou por duas ou mais pessoas (§1º)', 'Detenção de 6 meses a 2 anos, além da pena da violência']],
+        keys: ['Entrar ou permanecer em casa alheia', 'Contra a vontade de quem tem o direito de impedir', '"Casa" inclui imóvel alugado, quarto de hotel ocupado e local de trabalho fechado ao público'],
+        not: 'Se a entrada for para furtar, o crime-fim (art. 155) absorve a violação. Agentes públicos que entram sem as formalidades legais respondem pela Lei de Abuso de Autoridade (Lei 13.869/2019, art. 22).',
+        changed: 'Ser dono do imóvel não autoriza a entrada: durante a locação, a casa é da inquilina para fins penais.' },
+      quiz: { q: 'Armando é o dono do apartamento e tinha a chave. Ele cometeu crime ao entrar sem permissão?', o: ['Não, porque o imóvel é dele', 'Sim, porque a casa alugada é domicílio da inquilina', 'Só se tivesse levado algo'], c: 1,
+        e: 'Para o art. 150, "casa" é onde a pessoa mora, mesmo que alugada. Quem tem direito de impedir a entrada é a inquilina.' } }),
+
+    /* ============ TEMPORADA 2 · PATRIMÔNIO (roteiros completos) ============ */
+    E({ id: '155', s: 2, n: 1, crime: 'Furto', title: 'O Celular da Mesa 7', tag: 'Tipos, qualificadoras e penalidades.', dur: 18, rate: '12', updated: true,
+      logline: 'Num restaurante lotado, a advogada Bia Fontes deixa o celular na mesa enquanto vai ao caixa. Quando volta, ele sumiu. As câmeras mostram uma mão rápida, sem empurrão e sem nenhuma palavra.',
+      guests: [{ n: 'Bia Fontes', r: 'Vítima, 34 anos', d: 'Advogada trabalhista. Volta no episódio final para receber o celular de volta.' }, { n: 'Renan "Ligeiro" Souto', r: 'Autor, 22 anos', d: 'Rápido, discreto, nunca encosta nas vítimas. Acha que isso o protege.' }, { n: 'Seu Alcides', r: 'Dono do restaurante', d: 'Guarda as imagens das câmeras e conhece cada cliente pelo nome.' }],
+      scenes: [
+        { s: 'Cena 1 — Int. Restaurante Sabor da Praça — Noite', a: 'Sexta-feira, casa cheia. Bia deixa o celular sobre a mesa 7 e vai ao caixa. Renan, de boné, passa pela mesa, apoia a mão como quem se equilibra e segue até a porta. Quinze segundos.', l: [['Bia', 'Seu Alcides, meu celular estava aqui.'], ['Alcides', 'Alguém encostou na senhora?'], ['Bia', 'Ninguém. Ninguém nem falou comigo.']] },
+        { s: 'Cena 2 — Int. Delegacia — Sala de vídeo — Dia', a: 'Caíque congela a imagem no momento em que a mão cobre o aparelho.', l: [['Caíque', 'Olha a mão. Ele nem desacelera.'], ['Helena', 'Teve ameaça? Empurrão?'], ['Caíque', 'Nada.'], ['Helena', 'Então anota: furto. Se ele tivesse dito uma palavra de ameaça, seria outro artigo e outro episódio.']] },
+        { s: 'Cena 3 — Ext. Praça do Mercado — Dia', a: 'Caíque segue o rastro de Renan até uma assistência técnica de fachada. Na mochila, dois celulares. Nenhum deles é o de Bia.', l: [['Renan', 'Tava largado na mesa, doutora. Achado não é roubado.'], ['Helena', 'Achado é quando o dono perdeu. Ela só foi pagar a conta.'], ['Caíque', 'E o da advogada, cadê?'], ['Renan', 'Já foi. Vendi no domingo.']] },
+        { s: 'Cena 4 — Int. Fórum — Sala de audiência — Dia', a: 'Renan, de camisa emprestada, ao lado do defensor.', l: [['Otávio', 'Excelência, réu primário, um único aparelho, nenhuma violência.'], ['Iara', 'Celular deixou de ser furto comum, Doutor. Desde maio de 2026, ele tem pena própria: quatro a dez anos.'], ['Marta', 'O fato é de agosto, depois da lei. A regra nova se aplica.']] },
+        { v: 'O celular de Bia já mudou de mão duas vezes. A gente vai encontrá-lo de novo.' }
+      ],
+      twist: 'Por que não é "coisa achada"? Para existir apropriação de coisa achada (art. 169, II), o dono precisa ter perdido o objeto. Bia deixou o celular na mesa por um minuto e continuava por perto. Quem pega nessas condições subtrai, e isso é furto.',
+      verdict: { tipo: 'Subtrair, para si ou para outrem, coisa alheia móvel.',
+        penas: [['Furto simples (caput)', 'Reclusão de 1 a 6 anos e multa'], ['Celular, computador ou tablet (§6º, II)', 'Reclusão de 4 a 10 anos e multa'], ['Fraude eletrônica (§4º-B)', 'Reclusão de 4 a 10 anos e multa'], ['Repouso noturno (§1º)', 'Pena aumentada de metade']],
+        keys: ['Subtração sem violência e sem grave ameaça', 'Coisa alheia e móvel', 'Intenção de ficar com a coisa de forma definitiva'],
+        not: 'Roubo (art. 157) exige violência ou grave ameaça. Apropriação de coisa achada (art. 169, II) exige que o dono tenha perdido o objeto.',
+        changed: 'A Lei 15.397/2026 elevou o furto simples de 1 a 4 para 1 a 6 anos e criou pena própria para furto de celular. Com máximo acima de 4 anos, o delegado não pode mais arbitrar fiança. Vale só para fatos posteriores à lei.' },
+      quiz: { q: 'Renan pegou o celular sem tocar em Bia, enquanto ela pagava a conta. Qual crime ele cometeu?', o: ['Roubo, porque o celular tinha valor alto', 'Furto, com a pena própria do furto de celular', 'Apropriação de coisa achada'], c: 1,
+        e: 'Não houve violência nem ameaça, e Bia não perdeu o aparelho. É furto, na forma do §6º, II, com pena de 4 a 10 anos.' } }),
+
+    E({ id: '157', s: 2, n: 2, crime: 'Roubo', title: 'Na Saída do Metrô', tag: 'Violência, grave ameaça e resultados.', dur: 18, rate: '14', updated: true,
+      logline: 'Dois dias depois, o estudante Davi Kenji tem o celular tomado na saída do metrô. Desta vez houve uma frase: "Passa o telefone ou vai se arrepender." A mesma subtração, outro crime.',
+      guests: [{ n: 'Davi Kenji', r: 'Vítima, 19 anos', d: 'Calouro de engenharia. Entrega o celular sem reagir, como deve ser.' }, { n: 'Wesley "Tatu" Prado', r: 'Autor, 25 anos', d: 'Simula uma arma com a mão por baixo da jaqueta.' }, { n: 'Joel', r: 'Comparsa, 23 anos', d: 'Espera na moto para a fuga.' }],
+      scenes: [
+        { s: 'Cena 1 — Ext. Estação Central, saída B — Noite', a: 'Davi sai olhando o celular. Wesley encosta, a mão direita escondida sob a jaqueta, apontada para ele. Joel espera na moto com o motor ligado.', l: [['Wesley', 'Passa o telefone ou vai se arrepender.'], ['Davi', 'Calma, calma. Tá aqui.']] },
+        { s: 'Cena 2 — Int. Delegacia — Noite', a: 'Davi ainda treme.', l: [['Davi', 'Ele nem mostrou arma. Era só a mão na jaqueta.'], ['Helena', 'Não precisa mostrar. O medo que ele criou em você é a grave ameaça.'], ['Caíque', 'E tinha um segundo na moto.'], ['Helena', 'Duas pessoas. Mais um motivo para aumentar a pena.']] },
+        { s: 'Cena 3 — Ext. Oficina abandonada — Dia', a: 'Operação. Wesley e Joel são presos com uma caixa de aparelhos. Caíque confere os IMEIs no tablet.', l: [['Caíque', 'O do Davi está aqui. O da advogada do restaurante, não.'], ['Helena', 'Então não passou por eles.'], ['Caíque', 'Mas olha esse caderno: "Ligeiro vende pro Feirão da Rodoviária". O Renan tem comprador fixo.']] },
+        { s: 'Cena 4 — Int. Fórum — Dia', a: '', l: [['Otávio', 'Não houve arma, Excelência. Nenhuma foi apreendida. Não cabe o aumento de arma de fogo.'], ['Marta', 'Concordo, Doutor. Sem prova da arma, esse aumento fica afastado. Mas a grave ameaça está provada, e o concurso de pessoas também.'], ['Iara', 'E o objeto é um celular. Inciso nove, causa de aumento nova.']] },
+        { v: 'Uma frase separou o episódio passado deste. De um lado, 1 a 6 anos. Do outro, 6 a 10.' }
+      ],
+      twist: 'A arma simulada basta para caracterizar a grave ameaça, então é roubo. Mas o aumento de dois terços do §2º-A, I exige arma de fogo de verdade, e por isso não se aplica. No furto, o celular virou qualificadora com pena própria; no roubo, virou causa de aumento.',
+      verdict: { tipo: 'Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência a pessoa, ou depois de havê-la reduzido à impossibilidade de resistência.',
+        penas: [['Roubo simples (caput)', 'Reclusão de 6 a 10 anos e multa'], ['Causas de aumento do §2º (duas ou mais pessoas, celular, arma branca, entre outras)', 'Aumento de 1/3 até a metade'], ['Arma de fogo empregada (§2º-A, I)', 'Aumento de 2/3'], ['Latrocínio (§3º, II)', 'Reclusão de 24 a 30 anos e multa']],
+        keys: ['Subtração da coisa', 'Violência ou grave ameaça contra a pessoa', 'A ameaça pode ser simulada: basta intimidar'],
+        not: 'Furto não tem violência nem ameaça. Na extorsão (art. 158), é a própria vítima que precisa agir para o criminoso obter a vantagem.',
+        changed: 'A pena mínima do roubo simples subiu de 4 para 6 anos. Celular, computador, tablet e arma de fogo subtraída viraram causas de aumento (incisos IX e X). O latrocínio passou a ter mínimo de 24 anos.' },
+      quiz: { q: 'Wesley simulou uma arma com a mão sob a jaqueta. Como fica o caso?', o: ['Não é roubo, porque não havia arma', 'É roubo, mas sem o aumento de arma de fogo', 'É roubo com aumento de 2/3 por arma de fogo'], c: 1,
+        e: 'A simulação gera grave ameaça, o que configura o roubo. O aumento de 2/3 exige arma de fogo real, que não existiu.' } }),
+
+    E({ id: '158', s: 2, n: 3, crime: 'Extorsão', title: 'Taxa de Proteção', tag: 'Obrigar a vítima a pagar.', dur: 17, rate: '14',
+      logline: 'Dona Rosa tem uma padaria na Vila Esperança. Toda segunda, um rapaz passa para cobrar R$ 300 de "segurança". Quem não paga amanhece com a vitrine quebrada.',
+      guests: [{ n: 'Rosa Medeiros', r: 'Vítima, 58 anos', d: 'Padeira há trinta anos. Anota tudo num caderno de capa dura.' }, { n: 'Kauã', r: 'Cobrador, 20 anos', d: 'Diz que "só busca o envelope".' }, { n: 'Gilmar "Patrão" Teles', r: 'Mandante, 41 anos', d: 'Nunca aparece na rua. Manda áudios.' }],
+      scenes: [
+        { s: 'Cena 1 — Int. Padaria da Rosa — Manhã', a: 'Kauã entra, pega um pão de queijo do balcão sem pagar e encosta no caixa.', l: [['Kauã', 'Segunda-feira, Dona Rosa. Os trezentos.'], ['Rosa', 'O movimento caiu, menino.'], ['Kauã', 'O Patrão não quer saber de movimento. A vitrine do Seu Zé quebrou semana passada, lembra?'], ['*', 'Rosa abre a gaveta, em silêncio.']] },
+        { s: 'Cena 2 — Int. Delegacia — Dia', a: 'Rosa coloca o caderno sobre a mesa.', l: [['Rosa', 'Anotei tudo. Dia, valor, quem veio.'], ['Helena', 'A senhora acabou de fazer metade da investigação.'], ['Caíque', 'Roubo, doutora?'], ['Helena', 'Não. Quem abre a gaveta é ela. Sem a ação dela, eles não levam nada. Isso é extorsão.']] },
+        { s: 'Cena 3 — Ext. Rua da padaria — Dia', a: 'Ação controlada. Caíque, de avental, está atrás do balcão. Kauã recebe notas marcadas e é abordado na esquina. No celular dele, áudios do Patrão.', l: [['Kauã', 'Eu só busco o envelope!'], ['Caíque', 'E entrega pra quem?'], ['Kauã', '...']] },
+        { s: 'Cena 4 — Int. Fórum — Dia', a: '', l: [['Otávio', 'Meu cliente não ameaçou ninguém. Ele só recebia.'], ['Iara', 'A ameaça era a vitrine do vizinho, Doutor. Ele lembrava disso toda segunda. E o crime existe desde a exigência, mesmo se ela não pagasse.'], ['Marta', 'O concurso de pessoas está provado. Aplica-se o aumento do §1º aos dois.']] },
+        { v: 'Rosa voltou a pagar só o aluguel. A vitrine continua inteira.' }
+      ],
+      twist: 'No roubo, o criminoso tira a coisa da vítima. Na extorsão, ele precisa que a vítima faça algo, como abrir a gaveta ou fazer um Pix. E a extorsão se consuma com a exigência mediante ameaça, mesmo que o dinheiro nunca seja entregue (Súmula 96 do STJ).',
+      verdict: { tipo: 'Constranger alguém, mediante violência ou grave ameaça, e com o intuito de obter para si ou para outrem indevida vantagem econômica, a fazer, tolerar que se faça ou deixar de fazer alguma coisa.',
+        penas: [['Extorsão (caput)', 'Reclusão de 4 a 10 anos e multa'], ['Duas ou mais pessoas ou emprego de arma (§1º)', 'Aumento de 1/3 até a metade'], ['Sequestro relâmpago (§3º)', 'Reclusão de 6 a 12 anos e multa']],
+        keys: ['Violência ou grave ameaça', 'A vítima é obrigada a agir, tolerar ou deixar de agir', 'Busca de vantagem econômica indevida'],
+        not: 'Roubo: o próprio criminoso subtrai. Extorsão mediante sequestro (art. 159): a liberdade da vítima vira moeda de troca.',
+        changed: 'O art. 158 não foi alterado pela Lei 15.397/2026.' },
+      quiz: { q: 'Na semana da operação, Rosa não pagou. A extorsão chegou a acontecer?', o: ['Não, foi apenas tentativa', 'Sim, ela se consuma com a exigência mediante ameaça', 'Não, sem pagamento não há crime'], c: 1,
+        e: 'Pela Súmula 96 do STJ, a extorsão é crime formal: consuma-se com o constrangimento, independentemente de a vantagem ser obtida.' } }),
+
+    E({ id: '159', s: 2, n: 4, crime: 'Extorsão mediante Sequestro', title: 'O Resgate', tag: 'A liberdade como moeda de troca.', dur: 19, rate: '16',
+      logline: 'O dono de uma transportadora some no caminho de casa. Horas depois, a filha recebe uma ligação: a liberdade dele custa R$ 500 mil.',
+      guests: [{ n: 'Augusto Ramalho', r: 'Vítima, 52 anos', d: 'Empresário do transporte de cargas.' }, { n: 'Lívia Ramalho', r: 'Filha, 26 anos', d: 'Atende as ligações e decide confiar na polícia.' }, { n: '"Professor"', r: 'Negociador', d: 'Voz distorcida, frases curtas, troca de número a cada chamada.' }],
+      scenes: [
+        { s: 'Cena 1 — Ext. Estrada vicinal — Noite', a: 'O carro de Augusto é fechado por uma van sem placa. Corte seco para preto.', l: [] },
+        { s: 'Cena 2 — Int. Casa dos Ramalho — Madrugada', a: 'O telefone fixo toca. Lívia atende.', l: [['Professor', 'Quinhentos mil. Sem polícia.'], ['Lívia', 'Eu quero falar com ele.'], ['Professor', 'Amanhã. Se a senhora for esperta.']] },
+        { s: 'Cena 3 — Int. Delegacia — Sala de crise — Dia', a: 'Mapa na parede, alfinetes vermelhos.', l: [['Helena', 'Ninguém paga nada sem a gente saber. Cada ligação é uma pista.'], ['Caíque', 'O número muda, mas a antena é sempre a mesma. Zona rural, perto da represa.'], ['Iara', 'Se passar de 24 horas, a pena sobe de patamar.']] },
+        { s: 'Cena 4 — Ext. Sítio — Amanhecer', a: 'A equipe tática cerca a casa. Augusto é encontrado vivo e sem ferimentos.', l: [['Augusto', 'Quanto tempo eu fiquei aqui?'], ['Helena', 'Trinta e uma horas.']] },
+        { s: 'Cena 5 — Int. Fórum — Dia', a: '', l: [['Otávio', 'O resgate nunca foi pago, Excelência. Ninguém obteve vantagem.'], ['Marta', 'O crime se consuma quando a vítima é privada da liberdade com o objetivo de obter a vantagem, Doutor. O pagamento não importa. E ele ficou mais de 24 horas em poder do grupo: incide o §1º.']] },
+        { v: 'Este é um crime hediondo. Isso muda a fiança, a progressão de regime e o indulto.' }
+      ],
+      twist: 'A extorsão mediante sequestro é crime formal: está consumada quando a vítima perde a liberdade com o fim de obter resgate. Não confunda com o sequestro relâmpago (art. 158, §3º), em que a vítima é retida para que ela mesma entregue a vantagem, como num saque no caixa eletrônico.',
+      verdict: { tipo: 'Sequestrar pessoa com o fim de obter, para si ou para outrem, qualquer vantagem, como condição ou preço do resgate.',
+        penas: [['Forma simples (caput)', 'Reclusão de 8 a 15 anos'], ['Mais de 24 horas, vítima menor de 18 ou maior de 60, ou associação criminosa (§1º)', 'Reclusão de 12 a 20 anos'], ['Resulta lesão corporal grave (§2º)', 'Reclusão de 16 a 24 anos'], ['Resulta morte (§3º)', 'Reclusão de 24 a 30 anos'], ['Delação que facilite a libertação (§4º)', 'Redução de 1/3 a 2/3']],
+        keys: ['Privação da liberdade da vítima', 'Finalidade de obter vantagem como preço do resgate', 'Crime hediondo em todas as formas'],
+        not: 'Sequestro relâmpago (art. 158, §3º): a vítima é retida para ela própria entregar a vantagem. Sequestro e cárcere privado (art. 148): não há pedido de resgate.',
+        changed: 'O art. 159 não foi alterado pela Lei 15.397/2026.' },
+      quiz: { q: 'O resgate de Augusto nunca foi pago. Em que momento o crime se consumou?', o: ['Quando o resgate fosse pago', 'Quando Augusto foi privado da liberdade com o fim de obter o resgate', 'Só quando o grupo foi preso'], c: 1,
+        e: 'É crime formal. A consumação ocorre com a privação da liberdade acompanhada da finalidade de obter vantagem.' } }),
+
+    E({ id: '163', s: 2, n: 5, crime: 'Dano', title: 'A Chave no Para-lama', tag: 'Destruir o que é dos outros.', dur: 16, rate: 'L',
+      logline: 'Briga por vaga de garagem num condomínio. Na manhã seguinte, o carro novo de Fernanda amanhece riscado de ponta a ponta. A câmera mostra o vizinho do 302.',
+      guests: [{ n: 'Fernanda Alves', r: 'Vítima, 38 anos', d: 'Enfermeira de plantão noturno. Quer o vizinho preso no mesmo dia.' }, { n: 'Sérgio Paiva', r: 'Autor, 61 anos', d: 'Morador antigo. Considera a vaga 14 "dele" há vinte anos.' }, { n: 'Neide', r: 'Síndica', d: 'Guarda as gravações e quer paz no prédio.' }],
+      scenes: [
+        { s: 'Cena 1 — Int. Garagem do condomínio — Noite', a: 'Sérgio para ao lado do carro de Fernanda, olha em volta e passa a chave na lateral, de ponta a ponta. O som agudo do metal ecoa.', l: [] },
+        { s: 'Cena 2 — Int. Delegacia — Dia', a: '', l: [['Fernanda', 'Quero ele preso hoje.'], ['Helena', 'Eu entendo a raiva. Mas esse crime tem uma regra diferente: quem decide se vai ter processo é a senhora.'], ['Fernanda', 'Como assim?'], ['Helena', 'Dano simples é ação penal privada. A senhora precisa de um advogado e de uma queixa-crime, e tem seis meses para isso.']] },
+        { s: 'Cena 3 — Int. Salão de festas — Noite', a: 'Reunião de condomínio. A gravação passa na TV.', l: [['Neide', 'Seu Sérgio, a câmera gravou.'], ['Sérgio', 'Ela parou na minha vaga três vezes!'], ['Neide', 'E o senhor achou que isso dava direito de riscar o carro?']] },
+        { s: 'Cena 4 — Int. Juizado Especial Criminal — Dia', a: 'Audiência de conciliação.', l: [['Marta', 'Antes de seguir, as partes querem conversar sobre a reparação?'], ['Sérgio', '(baixo) Eu pago a pintura.'], ['Fernanda', 'E pede desculpa.'], ['Sérgio', '...Desculpa.']] },
+        { v: 'Nem todo crime termina em prisão. Alguns são resolvidos numa mesa, e a lei foi feita para permitir isso.' }
+      ],
+      twist: 'No dano simples, a ação é privada (art. 167): a vítima inicia o processo por queixa-crime, em até seis meses depois de saber quem foi o autor. Por ser de menor potencial ofensivo, vai ao Juizado Especial, e o acordo de reparação homologado extingue a punibilidade.',
+      verdict: { tipo: 'Destruir, inutilizar ou deteriorar coisa alheia.',
+        penas: [['Dano simples (caput)', 'Detenção de 1 a 6 meses, ou multa'], ['Dano qualificado (violência ou grave ameaça, inflamável ou explosivo, patrimônio público, motivo egoístico ou prejuízo considerável)', 'Detenção de 6 meses a 3 anos e multa']],
+        keys: ['Destruir, inutilizar ou deteriorar', 'Coisa alheia', 'Basta a intenção de causar o dano, sem querer ficar com a coisa'],
+        not: 'Pichar edificação é crime ambiental (Lei 9.605/1998, art. 65), não art. 163. Dano por descuido não é crime, só gera dever de indenizar.',
+        changed: 'O art. 163 não foi alterado pela Lei 15.397/2026.' },
+      quiz: { q: 'No dano simples, quem dá início ao processo criminal?', o: ['O Ministério Público, automaticamente', 'A vítima, por meio de queixa-crime', 'A delegada, por portaria'], c: 1,
+        e: 'O art. 167 prevê ação penal privada para o dano simples. A vítima tem 6 meses, contados de quando soube quem foi o autor.' } }),
+
+    E({ id: '168', s: 2, n: 6, crime: 'Apropriação Indébita', title: 'O Mestre de Obras', tag: 'Ficar com o que foi confiado.', dur: 18, rate: 'L',
+      logline: 'Dona Célia contrata Tonhão para reformar a cozinha e entrega R$ 18 mil para ele comprar o material. O dinheiro some, o caminhão nunca chega e Tonhão para de atender.',
+      guests: [{ n: 'Célia Prates', r: 'Vítima, 66 anos', d: 'Aposentada. Juntou o dinheiro da reforma por três anos.' }, { n: 'Antônio "Tonhão" Freitas', r: 'Autor, 45 anos', d: 'Mestre de obras respeitado no bairro, afundado em dívidas.' }, { n: 'Rafa', r: 'Vendedor da loja de materiais', d: 'Guarda o pedido e o cancelamento no sistema.' }],
+      scenes: [
+        { s: 'Cena 1 — Int. Casa de Célia — Dia', a: 'Célia entrega um envelope pardo. Tonhão confere o orçamento com ela, item por item.', l: [['Célia', 'Dezoito mil, como o senhor orçou. Piso, cuba, tudo.'], ['Tonhão', 'Segunda-feira o caminhão encosta aqui, Dona Célia.']] },
+        { s: 'Cena 2 — Int. Loja de materiais — Dia', a: 'Tonhão faz o pedido de verdade e deixa R$ 2 mil de sinal.', l: [['Rafa', 'O resto paga na entrega?'], ['Tonhão', 'Isso. Segunda sem falta.']] },
+        { s: 'Cena 3 — Int. Bar — Noite', a: 'Tonhão recebe uma ligação de cobrança. Olha o envelope sobre a mesa por um longo tempo. Liga para a loja e cancela o pedido.', l: [] },
+        { s: 'Cena 4 — Int. Delegacia — Dia', a: '', l: [['Célia', 'Ele me enganou desde o começo!'], ['Caíque', 'A loja confirma, doutora: ele fez o pedido e pagou sinal. Cancelou duas semanas depois.'], ['Helena', 'Então ele não enganou desde o começo. Recebeu o dinheiro de forma honesta e só depois decidiu ficar com ele. Isso muda o artigo.']] },
+        { s: 'Cena 5 — Int. Fórum — Dia', a: '', l: [['Otávio', 'Foi um descumprimento de contrato, Excelência. Assunto para a vara cível.'], ['Iara', 'Ele cancelou o pedido e passou a usar como dele um dinheiro que era da cliente, Doutor. E recebeu esse dinheiro por causa da profissão: aumento de um terço.']] },
+        { v: 'Mesma vítima, mesmo dinheiro. Se a intenção de ficar com ele existisse antes do envelope, este episódio se chamaria estelionato.' }
+      ],
+      twist: 'O que separa os dois crimes é o momento da intenção. Na apropriação indébita, a pessoa recebe a coisa de forma legítima e só depois resolve agir como dona. No estelionato, a intenção de enganar existe antes, e é a mentira que faz a vítima entregar.',
+      verdict: { tipo: 'Apropriar-se de coisa alheia móvel, de que tem a posse ou a detenção.',
+        penas: [['Apropriação indébita (caput)', 'Reclusão de 1 a 4 anos e multa'], ['Em razão de ofício, emprego ou profissão, ou como depositário, tutor, curador, inventariante (§1º)', 'Aumento de 1/3']],
+        keys: ['Posse recebida de forma lícita', 'Depois, inversão: passa a agir como dono', 'Intenção de não devolver'],
+        not: 'Estelionato (art. 171): a intenção de enganar vem antes da entrega. Simples inadimplência: atraso sem intenção de se apropriar não é crime.',
+        changed: 'O art. 168 não foi alterado pela Lei 15.397/2026.' },
+      quiz: { q: 'Tonhão só decidiu ficar com o dinheiro depois de recebê-lo. Qual o crime?', o: ['Estelionato', 'Apropriação indébita, com aumento por causa da profissão', 'Furto mediante fraude'], c: 1,
+        e: 'A posse foi recebida licitamente e a intenção de se apropriar surgiu depois. Como recebeu em razão da profissão, incide o aumento de 1/3 do §1º, III.' } }),
+
+    E({ id: '171', s: 2, n: 7, crime: 'Estelionato', title: 'Chave Pix', tag: 'O golpe que faz a vítima entregar.', dur: 18, rate: 'L', updated: true,
+      logline: 'Dona Lúcia recebe uma mensagem do "neto" pedindo um Pix urgente. O golpe funciona, e o dinheiro passa pela conta de um rapaz que mora a três ruas dela.',
+      guests: [{ n: 'Lúcia Andrade', r: 'Vítima, 71 anos', d: 'Viúva, faz bolo toda quinta para o neto.' }, { n: 'Matheus', r: 'Neto, 24 anos', d: 'Descobre o golpe por acaso, numa visita.' }, { n: 'Igor Nunes', r: 'Dono da conta, 21 anos', d: 'Recebia R$ 200 por mês para "emprestar" a conta.' }, { n: '"Central"', r: 'Operador do golpe', d: 'Nunca aparece. Só existe em mensagens.' }],
+      scenes: [
+        { s: 'Cena 1 — Int. Apartamento de Lúcia — Tarde', a: 'Na tela, a foto de Matheus num número desconhecido.', l: [['Mensagem', 'Vó, troquei de número. Tô com um problema, preciso de 4.800 até as cinco. Depois te explico.'], ['*', 'Lúcia digita a senha do banco, devagar.']] },
+        { s: 'Cena 2 — Int. Apartamento de Lúcia — Noite', a: 'Matheus chega com uma sacola de pão.', l: [['Lúcia', 'Resolveu aquele problema, meu filho?'], ['Matheus', 'Que problema, vó?'], ['Lúcia', '...']] },
+        { s: 'Cena 3 — Int. Delegacia — Dia', a: '', l: [['Helena', 'Até pouco tempo, a senhora teria que dizer formalmente que queria o processo. Desde maio, não precisa mais. O Ministério Público age sozinho.'], ['Caíque', 'O Pix caiu na conta de um tal Igor Nunes. Ele mora a três ruas daqui.']] },
+        { s: 'Cena 4 — Int. Casa de Igor — Dia', a: 'Igor abre a porta de chinelo.', l: [['Igor', 'Eu só emprestei a conta! Me pagavam duzentos por mês.'], ['Caíque', 'Você sabia pra que era?'], ['Igor', '(baixo) Eu imaginava.']] },
+        { s: 'Cena 5 — Int. Fórum — Dia', a: '', l: [['Iara', 'O operador responde por fraude eletrônica, com aumento por vítima idosa. Igor responde pela figura nova do estelionato: ceder a conta.'], ['Otávio', 'Igor não enganou ninguém, Excelência.'], ['Marta', 'A lei de 2026 criou um tipo próprio para quem cede a conta, Doutor. O que vamos discutir é se ele sabia o destino do dinheiro.']] },
+        { v: 'Matheus agora liga para a avó toda semana. Por vídeo.' }
+      ],
+      twist: 'Golpe por mensagem é fraude eletrônica (§2º-A), com pena de 4 a 8 anos, que cresce de um terço até o dobro quando a vítima é idosa (§4º). Quem cede a conta para o dinheiro do crime circular responde pelo novo inciso VII do §2º. E, para fatos posteriores à Lei 15.397/2026, a vítima não precisa mais representar.',
+      verdict: { tipo: 'Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil ou qualquer outro meio fraudulento.',
+        penas: [['Estelionato (caput)', 'Reclusão de 1 a 5 anos e multa'], ['Ceder conta bancária para recursos do crime (§2º, VII)', 'Mesma pena do caput'], ['Fraude eletrônica: redes sociais, telefone, e-mail, clonagem de aplicativo (§2º-A)', 'Reclusão de 4 a 8 anos e multa'], ['Vítima idosa ou vulnerável (§4º)', 'Aumento de 1/3 até o dobro']],
+        keys: ['Fraude que engana a vítima', 'A própria vítima entrega o dinheiro', 'A intenção de enganar existe antes da entrega'],
+        not: 'Furto mediante fraude (art. 155, §4º-B): a fraude serve para distrair e o criminoso subtrai. No estelionato, a vítima entrega por estar enganada.',
+        changed: 'A Lei 15.397/2026 revogou o §5º: o estelionato voltou a ser de ação penal pública incondicionada para fatos depois da publicação, em maio de 2026. Também criou a figura da cessão de conta e incluiu a clonagem de aplicativo na fraude eletrônica.' },
+      quiz: { q: 'O golpe contra Dona Lúcia foi em agosto de 2026. Ela precisa representar para o processo seguir?', o: ['Sim, o estelionato depende de representação', 'Não, para fatos após a Lei 15.397/2026 a ação é pública incondicionada', 'Só se o valor passar de 40 salários mínimos'], c: 1,
+        e: 'A revogação do §5º do art. 171 tornou a ação pública incondicionada. Como é mais grave para o réu, só vale para fatos posteriores à lei.' } }),
+
+    E({ id: '180', s: 2, n: 8, crime: 'Receptação', title: 'Feirão do Celular', tag: 'Comprar o que veio de crime.', dur: 19, rate: 'L', updated: true,
+      logline: 'O celular furtado no primeiro episódio reaparece numa banca de feira, vendido por um terço do preço. O dono da banca diz que comprou "de um rapaz". A lei quer saber o que ele sabia.',
+      guests: [{ n: 'Clóvis Batista', r: 'Dono da banca, 48 anos', d: 'Vende eletrônicos "de procedência" há dez anos. Sem nota nenhuma.' }, { n: 'Pâmela', r: 'Compradora, 30 anos', d: 'Manicure. Achou uma pechincha boa demais.' }, { n: 'Bia Fontes', r: 'Vítima do episódio 1', d: 'Recebe o celular de volta na última cena da temporada.' }],
+      scenes: [
+        { s: 'Cena 1 — Ext. Feirão da Rodoviária — Domingo', a: 'Bancas de eletrônicos lado a lado. Pâmela segura um celular de último modelo.', l: [['Clóvis', 'Seiscentos. Na loja é dois mil.'], ['Pâmela', 'Tem nota?'], ['Clóvis', 'Nota é pra quem paga caro.']] },
+        { s: 'Cena 2 — Int. Delegacia — Dia', a: 'Um alerta pisca no computador de Caíque.', l: [['Caíque', 'Doutora, o IMEI do celular da Bia acabou de ligar na rede. Está no nome de uma tal Pâmela.'], ['Helena', 'Vamos fechar esse ciclo.']] },
+        { s: 'Cena 3 — Int. Casa de Pâmela — Dia', a: '', l: [['Pâmela', 'Comprei na feira! Eu não roubei nada!'], ['Helena', 'Ninguém disse que a senhora roubou. Mas um celular de dois mil por seiscentos, sem nota, levanta uma pergunta que a lei também faz.']] },
+        { s: 'Cena 4 — Ext. Feirão — Operação', a: 'Na banca de Clóvis: quarenta aparelhos sem nota, vários bloqueados. Um caderno com a anotação "lote do Ligeiro".', l: [['Clóvis', 'Comércio é comércio.'], ['Caíque', 'Comércio com produto de crime tem artigo próprio, seu Clóvis.']] },
+        { s: 'Cena 5 — Int. Fórum — Dia', a: '', l: [['Iara', 'Clóvis: receptação qualificada, no exercício de atividade comercial. Pâmela: receptação culposa. Pelo preço e pela falta de nota, ela devia desconfiar.'], ['Marta', '(para Pâmela) A senhora é primária e a culpa foi leve. A lei me permite deixar de aplicar a pena.']] },
+        { s: 'Cena 6 — Int. Delegacia — Fim de tarde', a: 'Bia recebe o celular dentro de um saco de provas.', l: [['Bia', 'Ele passou por quantas mãos?'], ['Helena', 'Três. E cada mão respondeu por um artigo diferente.']] },
+        { v: 'Fim da Temporada 2. Na próxima, os crimes contra a Administração Pública.' }
+      ],
+      twist: 'Receptação tem três graus de consciência. Quem sabe que é produto de crime responde pelo caput. Quem vende em comércio e devia saber responde pela forma qualificada. Quem, pelo preço ou pela situação, devia presumir a origem responde pela forma culposa, em que o juiz pode até deixar de aplicar a pena ao réu primário.',
+      verdict: { tipo: 'Adquirir, receber, transportar, conduzir ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro, de boa-fé, a adquira, receba ou oculte.',
+        penas: [['Receptação dolosa (caput)', 'Reclusão de 2 a 6 anos e multa'], ['Qualificada, em atividade comercial ou industrial (§1º)', 'Reclusão de 3 a 8 anos e multa'], ['Culposa (§3º)', 'Detenção de 1 mês a 1 ano, ou multa, ou ambas'], ['Culposa com réu primário (§5º)', 'O juiz pode deixar de aplicar a pena']],
+        keys: ['A coisa é produto de crime anterior', 'Quem recebe sabe, devia saber ou devia presumir a origem', 'Pune-se mesmo se o autor do crime anterior for desconhecido (§4º)'],
+        not: 'Favorecimento real (art. 349): ajudar o criminoso a guardar o proveito do crime, sem obter vantagem para si.',
+        changed: 'A Lei 15.397/2026 elevou a receptação simples de 1 a 4 para 2 a 6 anos. Com isso, não cabe mais suspensão condicional do processo nem fiança arbitrada pelo delegado.' },
+      quiz: { q: 'Pâmela comprou um celular de R$ 2.000 por R$ 600, sem nota, numa feira. Qual a situação dela?', o: ['Nenhum crime, ela comprou de boa-fé', 'Receptação culposa, pois devia presumir a origem ilícita', 'Furto, por estar com o celular da vítima'], c: 1,
+        e: 'A desproporção de preço e a falta de nota fazem presumir a origem criminosa (art. 180, §3º). Sendo primária, pode receber perdão judicial (§5º).' } }),
+
+    /* ============ TEMPORADA 3 · ADMINISTRAÇÃO PÚBLICA ============ */
+    E({ id: '312', s: 3, n: 1, crime: 'Peculato', title: 'O Caixa da Câmara', tag: 'O crime praticado por agente público.', dur: 18, rate: '12',
+      logline: 'O tesoureiro da Câmara Municipal transfere, mês a mês, pequenas quantias para a conta da cunhada. Em três anos, elas somam R$ 410 mil.',
+      guests: [{ n: 'Valter Siqueira', r: 'Tesoureiro, 55 anos', d: 'Servidor de carreira, ninguém desconfiava dele.' }, { n: 'Rita Siqueira', r: 'Cunhada, 49 anos', d: 'Emprestou a conta e ficava com 10%.' }, { n: 'Auditor do Tribunal de Contas', r: 'Fiscalização', d: 'Percebe o padrão nos centavos.' }],
+      verdict: { tipo: 'Apropriar-se o funcionário público de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo, ou desviá-lo, em proveito próprio ou alheio.',
+        penas: [['Peculato-apropriação ou desvio (caput)', 'Reclusão de 2 a 12 anos e multa'], ['Peculato-furto (§1º): subtrai valendo-se da facilidade do cargo', 'Mesma pena'], ['Peculato culposo (§2º)', 'Detenção de 3 meses a 1 ano'], ['Reparação do dano no culposo (§3º)', 'Antes da sentença extingue a punibilidade; depois, reduz a pena de metade']],
+        keys: ['O autor é funcionário público (art. 327)', 'Tem a posse do bem em razão do cargo', 'Apropria-se dele ou o desvia, em proveito próprio ou alheio'],
+        not: 'Apropriação indébita (art. 168): o autor não é funcionário público ou não tem a posse em razão do cargo. Peculato-furto: o servidor não tem a posse, mas usa a facilidade do cargo para subtrair.',
+        changed: 'A cunhada, mesmo sem ser servidora, responde por peculato se sabia que o tesoureiro era funcionário público (art. 30).' },
+      quiz: { q: 'Se o peculato fosse culposo e o dano reparado antes da sentença, o que aconteceria?', o: ['A pena seria reduzida de metade', 'A punibilidade seria extinta', 'Nada, o crime continua punível'], c: 1,
+        e: 'No peculato culposo, a reparação antes da sentença irrecorrível extingue a punibilidade (§3º). Depois da sentença, reduz a pena de metade.' } }),
+
+    E({ id: '316', s: 3, n: 2, crime: 'Concussão', title: 'O Alvará', tag: 'Exigir vantagem usando o cargo.', dur: 19, rate: '12',
+      logline: 'A obra de um sobrado está pronta para receber o alvará. O fiscal da prefeitura avisa: "Sem R$ 15 mil, eu acho um problema na fundação."',
+      guests: [{ n: 'Eng.ª Sônia Alves', r: 'Responsável técnica, 41 anos', d: 'Projeto aprovado, laudos em dia. Grava a conversa.' }, { n: 'Douglas Prates', r: 'Fiscal municipal, 47 anos', d: 'Conhece cada brecha do código de obras.' }, { n: 'Seu Mário', r: 'Dono da obra, 60 anos', d: 'Quer pagar para acabar logo com aquilo.' }],
+      verdict: { tipo: 'Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida.',
+        penas: [['Concussão (caput)', 'Reclusão de 2 a 12 anos e multa']],
+        keys: ['Exigir: a vítima se sente obrigada', 'Vantagem indevida, para si ou para outra pessoa', 'Em razão da função, mesmo fora dela ou antes de assumi-la'],
+        not: 'Corrupção passiva (art. 317): o servidor solicita ou aceita, sem impor. Extorsão (art. 158): há violência ou grave ameaça, sem relação com a função pública.',
+        changed: 'O Pacote Anticrime (Lei 13.964/2019) elevou a pena máxima de 8 para 12 anos. O crime se consuma com a exigência, mesmo que nada seja pago.' },
+      quiz: { q: 'Sônia não pagou e gravou a conversa. A concussão chegou a se consumar?', o: ['Não, porque o dinheiro não foi entregue', 'Sim, a concussão se consuma com a exigência', 'Só haveria crime se a obra fosse embargada'], c: 1,
+        e: 'A concussão é crime formal: consuma-se no momento da exigência. O pagamento seria mero exaurimento.' } }),
+
+    E({ id: '317', s: 3, n: 3, crime: 'Corrupção Passiva', title: 'Pra Agilizar', tag: 'Solicitar, receber ou aceitar.', dur: 17, rate: '12',
+      logline: 'Um servidor avisa que o processo de transferência do carro "pode demorar meses", mas que um café de R$ 500 resolve até sexta.',
+      guests: [{ n: 'Leandro Fiúza', r: 'Servidor, 38 anos', d: 'Atende no balcão e tem fila de "clientes".' }, { n: 'Camila Torres', r: 'Cidadã, 29 anos', d: 'Precisa do documento para vender o carro.' }],
+      verdict: { tipo: 'Solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida, ou aceitar promessa de tal vantagem.',
+        penas: [['Corrupção passiva (caput)', 'Reclusão de 2 a 12 anos e multa'], ['Se o servidor retarda, deixa de praticar ou pratica ato com infração do dever (§1º)', 'Aumento de 1/3'], ['Cedendo a pedido ou influência de outrem (§2º)', 'Detenção de 3 meses a 1 ano, ou multa']],
+        keys: ['Solicitar, receber ou aceitar promessa de vantagem indevida', 'Em razão da função', 'O ato pode até ser legal: vender a função já é o crime'],
+        not: 'Concussão (art. 316): o servidor exige, impondo. Corrupção ativa (art. 333): é o crime de quem oferece ou promete a vantagem.',
+        changed: 'Se Camila pagar apenas porque o servidor pediu, ela não comete corrupção ativa: o art. 333 pune quem oferece ou promete, não quem atende a uma solicitação.' },
+      quiz: { q: 'Leandro pediu o "café" para fazer um ato que já era obrigação dele. Há crime?', o: ['Não, porque o ato era legal', 'Sim, corrupção passiva', 'Sim, concussão'], c: 1,
+        e: 'Solicitar vantagem indevida em razão da função é corrupção passiva, mesmo que o ato seja legal. Não é concussão porque ele pediu, não exigiu.' } }),
+
+    E({ id: '319', s: 3, n: 4, crime: 'Prevaricação', title: 'A Multa que Sumiu', tag: 'Deixar de agir por interesse pessoal.', dur: 16, rate: 'L',
+      logline: 'O agente de trânsito flagra o carro do cunhado na vaga de idoso. Rasga o auto de infração e volta para o posto.',
+      guests: [{ n: 'Agente Rubens', r: 'Servidor, 42 anos', d: 'Não quer briga no almoço de domingo.' }, { n: 'Tiago', r: 'Cunhado, 35 anos', d: 'Nem sabe que foi flagrado.' }, { n: 'Supervisora Elaine', r: 'Chefia', d: 'Confere os blocos de multa numerados.' }],
+      verdict: { tipo: 'Retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal.',
+        penas: [['Prevaricação (caput)', 'Detenção de 3 meses a 1 ano e multa']],
+        keys: ['Retardar, deixar de praticar ou praticar ato de ofício contra a lei', 'Para satisfazer interesse ou sentimento pessoal', 'Sem vantagem: se houver vantagem, é corrupção passiva'],
+        not: 'Corrupção passiva privilegiada (art. 317, §2º): o servidor cede a pedido de outra pessoa. Na prevaricação, a motivação é dele mesmo.',
+        changed: 'Com pena máxima de 1 ano, é infração de menor potencial ofensivo e segue para o Juizado Especial Criminal.' },
+      quiz: { q: 'Rubens não recebeu nada e o cunhado nem pediu. Qual crime?', o: ['Corrupção passiva', 'Prevaricação', 'Nenhum, foi só uma multa'], c: 1,
+        e: 'Deixar de praticar ato de ofício para satisfazer sentimento pessoal, sem vantagem e sem pedido de terceiro, é prevaricação.' } }),
+
+    E({ id: '333', s: 3, n: 5, crime: 'Corrupção Ativa', title: 'Notas na Habilitação', tag: 'Quem oferece também responde.', dur: 17, rate: 'L',
+      logline: 'Parado na blitz com o licenciamento vencido, Gustavo dobra duas notas de R$ 100 dentro da habilitação e entrega ao policial.',
+      guests: [{ n: 'Gustavo Lins', r: 'Motorista, 30 anos', d: 'Achou que era "assim que funciona".' }, { n: 'Sargento Paiva', r: 'Policial militar, 45 anos', d: 'Recusa o dinheiro e dá voz de prisão.' }, { n: 'Cabo Renata', r: 'Policial militar, 28 anos', d: 'Testemunha a oferta.' }],
+      verdict: { tipo: 'Oferecer ou prometer vantagem indevida a funcionário público, para determiná-lo a praticar, omitir ou retardar ato de ofício.',
+        penas: [['Corrupção ativa (caput)', 'Reclusão de 2 a 12 anos e multa'], ['Se o funcionário retarda, omite ou pratica ato infringindo dever (parágrafo único)', 'Aumento de 1/3']],
+        keys: ['Oferecer ou prometer vantagem indevida', 'Destinatário é funcionário público', 'Consuma-se com a oferta, mesmo que o servidor recuse'],
+        not: 'Corrupção passiva (art. 317): crime do servidor que solicita ou aceita. Se o servidor recusa, só quem ofereceu responde.',
+        changed: 'O sargento recusou e deu voz de prisão: o crime de Gustavo já estava consumado no momento da oferta.' },
+      quiz: { q: 'O sargento recusou o dinheiro. Gustavo cometeu crime?', o: ['Não, porque o dinheiro foi recusado', 'Sim, corrupção ativa consumada', 'Apenas tentativa de corrupção'], c: 1,
+        e: 'A corrupção ativa é crime formal e se consuma com a simples oferta ou promessa.' } }),
+
+    E({ id: '342', s: 3, n: 6, crime: 'Falso Testemunho', title: 'Testemunha de Favor', tag: 'Mentir diante da Justiça.', dur: 18, rate: '12',
+      logline: 'Para livrar o amigo, Diego jura em audiência que os dois estavam num churrasco na hora do crime. O GPS do celular dele conta outra história.',
+      guests: [{ n: 'Diego Matos', r: 'Testemunha, 27 anos', d: 'Amigo de infância do réu.' }, { n: 'Lucas', r: 'Réu, 26 anos', d: 'Acusado de furto num estacionamento.' }],
+      verdict: { tipo: 'Fazer afirmação falsa, ou negar ou calar a verdade como testemunha, perito, contador, tradutor ou intérprete em processo judicial, administrativo, inquérito policial ou juízo arbitral.',
+        penas: [['Falso testemunho ou falsa perícia (caput)', 'Reclusão de 2 a 4 anos e multa'], ['Mediante suborno, ou em processo penal, ou em processo civil com a administração pública (§1º)', 'Aumento de 1/6 a 1/3'], ['Retratação antes da sentença (§2º)', 'O fato deixa de ser punível']],
+        keys: ['Afirmar o falso, negar ou calar a verdade', 'Como testemunha, perito, contador, tradutor ou intérprete', 'Em processo judicial, administrativo, inquérito ou arbitragem'],
+        not: 'O próprio réu não comete falso testemunho ao mentir em sua defesa. Quem paga a testemunha para mentir responde pelo art. 343.',
+        changed: 'Diego ainda pode escapar da punição: se contar a verdade antes da sentença no processo do amigo, o fato deixa de ser punível.' },
+      quiz: { q: 'Diego se arrependeu e contou a verdade antes da sentença no processo de Lucas. O que acontece?', o: ['Responde normalmente, com pena reduzida', 'O fato deixa de ser punível', 'A pena dobra por ter mentido antes'], c: 1,
+        e: 'A retratação antes da sentença no processo em que ocorreu o falso torna o fato não punível (§2º).' } }),
+
+    /* ============ TEMPORADA 4 · FÉ PÚBLICA ============ */
+    E({ id: '289', s: 4, n: 1, crime: 'Moeda Falsa', title: 'Notas de Cem', tag: 'Fabricar e circular dinheiro falso.', dur: 17, rate: '12',
+      logline: 'Na feira de domingo, três barracas recebem notas de R$ 100 com o mesmo número de série. Todas vieram de um gráfico desempregado.',
+      guests: [{ n: 'Alexandre Brito', r: 'Gráfico, 40 anos', d: 'Imprime as notas no quarto dos fundos.' }, { n: 'Dona Cida', r: 'Feirante, 62 anos', d: 'Recebe uma nota falsa e, ao descobrir, repassa ao fornecedor.' }, { n: 'Perito da Polícia Federal', r: 'Investigação', d: 'Explica os elementos de segurança da cédula.' }],
+      verdict: { tipo: 'Falsificar, fabricando-a ou alterando-a, moeda metálica ou papel-moeda de curso legal no país ou no estrangeiro.',
+        penas: [['Fabricar ou alterar moeda (caput)', 'Reclusão de 3 a 12 anos e multa'], ['Importar, adquirir, vender, guardar ou introduzir em circulação (§1º)', 'Mesma pena'], ['Recebe de boa-fé e restitui à circulação depois de saber que é falsa (§2º)', 'Detenção de 6 meses a 2 anos e multa']],
+        keys: ['Falsificação capaz de enganar o homem médio', 'Moeda de curso legal, no Brasil ou no exterior', 'Competência da Justiça Federal'],
+        not: 'Falsificação grosseira, que não engana ninguém, pode configurar estelionato (Súmula 73 do STJ). Quem recebe de boa-fé e repassa responde pela forma privilegiada do §2º.',
+        changed: 'A investigação é da Polícia Federal e o processo corre na Justiça Federal, porque a emissão de moeda é atribuição da União.' },
+      quiz: { q: 'Dona Cida recebeu a nota falsa sem saber e, depois de descobrir, usou para pagar o fornecedor. Como fica?', o: ['Não comete crime, porque recebeu de boa-fé', 'Responde pela forma privilegiada do §2º', 'Responde pelo caput, de 3 a 12 anos'], c: 1,
+        e: 'Quem recebe de boa-fé e restitui à circulação depois de conhecer a falsidade comete o crime do §2º, com detenção de 6 meses a 2 anos.' } }),
+
+    E({ id: '297', s: 4, n: 2, crime: 'Falsificação de Documento Público', title: 'A Carteira Nova', tag: 'Fabricar ou adulterar documento oficial.', dur: 18, rate: '12',
+      logline: 'Reprovado três vezes na prova de direção, Wellington paga R$ 2 mil por uma habilitação "pronta", impressa numa gráfica de fundo de quintal.',
+      guests: [{ n: 'Sandro', r: 'Dono da gráfica, 44 anos', d: 'Imprime habilitações, diplomas e certidões.' }, { n: 'Wellington', r: 'Comprador, 24 anos', d: 'Encomenda o documento com foto e dados próprios.' }],
+      verdict: { tipo: 'Falsificar, no todo ou em parte, documento público, ou alterar documento público verdadeiro.',
+        penas: [['Falsificação de documento público (caput)', 'Reclusão de 2 a 6 anos e multa'], ['Funcionário público que se aproveita do cargo (§1º)', 'Aumento de 1/6']],
+        keys: ['Falsificar, no todo ou em parte, ou alterar documento verdadeiro', 'A falsidade é material: o papel em si é falso', 'Equiparam-se documentos de entidade paraestatal, títulos ao portador, ações e testamento particular (§2º)'],
+        not: 'Falsidade ideológica (art. 299): o documento é verdadeiro, mas o conteúdo declarado é falso. Uso de documento falso (art. 304): crime de quem usa o documento.',
+        changed: 'Wellington encomendou a carteira e participou da falsificação. Pelo entendimento do STJ, se depois usar o documento, responde só pela falsificação: o uso é consequência dela.' },
+      quiz: { q: 'Qual a diferença central entre este crime e a falsidade ideológica?', o: ['Não há diferença', 'Aqui o documento é materialmente falso; na ideológica, o documento é verdadeiro e o conteúdo é falso', 'A falsidade ideológica só existe em documento particular'], c: 1,
+        e: 'No art. 297, a falsidade está na forma do documento. No art. 299, o documento é autêntico, mas contém declaração falsa.' } }),
+
+    E({ id: '299', s: 4, n: 3, crime: 'Falsidade Ideológica', title: 'A Declaração', tag: 'O documento é verdadeiro. A informação, não.', dur: 16, rate: 'L',
+      logline: 'Para conseguir vaga na escola mais concorrida do bairro, Marina declara em cartório um endereço onde nunca morou.',
+      guests: [{ n: 'Marina Couto', r: 'Mãe, 36 anos', d: 'Quer a melhor escola para a filha.' }, { n: 'Tabeliã Vera', r: 'Cartório de notas', d: 'Lavra a declaração de boa-fé.' }, { n: 'Diretora Sílvia', r: 'Escola municipal', d: 'Desconfia e pede comprovantes.' }],
+      verdict: { tipo: 'Omitir, em documento público ou particular, declaração que dele devia constar, ou nele inserir ou fazer inserir declaração falsa ou diversa da que devia ser escrita, com o fim de prejudicar direito, criar obrigação ou alterar a verdade sobre fato juridicamente relevante.',
+        penas: [['Documento público (caput)', 'Reclusão de 1 a 5 anos e multa'], ['Documento particular (caput)', 'Reclusão de 1 a 3 anos e multa'], ['Funcionário público que se aproveita do cargo, ou falsificação em registro civil (parágrafo único)', 'Aumento de 1/6']],
+        keys: ['Omitir declaração devida ou inserir declaração falsa', 'Finalidade de prejudicar direito, criar obrigação ou alterar fato relevante', 'O documento é formalmente autêntico'],
+        not: 'Falsificação material (arts. 297 e 298): o próprio documento é falso. Declarações sujeitas a conferência obrigatória pela autoridade nem sempre configuram o crime, segundo a jurisprudência.',
+        changed: 'A tabeliã não comete crime: ela registrou de boa-fé o que Marina declarou. Quem fez inserir a informação falsa foi Marina.' },
+      quiz: { q: 'A escritura de Marina é um documento verdadeiro, lavrado em cartório. Mesmo assim há crime?', o: ['Não, documento verdadeiro não gera crime', 'Sim, falsidade ideológica, porque o conteúdo declarado é falso', 'Sim, falsificação de documento público'], c: 1,
+        e: 'Na falsidade ideológica, o documento é autêntico, mas a declaração inserida nele é falsa.' } }),
+
+    E({ id: '304', s: 4, n: 4, crime: 'Uso de Documento Falso', title: 'A Blitz', tag: 'Usar também é crime.', dur: 17, rate: '12',
+      logline: 'Na blitz da madrugada, Jonas apresenta uma habilitação comprada de um despachante. O sistema do policial não encontra o número do documento.',
+      guests: [{ n: 'Jonas Ribeiro', r: 'Motorista, 29 anos', d: 'Comprou o documento pronto, sem participar da fabricação.' }, { n: 'Despachante "Tuca"', r: 'Intermediário, 51 anos', d: 'Vende "facilidades" há anos.' }, { n: 'Cabo Renata', r: 'Policial militar, 28 anos', d: 'Confere o documento no sistema.' }],
+      verdict: { tipo: 'Fazer uso de qualquer dos papéis falsificados ou alterados a que se referem os arts. 297 a 302.',
+        penas: [['Uso de documento falso (caput)', 'Mesma pena prevista para a falsificação ou alteração'], ['Habilitação: documento público (arts. 297 e 304)', 'Reclusão de 2 a 6 anos e multa']],
+        keys: ['Usar documento falsificado ou alterado', 'Saber que o documento é falso', 'Apresentar o documento basta, mesmo a pedido da autoridade'],
+        not: 'Quem falsificou e depois usou responde só pela falsificação (entendimento do STJ). Falsificação grosseira, reconhecível a olho nu, não configura o crime.',
+        changed: 'A competência é definida pelo órgão a quem o documento foi apresentado (Súmula 546 do STJ). Na blitz da Polícia Militar, o caso fica na Justiça Estadual.' },
+      quiz: { q: 'Jonas só mostrou a habilitação porque a policial pediu. Ainda assim é crime?', o: ['Não, ele não tomou a iniciativa', 'Sim, apresentar o documento a pedido da autoridade configura o uso', 'Só se o documento fosse aceito'], c: 1,
+        e: 'A jurisprudência entende que o crime se configura mesmo quando o documento é exibido por exigência da autoridade.' } })
+  ];
+
+  const hero = [
+    { kicker: 'Série original', t1: 'Código', t2: 'Penal', sub: 'Brasileiro', side: 'Do estudo<br>à prática', img: IMG + 'hero/codigo-penal.jpg', play: '121', info: '#/temporada/1',
+      desc: 'Uma série completa e didática sobre o Código Penal Brasileiro. Cada episódio aborda um tema essencial, com linguagem clara, exemplos práticos e uma abordagem moderna.' },
+    { kicker: 'Temporada 2 · 8 episódios', t1: 'Crimes contra', t2: 'o Patrimônio', sub: 'Art. 155 ao 183', side: 'Roteiros<br>completos', img: IMG + 'hero/tribunal.jpg', play: '155', info: '#/temporada/2',
+      desc: 'Um celular furtado numa sexta-feira atravessa a temporada inteira: furto, roubo, extorsão, estelionato e receptação, até voltar para a dona.' },
+    { kicker: 'Atualizado', t1: 'Lei', t2: '15.397/2026', sub: 'Novas penas', side: 'Direito<br>em dia', img: IMG + 'hero/justica.jpg', play: '155', info: '#/catalogo/atualizados',
+      desc: 'Furto de celular com pena de 4 a 10 anos, roubo com mínimo de 6 anos e estelionato sem representação da vítima. Os episódios já seguem a lei nova.' },
+    { kicker: 'Interativo', t1: 'Você é', t2: 'o juiz', sub: 'Teste seu conhecimento', side: 'Aprenda<br>decidindo', img: IMG + 'hero/balanca.jpg', play: '157', info: '#/ep/157/quiz',
+      desc: 'Cada episódio termina com uma pergunta no estilo das provas de concurso. Assista, decida e confira a sentença.' }
+  ];
+
+  const featured = ['121', '129', '147', '155', '157', '312', '171', '289'];
+  const trending = ['155', '171', '121', '316', '157'];
+
+  const notifications = [
+    { id: 'n1', t: 'Nova temporada disponível', d: 'Dos Crimes contra o Patrimônio: 8 episódios com roteiro completo.', href: '#/temporada/2', when: 'Hoje' },
+    { id: 'n2', t: 'Lei 15.397/2026', d: 'Penas de furto, roubo, estelionato e receptação atualizadas na Temporada 2.', href: '#/catalogo/atualizados', when: 'Ontem' },
+    { id: 'n3', t: 'Vídeos em produção', d: 'Os episódios estreiam em breve. Toque em "Avise-me" para saber primeiro.', href: '#/catalogo', when: 'Esta semana' },
+    { id: 'n4', t: 'Você é o juiz', d: 'Responda à pergunta de cada episódio e acompanhe seus acertos no perfil.', href: '#/perfil', when: 'Esta semana' }
+  ];
+
+  const plans = [
+    { id: 'estudante', name: 'Estudante', price: '19,90', note: 'por mês', feats: ['Todos os episódios', 'Roteiros e vereditos', 'Você é o juiz', '1 tela por vez'] },
+    { id: 'concurseiro', name: 'Concurseiro', price: '29,90', note: 'por mês', best: true, feats: ['Tudo do Estudante', 'Resumo de penas para revisão', 'Estatísticas de acertos por temporada', '2 telas ao mesmo tempo'] },
+    { id: 'instituicao', name: 'Escritórios e faculdades', price: '99,90', note: 'por mês, até 10 acessos', feats: ['Tudo do Concurseiro', 'Painel de turmas', 'Uso em sala de aula', 'Suporte prioritário'] }
+  ];
+
+  return { seasons, cast, episodes, hero, featured, trending, notifications, plans, reviewed: 'outubro de 2026' };
+})();

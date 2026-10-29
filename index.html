@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>JURISPLAY · O Direito em Série</title>
+  <meta name="description" content="Séries originais sobre o Código Penal Brasileiro. Cada episódio conta um caso e termina com o veredito: o artigo, a pena e por quê.">
+  <meta name="theme-color" content="#0a0a0d">
+  <meta property="og:title" content="JURISPLAY · O Direito em Série">
+  <meta property="og:description" content="Do estudo à prática: o Código Penal contado em episódios.">
+  <meta property="og:image" content="/assets/img/hero/codigo-penal.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Courier+Prime:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=1">
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <button class="hamb" id="hamb" aria-label="Abrir menu" aria-controls="sidebar" aria-expanded="false"></button>
+    <a class="brand" href="#/inicio" aria-label="JURISPLAY, página inicial">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M8 5 L41 24 L8 43 Z" fill="none" stroke="#ff6b1a" stroke-width="5.5" stroke-linejoin="round"/>
+        <path d="M17 17.5 L29 24 L17 30.5 Z" fill="#ff6b1a"/>
+      </svg>
+      <span class="brand-text"><span class="brand-name">JURIS<span>PLAY</span></span><span class="brand-slogan">O DIREITO EM SÉRIE</span></span>
+    </a>
+    <span class="vdiv" aria-hidden="true"></span>
+    <form class="search" id="searchForm" role="search" autocomplete="off">
+      <span id="searchIcon"></span>
+      <label class="sr" for="q">Buscar</label>
+      <input id="q" type="search" placeholder="Buscar por títulos, episódios ou temas..." enterkeyhint="search">
+      <button type="button" class="clear" id="qclear" aria-label="Limpar busca" hidden></button>
+    </form>
+    <div class="actions">
+      <button class="icon-btn search-toggle" id="searchToggle" aria-label="Buscar"></button>
+      <button class="icon-btn" id="bellBtn" aria-label="Notificações" aria-haspopup="true" aria-expanded="false"><span class="badge" id="bellCount" hidden></span></button>
+      <div class="pop" id="bellPop" hidden></div>
+      <button class="avatar" id="avatarBtn" aria-label="Conta" aria-haspopup="true" aria-expanded="false"></button>
+      <div class="pop" id="userPop" hidden></div>
+      <button class="link-btn" id="loginBtn">Entrar</button>
+      <a class="btn btn-primary" href="#/planos" id="subBtn">Assine agora</a>
+    </div>
+  </header>
+
+  <aside class="sidebar" id="sidebar" aria-label="Menu principal">
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot">
+      <svg class="scales" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M32 8v44"/><path d="M20 56h24"/><path d="M12 16h40"/><circle cx="32" cy="10" r="3" fill="currentColor"/>
+        <path d="M14 16 5 36h18z" fill="currentColor" stroke-width="2.5"/><path d="M50 16l-9 20h18z" fill="currentColor" stroke-width="2.5"/>
+        <path d="M5 36c0 4 4 7 9 7s9-3 9-7"/><path d="M41 36c0 4 4 7 9 7s9-3 9-7"/>
+      </svg>
+      <div class="t">O DIREITO<br>EM SÉRIE</div>
+      <div class="ln"></div>
+      <div class="s">CONHECIMENTO<br>QUE TRANSFORMA</div>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="bottomnav" id="bottomnav" aria-label="Navegação"></nav>
+
+  <div class="modal" id="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="mTitle"></div>
+  </div>
+  <div class="modal dlg" id="dlg" hidden>
+    <div class="modal-backdrop" data-dclose></div>
+    <div class="modal-card" id="dlgCard" role="dialog" aria-modal="true"></div>
+  </div>
+  <div class="player" id="player" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/assets/js/data.js?v=1"></script>
+  <script src="/assets/js/app.js?v=1"></script>
+</body>
+</html>
