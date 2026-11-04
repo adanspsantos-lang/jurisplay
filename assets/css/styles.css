@@ -524,6 +524,36 @@ main { margin-left: var(--side-w); padding-top: calc(var(--header-h) + env(safe-
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
 .toast .i { color: var(--orange); width: 20px; height: 20px; }
 
+/* trailer bar */
+.trailer-bar { display: grid; grid-template-columns: 220px minmax(0, 1fr) auto; gap: 24px; align-items: center; margin: 22px 32px 4px; padding: 16px; border-radius: 14px; border: 1px solid rgba(255, 107, 26, .35); background: linear-gradient(100deg, rgba(255, 107, 26, .14), var(--card) 45%, var(--card)); }
+.tb-thumb { position: relative; display: block; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; }
+.tb-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+.tb-thumb:hover img { transform: scale(1.06); }
+.tb-thumb::after { content: ''; position: absolute; inset: 0; background: rgba(0, 0, 0, .3); }
+.tb-play { position: absolute; z-index: 2; inset: 0; margin: auto; width: 46px; height: 46px; border-radius: 50%; background: var(--orange); display: grid; place-items: center; box-shadow: 0 6px 20px rgba(255, 107, 26, .5); }
+.tb-play .i { width: 18px; height: 18px; margin-left: 3px; }
+.tb-dur { position: absolute; z-index: 2; right: 8px; bottom: 8px; font-size: 11.5px; padding: 2px 7px; border-radius: 5px; background: rgba(0, 0, 0, .7); }
+.tb-kicker { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--orange-2); margin-bottom: 6px; }
+.tb-kicker .pill { position: static; letter-spacing: .06em; }
+.tb-body h2 { margin: 0 0 4px; font-family: var(--display); font-size: 32px; line-height: 1.05; text-transform: uppercase; font-weight: 700; }
+.tb-body p { margin: 0; color: #d6d6db; font-size: 14.5px; max-width: 60ch; }
+.tb-actions { display: flex; flex-direction: column; gap: 10px; }
+
+/* lock */
+.e-play.locked { border-color: rgba(255, 255, 255, .55); color: #fff; }
+.e-play.locked .i { margin-left: 0; width: 14px; height: 14px; }
+.e-play.locked:hover { background: rgba(255, 255, 255, .15); color: #fff; }
+.tab .tlock { width: 13px; height: 13px; margin-left: 6px; vertical-align: -1px; color: var(--muted); }
+.lock-ring { width: 64px; height: 64px; border-radius: 50%; display: inline-grid; place-items: center; background: rgba(255, 107, 26, .14); border: 1.5px solid rgba(255, 107, 26, .55); color: var(--orange); margin-bottom: 14px; }
+.lock-ring .i { width: 28px; height: 28px; }
+.lock-box { max-width: 560px; margin: 8px auto 0; text-align: center; padding: 30px 24px; border-radius: 14px; border: 1px solid var(--line-2); background: var(--card-2); }
+.lock-box h3 { margin: 0 0 6px; font-size: 20px; }
+.lock-box p { margin: 0 auto 18px; color: var(--muted); max-width: 46ch; }
+.lock-box .acts { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; align-items: center; }
+.teaser-fade { position: relative; max-height: 520px; overflow: hidden; -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent); mask-image: linear-gradient(180deg, #000 55%, transparent); }
+.pl-lock .fine { color: #c9c9cf; margin-top: 16px; }
+.pl-stage video#tvid { width: 100%; height: 100%; object-fit: contain; background: #000; }
+
 /* bottom nav (phones) */
 .bottomnav { display: none; }
 .search-toggle { display: none; }
@@ -572,6 +602,9 @@ main { margin-left: var(--side-w); padding-top: calc(var(--header-h) + env(safe-
   .hero-arrow { display: none; }
   .page { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
   .rail-head { padding: 0 16px; }
+  .trailer-bar { grid-template-columns: 1fr; margin: 18px 16px 4px; gap: 14px; }
+  .tb-actions { flex-direction: row; flex-wrap: wrap; }
+  .tb-body h2 { font-size: 26px; }
   .rail-head h2 { font-size: 20px; }
   .track { padding: 4px 16px 14px; scroll-padding: 0 16px; gap: 12px; }
   .track.eps { grid-auto-columns: 172px; }
@@ -606,3 +639,4 @@ main { margin-left: var(--side-w); padding-top: calc(var(--header-h) + env(safe-
   .bottomnav .active { color: var(--orange); }
   .foot { padding-left: 16px; padding-right: 16px; }
 }
+.teaser-fade .script-meta { display: none; }

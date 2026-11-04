@@ -47,6 +47,7 @@
     clock: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',
     trash: '<path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>',
     trophy: '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2Z"/>',
+    lock: '<rect x="4.5" y="11" width="15" height="10" rx="2"/><path d="M8 11V7.5a4 4 0 0 1 8 0V11"/>',
     sparkle: '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"/>'
   };
   const ic = (n, cls) => `<svg class="i ${cls || ''}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${P[n] || ''}</svg>`;
@@ -65,9 +66,11 @@
     read: store.get('read', []),
     extra: store.get('extra', []),
     user: store.get('user', null),
+    sub: store.get('sub', false),
     settings: Object.assign({ autoplayNext: true, heroAuto: true, subtitles: true, scriptBig: false, previews: true }, store.get('settings', {}))
   };
   const save = (k) => store.set(k, S[k]);
+  const isSub = () => !!S.sub;
 
   /* ---------- dados ---------- */
   const EP = {}; D.episodes.forEach((e) => { EP[e.id] = e; });
@@ -139,7 +142,7 @@
       <div class="e-thumb"><img src="${e.img}" alt="" loading="lazy"><span class="art">ART. ${e.id}</span>
         <button class="quick ${inList(e.id) ? 'on' : ''}" data-list="${e.id}" aria-label="${inList(e.id) ? 'Remover da Minha Lista' : 'Adicionar à Minha Lista'}">${ic(inList(e.id) ? 'check' : 'plus')}</button></div>
       <div class="e-body">
-        <div class="e-row"><span class="e-code">${code(e)}</span><span style="display:flex;gap:6px;align-items:center"><span class="dur">${e.dur} min</span><button class="e-play" data-play="${e.id}" aria-label="Assistir ${esc(e.title)}">${ic('play')}</button></span></div>
+        <div class="e-row"><span class="e-code">${code(e)}</span><span style="display:flex;gap:6px;align-items:center"><span class="dur">${e.dur} min</span><button class="e-play ${isSub() ? '' : 'locked'}" data-play="${e.id}" aria-label="${isSub() ? 'Assistir' : 'Exclusivo para assinantes:'} ${esc(e.title)}">${ic(isSub() ? 'play' : 'lock')}</button></span></div>
         <div class="e-title">${esc(e.crime)}</div>
         <div class="e-sub"><em>“${esc(e.title)}”</em> · ${esc(e.tag)}</div>
         ${opts.badges ? `<div class="e-badges">${hasScript(e) ? '<span class="tag o">Roteiro completo</span>' : '<span class="tag">Roteiro em produção</span>'}${e.updated ? '<span class="tag o">Lei 15.397/2026</span>' : ''}</div>` : ''}
@@ -205,6 +208,7 @@
     const { r, p } = currentRoute();
     closePops(); document.body.classList.remove('nav-open');
     if (r === 'assistir') { openPlayer(p[0]); return; }
+    if (r === 'trailer') { openTrailer(); return; }
     closePlayer();
     if (r === 'ep') {
       if (!baseHash) { baseHash = '#/inicio'; renderView(baseHash); }
@@ -256,7 +260,7 @@
     const recent = Object.entries(S.progress).sort((a, b) => (b[1].ts || 0) - (a[1].ts || 0)).map(([id]) => EP[id]).filter(Boolean).slice(0, 12);
     const top = D.trending.map((id, i) => `<div class="top-card" data-open="${id}"><span class="top-num" aria-hidden="true">${i + 1}</span>${epCard(EP[id])}</div>`).join('');
     const upd = D.episodes.filter((e) => e.updated);
-    let html = hero;
+    let html = hero + trailerBar();
     html += rail('Temporadas', D.seasons.map(seasonCard).join(''), { more: '#/catalogo', cls: 'seasons' });
     html += rail('Episódios em destaque', D.featured.map((id) => epCard(EP[id])).join(''), { more: '#/catalogo' });
     if (recent.length) html += rail('Continue assistindo', recent.map((e) => epCard(e)).join(''), { more: '#/perfil', moreLabel: 'Meu histórico' });
@@ -268,6 +272,15 @@
     if (S.list.length) html += rail('Minha Lista', S.list.map((id) => EP[id]).filter(Boolean).map((e) => epCard(e)).join(''), { more: '#/lista' });
     html += rail('Elenco fixo da série', D.cast.map(castCard).join(''), { cls: 'wide' });
     return html;
+  }
+  function trailerBar() {
+    const t = D.trailer;
+    return `<section class="trailer-bar" aria-label="Trailer oficial">
+      <a class="tb-thumb" href="#/trailer" aria-label="Assistir ao trailer"><img src="${t.img}" alt="" loading="lazy"><span class="tb-play">${ic('play')}</span><span class="tb-dur">${esc(t.durLabel)}</span></a>
+      <div class="tb-body"><div class="tb-kicker"><span class="pill orange">Liberado para todos</span><span>${esc(t.kicker)}</span></div>
+        <h2>${esc(t.title)}</h2><p>${esc(t.desc)}</p></div>
+      <div class="tb-actions"><a class="btn btn-primary" href="#/trailer">${ic('play')}Assistir trailer</a>${isSub() ? '' : `<a class="btn btn-ghost" href="#/planos">Assinar para ver a série</a>`}</div>
+    </section>`;
   }
   function bindHero() {
     const hero = $('#hero'); if (!hero) return;
@@ -405,7 +418,7 @@
     const recent = Object.entries(S.progress).sort((a, b) => (b[1].ts || 0) - (a[1].ts || 0)).map(([id]) => EP[id]).filter(Boolean);
     return `<div class="page"><div class="page-head"><div><div class="kicker">Perfil</div><h1>Minha conta</h1></div></div>
       <div class="prof-head"><div class="prof-av ${u ? '' : 'guest'}">${u ? esc(u.name.charAt(0).toUpperCase()) : ic('user')}</div>
-        <div><h2>${u ? esc(u.name) : 'Visitante'}</h2><p>${u ? esc(u.email) : 'Entre para guardar seu progresso em uma conta.'}</p></div>
+        <div><h2>${u ? esc(u.name) : 'Visitante'}</h2><p>${u ? esc(u.email) : 'Entre para guardar seu progresso em uma conta.'}</p><p style="margin-top:8px">${isSub() ? '<span class="tag o">Assinatura ativa (demonstração)</span>' : '<span class="tag">Sem assinatura</span>'}</p></div>
         <div class="acts">${u ? `<button class="btn btn-dark btn-sm" data-act="logout">${ic('logout')}Sair</button>` : `<button class="btn btn-primary btn-sm" data-act="login">Entrar</button>`}<a class="btn btn-ghost btn-sm" href="#/planos">Ver planos</a></div></div>
       <div class="stats">
         <div class="stat"><b>${st.started}</b><span>Episódios abertos</span></div>
@@ -442,6 +455,8 @@
         ${sw('heroAuto', 'Trocar os destaques da página inicial', 'O carrossel do topo avança sozinho a cada 7 segundos.')}
         <h3 style="margin:18px 0 2px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:500">Leitura</h3>
         ${sw('scriptBig', 'Texto maior nos roteiros', 'Aumenta a fonte da aba Roteiro para leitura confortável.')}
+        <h3 style="margin:18px 0 2px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:500">Assinatura (pré-lançamento)</h3>
+        <div class="set"><div><b>Simular assinatura ativa</b><p>Libera os episódios neste navegador para testar a plataforma antes do lançamento. Não envolve pagamento.</p></div><label class="switch"><input type="checkbox" id="set-sub" ${S.sub ? 'checked' : ''} aria-label="Simular assinatura ativa"><span></span></label></div>
         <h3 style="margin:18px 0 2px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:500">Dados</h3>
         <div class="set"><div><b>Limpar histórico e progresso</b><p>Apaga episódios assistidos, respostas do quiz e avisos deste navegador. A Minha Lista é mantida.</p></div><button class="btn btn-dark btn-sm" id="clearData">${ic('trash')}Limpar</button></div>
         <div class="set"><div><b>Idioma</b><p>Português (Brasil)</p></div><span class="tag">Padrão</span></div>
@@ -449,6 +464,7 @@
   }
   function bindSettings() {
     $$('[data-set]').forEach((i) => i.onchange = () => { S.settings[i.dataset.set] = i.checked; save('settings'); toast('Preferência salva', 'settings'); });
+    $('#set-sub').onchange = (ev) => { S.sub = ev.target.checked; save('sub'); renderUser(); toast(S.sub ? 'Assinatura de demonstração ativada' : 'Assinatura de demonstração desativada', 'lock'); };
     const b = $('#clearData');
     b.onclick = () => {
       if (b.dataset.armed) { S.progress = {}; S.quiz = {}; S.notify = []; S.extra = []; ['progress', 'quiz', 'notify', 'extra'].forEach(save); renderBell(); toast('Histórico apagado', 'trash'); delete b.dataset.armed; b.innerHTML = ic('trash') + 'Limpar'; return; }
@@ -459,7 +475,7 @@
 
   /* ---------- Planos ---------- */
   function viewPlans() {
-    return `<div class="page"><div class="page-head"><div><div class="kicker">Assine</div><h1>Escolha seu plano</h1><p>Todos os planos dão acesso às temporadas completas, aos roteiros e ao "Você é o juiz". Cancele quando quiser.</p></div><span class="pill orange" style="position:static">Lançamento em breve</span></div>
+    return `<div class="page"><div class="page-head"><div><div class="kicker">Assine</div><h1>Escolha seu plano</h1><p>Todos os planos dão acesso às temporadas completas, aos roteiros e ao "Você é o juiz". Cancele quando quiser.</p></div>${isSub() ? '<span class="pill orange" style="position:static">Assinatura ativa (demonstração)</span>' : '<span class="pill orange" style="position:static">Lançamento em breve</span>'}</div>
       <div class="plans">${D.plans.map((p) => `<div class="plan ${p.best ? 'best' : ''}">${p.best ? '<span class="ribbon">Mais escolhido</span>' : ''}<h3>${esc(p.name)}</h3>
         <div class="price"><small>R$</small>${p.price}</div><div class="per">${esc(p.note)}</div>
         <ul>${p.feats.map((f) => `<li>${ic('check')}<span>${esc(f)}</span></li>`).join('')}</ul>
@@ -486,16 +502,16 @@
     C.innerHTML = `<button class="m-close" data-close aria-label="Fechar">${ic('x')}</button>
       <div class="m-hero"><img src="${e.img}" alt="">
         <div class="m-hero-body"><div class="kicker">${codeTxt(e)} · Art. ${e.id} · ${esc(e.crime)}</div><h2 id="mTitle">${esc(e.title)}</h2>
-          <div class="m-actions"><a class="btn btn-primary" href="#/assistir/${e.id}">${ic('play')}Assistir</a>
+          <div class="m-actions"><a class="btn btn-primary" href="#/assistir/${e.id}">${ic(isSub() ? 'play' : 'lock')}${isSub() ? 'Assistir' : 'Assistir · assinantes'}</a>
             <button class="circle-btn ${inList(e.id) ? 'on' : ''}" data-list="${e.id}" aria-label="Minha Lista">${ic(inList(e.id) ? 'check' : 'plus')}</button>
             <button class="circle-btn ${S.likes.includes(e.id) ? 'on' : ''}" data-like="${e.id}" aria-label="Gostei">${ic('thumb')}</button>
             <button class="circle-btn" data-share="${e.id}" aria-label="Copiar link">${ic('share')}</button></div></div></div>
       <div class="m-content">
         <div class="tabs" role="tablist">
           <button class="tab" role="tab" data-tab="geral">Visão geral</button>
-          <button class="tab" role="tab" data-tab="roteiro">Roteiro${hasScript(e) ? '' : '<span class="tg">em produção</span>'}</button>
-          <button class="tab" role="tab" data-tab="veredito">O Veredito</button>
-          <button class="tab" role="tab" data-tab="quiz">Você é o juiz${e.id in S.quiz ? (S.quiz[e.id] ? ' ✓' : '') : ''}</button>
+          <button class="tab" role="tab" data-tab="roteiro">Roteiro${hasScript(e) ? '' : '<span class="tg">em produção</span>'}${isSub() ? '' : ic('lock', 'tlock')}</button>
+          <button class="tab" role="tab" data-tab="veredito">O Veredito${isSub() ? '' : ic('lock', 'tlock')}</button>
+          <button class="tab" role="tab" data-tab="quiz">Você é o juiz${e.id in S.quiz ? (S.quiz[e.id] ? ' ✓' : '') : ''}${isSub() ? '' : ic('lock', 'tlock')}</button>
           <button class="tab" role="tab" data-tab="episodios">Episódios</button>
         </div>
         <div id="mPanel" role="tabpanel"></div></div>`;
@@ -511,17 +527,17 @@
           <div><dt>Tema: </dt><dd>${esc(e.tag)}</dd></div>
           ${e.updated ? '<div><dt>Atualização: </dt><dd>Lei 15.397/2026</dd></div>' : ''}
         </dl><div class="sub-h">Elenco fixo</div><dl>${D.cast.map((c) => `<div><dd>${esc(c.n)}</dd> <dt>· ${esc(c.r)}</dt></div>`).join('')}</dl></div></div>`,
-      roteiro: () => hasScript(e) ? scriptHTML(e) : `<div class="notice">${ic('book')}<div><b>Roteiro em produção</b><p>O roteiro completo deste episódio está sendo escrito. Já dá para estudar a sinopse, o veredito e responder ao "Você é o juiz".</p></div></div>
+      roteiro: () => !isSub() ? (hasScript(e) ? `<div class="teaser-fade">${scriptHTML(Object.assign({}, e, { scenes: e.scenes.slice(0, 3), twist: '' }))}</div>` : '') + lockBox('o roteiro completo') : hasScript(e) ? scriptHTML(e) : `<div class="notice">${ic('book')}<div><b>Roteiro em produção</b><p>O roteiro completo deste episódio está sendo escrito. Já dá para estudar a sinopse, o veredito e responder ao "Você é o juiz".</p></div></div>
           <div class="sub-h">Sinopse</div><p class="logline" style="font-size:16px">${esc(e.logline)}</p>`,
-      veredito: () => verdictHTML(e),
-      quiz: () => quizHTML(e),
+      veredito: () => isSub() ? verdictHTML(e) : `<div class="vcard" style="max-width:760px;margin:0 auto 4px"><h4>Art. ${e.id} · O que a lei diz</h4><p class="tipo">${esc(e.verdict.tipo)}</p></div>` + lockBox('as penas, os requisitos do crime e o que não confundir'),
+      quiz: () => isSub() ? quizHTML(e) : lockBox('o "Você é o juiz" deste episódio'),
       episodios: () => `<div class="season-select"><label class="sr" for="mSeason">Temporada</label><select class="select" id="mSeason">${D.seasons.filter((x) => x.status !== 'breve').map((x) => `<option value="${x.n}" ${x.n === e.s ? 'selected' : ''}>Temporada ${x.n} · ${esc(x.name)}</option>`).join('')}</select><a class="more" href="#/temporada/${e.s}">Página da temporada ${ic('arrowR')}</a></div><div id="mEps">${miniList(e.s, e.id)}</div>`
     };
     const show = (t) => {
       if (!panels[t]) t = 'geral';
       $$('.tab', C).forEach((b) => { b.classList.toggle('on', b.dataset.tab === t); b.setAttribute('aria-selected', b.dataset.tab === t); });
       $('#mPanel').innerHTML = panels[t]();
-      if (t === 'quiz') bindQuiz(e);
+      if (t === 'quiz' && isSub()) bindQuiz(e);
       if (t === 'episodios') $('#mSeason').onchange = (ev) => { $('#mEps').innerHTML = miniList(+ev.target.value, e.id); };
     };
     $$('.tab', C).forEach((b) => b.onclick = () => show(b.dataset.tab));
@@ -530,6 +546,11 @@
     M.hidden = false; document.body.classList.add('lock');
     M.scrollTop = 0;
     if (wasHidden) setTimeout(() => $('.m-close', C).focus({ preventScroll: true }), 50);
+  }
+  function lockBox(what) {
+    return `<div class="lock-box"><span class="lock-ring">${ic('lock')}</span><h3>Conteúdo exclusivo para assinantes</h3>
+      <p>Assine um plano para liberar ${esc(what)}, além de todos os episódios da JURISPLAY.</p>
+      <div class="acts"><a class="btn btn-primary" href="#/planos">${ic('star')}Ver planos</a><a class="btn btn-ghost btn-sm" href="#/trailer">${ic('play')}Assistir ao trailer</a></div></div>`;
   }
   function miniList(sn, cur) {
     return `<div class="ep-list">${epsOf(sn).map((x) => `<div class="ep-row" data-swap="${x.id}" tabindex="0" role="link" style="${x.id === cur ? 'background:rgba(255,107,26,.08)' : ''}"><span class="num">${x.n}</span><div class="th"><img src="${x.img}" alt="" loading="lazy"><span class="pl"><span>${ic('play')}</span></span></div><div><h4>${esc(x.crime)}: ${esc(x.title)} <small>Art. ${x.id}</small></h4><p>${esc(x.logline)}</p></div><span class="side">${x.dur} min</span></div>`).join('')}</div>`;
@@ -596,8 +617,9 @@
     const e = EP[id];
     if (!e) { go('#/inicio'); return; }
     closeModal(true); closePlayer();
-    playerEp = e; touch(id);
     if (!baseHash) { baseHash = '#/inicio'; renderView(baseHash); }
+    if (!isSub()) { lockedPlayer(e); return; }
+    playerEp = e; touch(id);
     const nx = nextEp(e);
     const PL = $('#player');
     PL.innerHTML = `<div class="pl-stage">${e.video ? `<video id="vid" playsinline preload="metadata" poster="${e.img}">${e.subs ? `<track kind="subtitles" srclang="pt-BR" label="Português" src="${e.subs}">` : ''}</video>` : `<div class="pl-poster" style="background-image:url(${e.img})"></div>
@@ -657,6 +679,35 @@
     v.addEventListener('click', () => ctl('pp'));
     v.addEventListener('dblclick', () => ctl('fs'));
   }
+  const plTop = (label, title) => `<div class="pl-top"><button class="cbtn" data-act="back" aria-label="Voltar">${ic('arrowL')}</button><div class="pl-title"><span>${label}</span><b>${title}</b></div>
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 5 L41 24 L8 43 Z" fill="none" stroke="#ff6b1a" stroke-width="5.5" stroke-linejoin="round"/><path d="M17 17.5 L29 24 L17 30.5 Z" fill="#ff6b1a"/></svg></div>`;
+  function lockedPlayer(e) {
+    playerEp = e;
+    const PL = $('#player');
+    PL.innerHTML = `<div class="pl-stage"><div class="pl-poster" style="background-image:url(${e.img})"></div>
+        <div class="pl-soon"><div class="pl-soon-card pl-lock">
+          <span class="lock-ring">${ic('lock')}</span>
+          <div class="art-line">${codeTxt(e)} · Art. ${e.id} · ${esc(e.crime)}</div><h2>${esc(e.title)}</h2>
+          <p>Este episódio é exclusivo para assinantes. Assine um plano JURISPLAY para assistir a todas as temporadas, ler os roteiros completos e responder ao "Você é o juiz".</p>
+          <div class="acts"><a class="btn btn-primary" href="#/planos">${ic('star')}Ver planos</a><a class="btn btn-ghost" href="#/trailer">${ic('play')}Assistir ao trailer</a></div>
+          <p class="fine">Planos a partir de R$ ${esc(D.plans[0].price)} por mês. Cancele quando quiser.</p>
+        </div></div></div>
+      ${plTop(codeTxt(e) + ' · ART. ' + e.id, esc(e.crime) + ': ' + esc(e.title))}`;
+    PL.hidden = false; document.body.classList.add('lock'); PL.classList.remove('idle');
+  }
+  function openTrailer() {
+    const t = D.trailer;
+    closeModal(true); closePlayer();
+    if (!baseHash) { baseHash = '#/inicio'; renderView(baseHash); }
+    playerEp = { id: 'trailer', trailer: true };
+    const PL = $('#player');
+    PL.innerHTML = `<div class="pl-stage">${t.video ? `<video id="tvid" src="${t.video}" poster="${t.img}" controls autoplay playsinline></video>` : `<div class="pl-poster" style="background-image:url(${t.img})"></div>
+        <div class="pl-soon"><div class="pl-soon-card"><span class="pill orange">Em produção</span><div class="art-line">${esc(t.kicker)}</div><h2>${esc(t.title)}</h2>
+          <p>O trailer está sendo produzido e estreia em breve, aberto para todos. Enquanto isso, conheça a temporada.</p>
+          <div class="acts"><a class="btn btn-primary" href="#/temporada/1">Ver a Temporada 1</a><a class="btn btn-ghost" href="#/planos">Conhecer os planos</a></div></div></div>`}</div>
+      ${plTop('TRAILER OFICIAL', esc(t.title))}`;
+    PL.hidden = false; document.body.classList.add('lock'); PL.classList.remove('idle');
+  }
   function showNext(nx) {
     const box = $('#plNext'); let n = 8;
     const draw = () => { box.innerHTML = `<img src="${nx.img}" alt=""><div><small>Próximo episódio em ${n}s</small><b>${codeTxt(nx)} · ${esc(nx.title)}</b><div style="display:flex;gap:8px"><a class="btn btn-primary btn-sm" href="#/assistir/${nx.id}">${ic('play')}Assistir agora</a><button class="btn btn-dark btn-sm" data-act="cancelnext">Cancelar</button></div></div>`; };
@@ -666,6 +717,7 @@
   function flash(icon) { const f = $('#plFlash'); if (!f) return; f.innerHTML = ic(icon); f.classList.remove('go'); void f.offsetWidth; f.classList.add('go'); }
   function ctl(act) {
     const v = $('#vid'), e = playerEp; if (!e) return;
+    if ((e.trailer || !isSub()) && act !== 'back') return;
     const needVideo = ['pp', 'b10', 'f10', 'mute', 'spd'];
     if (!v && needVideo.includes(act)) { toast('Vídeo em produção. Em breve neste player.', 'film'); return; }
     switch (act) {
@@ -690,7 +742,7 @@
   }
   function closePlayer() {
     const PL = $('#player'); if (PL.hidden) return;
-    const v = $('#vid'); if (v) { try { v.pause(); } catch (e) { /* ok */ } v.removeAttribute('src'); v.load(); }
+    const v = $('#vid') || $('#tvid'); if (v) { try { v.pause(); } catch (e) { /* ok */ } v.removeAttribute('src'); v.load(); }
     if (hls) { hls.destroy(); hls = null; }
     clearInterval(nextT); clearTimeout(idleT);
     if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
@@ -718,7 +770,8 @@
     av.classList.toggle('has-user', !!u);
     av.innerHTML = u ? esc(u.name.charAt(0).toUpperCase()) : ic('user');
     $('#loginBtn').hidden = !!u;
-    $('#userPop').innerHTML = u ? `<div class="pop-user"><b>${esc(u.name)}</b><small>${esc(u.email)}</small></div>
+    $('#subBtn').hidden = isSub();
+    $('#userPop').innerHTML = u ? `<div class="pop-user"><b>${esc(u.name)}</b><small>${esc(u.email)}</small><div style="margin-top:8px">${isSub() ? '<span class="tag o">Assinante</span>' : '<a class="tag" href="#/planos">Sem assinatura · ver planos</a>'}</div></div>
         <a class="menu-item" href="#/perfil">${ic('user')}Perfil</a><a class="menu-item" href="#/lista">${ic('bookmark')}Minha Lista</a><a class="menu-item" href="#/config">${ic('settings')}Configurações</a><a class="menu-item" href="#/planos">${ic('star')}Planos</a>
         <button class="menu-item" data-act="logout">${ic('logout')}Sair</button>` : '';
   }

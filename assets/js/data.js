@@ -403,6 +403,11 @@ window.JP_DATA = (function () {
       desc: 'O sobrinho fez o café. Mas o veneno estava no açúcar. Um mistério que atravessa oito artigos do Código Penal.' }
   ];
 
+  /* Trailer: liberado para todos. Coloque a URL do vídeo (.mp4) em `video` quando estiver pronto. */
+  const trailer = { video: '', img: IMG + 'hero/codigo-penal.jpg', durLabel: '2:00', kicker: 'Trailer oficial · Temporada 1',
+    title: 'Quem envenenou Seu Jairo?',
+    desc: 'Um café, uma herança e oito artigos do Código Penal. Assista ao trailer da primeira temporada, aberto para todos.' };
+
   const featured = ['121', '129', '147', '155', '157', '312', '171', '289'];
   const trending = ['155', '171', '121', '316', '157'];
 
@@ -419,5 +424,5 @@ window.JP_DATA = (function () {
     { id: 'instituicao', name: 'Escritórios e faculdades', price: '99,90', note: 'por mês, até 10 acessos', feats: ['Tudo do Concurseiro', 'Painel de turmas', 'Uso em sala de aula', 'Suporte prioritário'] }
   ];
 
-  return { seasons, cast, episodes, hero, featured, trending, notifications, plans, reviewed: 'outubro de 2026' };
+  return { seasons, cast, episodes, hero, trailer, featured, trending, notifications, plans, reviewed: 'outubro de 2026' };
 })();
