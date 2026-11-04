@@ -71,6 +71,8 @@
 
   /* ---------- dados ---------- */
   const EP = {}; D.episodes.forEach((e) => { EP[e.id] = e; });
+  /* roteiros completos gerados em assets/js/roteiros-*.js */
+  Object.entries(window.JP_SCRIPTS || {}).forEach(([id, sc]) => { if (EP[id]) Object.assign(EP[id], sc); });
   const seasonOf = (n) => D.seasons.find((s) => s.n === Number(n));
   const epsOf = (n) => D.episodes.filter((e) => e.s === Number(n)).sort((a, b) => a.n - b.n);
   const code = (e) => `T${e.s}<b>•</b>E${e.n}`;
@@ -539,12 +541,17 @@
     if (!silent) goBack(baseHash || '#/inicio');
   }
   function scriptHTML(e) {
+    let n = 0;
     const sc = e.scenes.map((x) => {
       if (x.v) return `<div class="scene"><div class="voice"><small>A Voz do Código · tela preta</small>${esc(x.v)}</div></div>`;
-      const lines = x.l.map(([w, t]) => w === '*' ? `<p class="action">${esc(t)}</p>` : `<p class="line"><span class="who">${esc(w)}</span><span class="says">${esc(t)}</span></p>`).join('');
-      return `<div class="scene"><div class="slug">${esc(x.s)}</div>${x.a ? `<p class="action">${esc(x.a)}</p>` : ''}${lines}</div>`;
+      n++;
+      const lines = x.l.map(([w, t]) => w === '*' ? `<p class="action">${esc(t)}</p>`
+        : w === 'VOZ' ? `<div class="voice"><small>A Voz do Código</small>${esc(t)}</div>`
+        : `<p class="line"><span class="who">${esc(w)}</span><span class="says">${esc(t)}</span></p>`).join('');
+      return `<div class="scene"><div class="slug">${x.l && x.l.some((l) => l[0] === 'VOZ') && !/^(INT|EXT)/.test(x.s) ? '' : `Cena ${n} · `}${esc(x.s)}</div>${x.a ? `<p class="action">${esc(x.a)}</p>` : ''}${lines}</div>`;
     }).join('');
-    return `<div class="script ${S.settings.scriptBig ? 'big' : ''}">${sc}</div>${e.twist ? `<div class="twist"><h4>A virada jurídica</h4><p>${esc(e.twist)}</p></div>` : ''}`;
+    const scenesN = e.scenes.filter((x) => !x.v).length;
+    return `<div class="script-meta">${scenesN} cenas · duração estimada de ${e.dur} min</div><div class="script ${S.settings.scriptBig ? 'big' : ''}">${sc}</div>${e.twist ? `<div class="twist"><h4>A virada jurídica</h4><p>${esc(e.twist)}</p></div>` : ''}`;
   }
   function verdictHTML(e) {
     const v = e.verdict;

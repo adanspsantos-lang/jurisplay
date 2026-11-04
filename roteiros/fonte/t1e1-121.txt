@@ -1,0 +1,322 @@
+@ep 121
+@dur 28
+@logline Seu Jairo, 74 anos, cai morto depois do café da manhã. O laudo aponta veneno. O sobrinho que preparou o café é endividado, único herdeiro e tinha uma passagem para fugir da cidade naquela noite. Tudo aponta para ele. É exatamente isso que incomoda a delegada Helena.
+@virada Matar alguém é homicídio simples, com pena de 6 a 20 anos. Usar veneno, que a vítima não percebe, é meio insidioso; matar por herança é motivo torpe. Cada um, sozinho, já qualifica o crime: a pena sobe para 12 a 30 anos, e o caso vai para o Tribunal do Júri. Mas qualificar o crime não diz quem o cometeu. Isso o júri só decide com provas.
+@p Jairo Mendes | Vítima, 74 anos | Ver Bíblia da Série | | | |
+@p Vinícius Mendes | Sobrinho e herdeiro, 39 anos | Ver Bíblia da Série | | | |
+@p Dona Zuleica | Vizinha, 71 anos | Ver Bíblia da Série | | | |
+@p Marisa Vilela | A mulher do enterro, 58 anos | Ver Bíblia da Série | | | |
+@p Agente Bráulio | Agente penitenciário, 45 anos | Homem branco, corpulento, cabelo grisalho cortado rente, bigode | Uniforme cinza da polícia penal, molho de chaves no cinto | Lacônico, mas humano | Masculina grave, poucas palavras | photorealistic 45-year-old white Brazilian prison officer, stocky, gray buzz cut, mustache, gray uniform with keys on belt, prison visiting room, fluorescent light
+
+@p Ferrugem | Agiota, 40 anos | Homem pardo, magro, cabelo raspado com risco na sobrancelha, corrente de ouro grossa | Óculos escuros espelhados, camisa de seda estampada aberta no peito | Frio, debochado, calcula tudo em dinheiro | Masculina arrastada, irônica | photorealistic 40-year-old slim mixed-race Brazilian loan shark, shaved head, eyebrow slit, thick gold chain, mirrored sunglasses, open printed silk shirt, counting cash in a car wash office
+@p Seu Toninho | Colega de cela de Vinícius, 66 anos | Homem branco, magro, cabelo branco ralo, óculos de leitura na ponta do nariz, rosto bondoso | Uniforme bege de preso, chinelo | Paciente, sábio, aguarda julgamento há dois anos | Masculina idosa, calma | photorealistic 66-year-old thin white Brazilian inmate, sparse white hair, reading glasses on nose, kind face, beige prison uniform, sitting on a concrete bunk doing a crossword
+CENA 1 | INT. CASA DE JAIRO — COZINHA — AMANHECER
+> Seis e quarenta da manhã. Um rádio antigo toca bolero baixinho. Cozinha simples e muito limpa: azulejo verde, toalha de crochê, um pote de açúcar azul de porcelana no centro da mesa.
+> VINÍCIUS, 39, olheiras fundas, coa café num coador de pano. O celular vibra. Ele atende de costas para a porta, falando baixo e rápido.
+VINÍCIUS: Sexta. Eu já falei, sexta eu pago... Não, não precisa vir aqui. Não precisa vir aqui!
+> Ele desliga. JAIRO, 74, entra arrumado: camisa clara, calça vincada, o chapéu panamá na mão. Pendura o chapéu na cadeira, cantarolando o bolero do rádio.
+JAIRO: Esse café está com cheiro de sexta-feira.
+VINÍCIUS: É quarta, tio.
+JAIRO: Pra mim, hoje é sexta.
+> Jairo se senta, puxa o pote azul e coloca duas colheres de açúcar na xícara. Mexe devagar, sorrindo para o nada.
+VINÍCIUS: O senhor está diferente. Saindo de terno de noite, ouvindo bolero às seis da manhã...
+JAIRO: Homem velho também tem direito de ficar bobo.
+VINÍCIUS: Tio, eu preciso conversar sobre aquele dinheiro.
+> O sorriso de Jairo desaparece.
+JAIRO: Já te dei o que eu podia, Vinícius. O bar acabou. Acabou.
+VINÍCIUS: Se eu não pagar até sexta, eles vêm aqui. Aqui, na sua casa.
+JAIRO: Então você resolve longe da minha casa.
+> Silêncio pesado. Vinícius bate a xícara na pia, sai pela porta dos fundos e acende um cigarro no quintal, de costas para a janela.
+> Na cozinha, Jairo bebe o café. Um gole. Dois. A mão começa a tremer. A xícara escorrega e se espatifa no piso. O rádio continua tocando.
+> No quintal, Vinícius ouve o barulho. Vira-se. Corre.
+VINÍCIUS: Tio? Tio!
+> Corte seco para preto.
+
+CENA 2 | VINHETA
+> O triângulo laranja da JURISPLAY desenha o "play". Sobre o preto, surge em letras condensadas: ART. 121. Logo abaixo: "O Café da Herança".
+
+CENA 3 | EXT. RUA DOS IPÊS — CASA DE JAIRO — MANHÃ
+> Uma ambulância parada com as portas abertas, sem pressa nenhuma. Uma viatura da Polícia Civil. Fita amarela no portão.
+> DONA ZULEICA, 71, bobes no cabelo e roupão florido, rega as plantas do portão vizinho sem tirar os olhos da casa. CAÍQUE, 29, tablet de capa laranja na mão, se aproxima.
+CAÍQUE: Bom dia, senhora. Investigador Caíque, Polícia Civil. A senhora conhecia o Seu Jairo?
+ZULEICA: Quarenta anos de muro com muro, meu filho. Conhecia até o barulho do chinelo dele.
+CAÍQUE: E hoje cedo, a senhora ouviu alguma coisa?
+ZULEICA: Ouvi gritaria. O sobrinho. Coisa de dinheiro, eu acho. Esse menino só aparece quando precisa.
+> Um carro preto encosta. HELENA ROCHA, 47, blazer cinza-chumbo, desce sem pressa. Para na calçada e olha a casa inteira antes de entrar: janelas, quintal, portão.
+CAÍQUE: Doutora, morte na cozinha. O sobrinho chamou o SAMU às seis e cinquenta e dois. A vizinha ouviu briga antes.
+HELENA: Quem já entrou?
+CAÍQUE: Os socorristas. E a perita chegou faz dez minutos.
+HELENA: Então a gente entra pisando onde ela mandar.
+> Caíque abre a boca para dizer mais alguma coisa. Helena levanta um dedo.
+HELENA: Fato primeiro. Artigo depois.
+
+CENA 4 | EXT. CASA DE JAIRO — QUINTAL — MANHÃ
+> Antes de entrar na cozinha, Helena dá a volta na casa pelo corredor lateral. Caíque vai atrás, tentando não pisar nos canteiros.
+> Quintal pequeno e cuidado: uma mangueira, um varal com duas camisas sociais penduradas, um banquinho de madeira encostado no muro. No chão, perto do banquinho, quatro bitucas de cigarro. Uma ainda solta fumaça.
+HELENA: Ele fumou aqui.
+CAÍQUE: O sobrinho disse que saiu para fumar depois da briga.
+HELENA: Quatro cigarros não cabem em cinco minutos.
+CAÍQUE: Talvez ele fume rápido. Ou talvez já estivesse aqui antes.
+> Helena se abaixa e olha a janela da cozinha a partir do banquinho. Do lugar onde Vinícius estava sentado, a mesa da cozinha fica de costas: dá para ver a nuca de quem se senta ali, mas não as mãos.
+HELENA: Daqui ele não via o tio colocando o açúcar.
+CAÍQUE: E isso ajuda ou atrapalha o sobrinho?
+HELENA: Por enquanto, isso é só um fato. Anota.
+> Do outro lado do muro, Dona Zuleica estica o pescoço por cima de um vaso de samambaia.
+ZULEICA: O menino fuma escondido desde os quinze anos. O tio odiava cigarro.
+HELENA: Bom dia, Dona Zuleica.
+ZULEICA: Bom dia, doutora. Se precisar, eu estou sempre aqui.
+CAÍQUE (baixinho): Isso eu não duvido.
+
+CENA 5 | INT. CASA DE JAIRO — COZINHA — MANHÃ
+> O corpo de Jairo já está coberto com um lençol. DRA. LÚCIA PAZ, 34, jaleco branco e luvas azuis, ajoelhada perto da xícara quebrada. Ela não levanta a cabeça.
+LÚCIA: Bom dia, delegada. Não pise na faixa de cerâmica perto da pia.
+HELENA: Bom dia. O que você tem?
+LÚCIA: Pupilas muito contraídas. Salivação intensa. Tremores, segundo o socorrista. Isso não é infarto.
+CAÍQUE: Envenenamento?
+LÚCIA: Suspeita de intoxicação por um tipo de pesticida proibido no Brasil. Aquele que o povo chama de chumbinho. Só o laboratório confirma.
+> Caíque engole em seco e anota no tablet.
+CAÍQUE: Bom dia pra você também, Lúcia.
+LÚCIA: Bom dia, Caíque. Você está pisando na faixa.
+> Caíque dá um pulo para trás. Lúcia quase sorri.
+HELENA: Leve tudo. Xícara, bule, coador, leite, a garrafa térmica. Tudo o que estava na mesa.
+LÚCIA: Já estou separando. Inclusive esse pote azul.
+> Helena olha o pote de açúcar azul por um segundo a mais. Depois desvia o olhar para a sala, onde Vinícius está sentado no sofá, com as mãos na cabeça.
+
+CENA 6 | INT. CASA DE JAIRO — SALA — MANHÃ
+> Sala de móveis antigos. Na estante, discos de vinil de bolero e um porta-retratos de Jairo jovem com a esposa. Helena se senta na poltrona em frente a Vinícius. Caíque fica de pé, perto da porta.
+HELENA: Sinto muito pelo seu tio.
+VINÍCIUS: Eu fiz o café. Ele toma... tomava todo dia às seis e meia. Eu fiz o café, saí pra fumar e quando eu voltei...
+HELENA: O senhor brigou com ele hoje cedo?
+VINÍCIUS: A senhora já falou com a Dona Zuleica, né?
+HELENA: Brigou?
+VINÍCIUS: Discuti. Eu devo dinheiro. Muito dinheiro. Abri um bar, o bar quebrou, peguei dinheiro com quem não devia. Ele já tinha me ajudado. Hoje disse que não ia ajudar mais.
+> Os olhos de Helena descem para a mesa de centro. Um envelope de agência de viagem aberto. Uma passagem de ônibus.
+HELENA: Vai viajar?
+> Vinícius olha a passagem como se só agora lembrasse dela.
+VINÍCIUS: Ia. Hoje à noite. Pra Salvador.
+HELENA: Por quê?
+VINÍCIUS: Porque se eu não pagar até sexta, as pessoas pra quem eu devo vêm atrás de mim. Eu ia sumir um tempo.
+HELENA: E quem herda esta casa?
+> Silêncio.
+VINÍCIUS: Eu sou o único parente dele. A senhora sabe a resposta.
+> Caíque e Helena trocam um olhar.
+
+CENA 7 | INT. 3ª DELEGACIA — SALA DE HELENA — TARDE
+> Quadro de cortiça. Caíque prende com tachinhas: foto de Jairo, foto de Vinícius, a passagem de ônibus, um print de conversa com o agiota. Fio vermelho ligando tudo.
+CAÍQUE: Dívida de trezentos mil. Único herdeiro de três imóveis. Briga às seis e meia. Ele mesmo fez o café. E uma passagem pra fugir da cidade no mesmo dia. Doutora, se isso fosse novela, a gente já estava nos créditos.
+HELENA: Por isso mesmo eu quero mais.
+CAÍQUE: Mais o quê?
+HELENA: Mais fato. Quando tudo aponta pra um lado só, eu desconfio da bússola.
+> Helena se senta na beira da mesa.
+HELENA: Me diz, Caíque. Se for ele, que crime é?
+CAÍQUE: Homicídio. Artigo 121.
+HELENA: Que diz o quê?
+CAÍQUE: "Matar alguém." Só isso. Duas palavras.
+HELENA: Duas palavras e a pena mais alta do Código. Homicídio simples: seis a vinte anos de reclusão. Mas tem um parágrafo que muda tudo.
+CAÍQUE: As qualificadoras.
+HELENA: Parágrafo segundo. Se o crime é cometido com veneno, que a vítima não percebe, é meio insidioso: crime qualificado. Se foi por dinheiro de herança, motivo torpe: qualificado de novo. Basta uma qualificadora. Doze a trinta anos. E vira crime hediondo.
+CAÍQUE: E se fosse sem querer?
+HELENA: Aí é homicídio culposo. Parágrafo terceiro. Detenção de um a três anos. Mas ninguém coloca pesticida proibido no café sem querer.
+CAÍQUE: E aquele homicídio "com desconto"?
+HELENA: Privilegiado. Quando a pessoa mata por relevante valor moral ou social, ou sob violenta emoção logo depois de uma provocação injusta. A pena cai de um sexto a um terço. Não é o nosso caso.
+> O telefone de Helena vibra. Ela coloca no viva-voz.
+LÚCIA (telefone): Delegada, laudo preliminar. Pesticida confirmado no resto de café da xícara. Concentração alta.
+HELENA: E no bule?
+LÚCIA (telefone): O bule ainda não. Tenho trinta itens desta cozinha na fila. Prioridade?
+HELENA: A xícara já responde o que eu precisava hoje. Obrigada, Lúcia.
+LÚCIA (telefone): Ah, e diga ao Caíque que ele deixou o boné na cena do crime.
+> Caíque leva a mão à cabeça. Está sem boné.
+CAÍQUE: Ela reparou no meu boné.
+HELENA: Ela reparou que você contaminou a cena.
+
+CENA 8 | EXT. LAVA-JATO BRILHO TOTAL — TARDE
+> Um lava-jato barulhento na periferia, com caixas de som tocando funk. Caíque desce do carro sem distintivo à mostra. Um homem magro de óculos escuros e corrente de ouro, FERRUGEM, 40, conta notas no balcão de um escritório improvisado.
+CAÍQUE: Ferrugem?
+FERRUGEM: Depende de quem pergunta.
+CAÍQUE: Alguém que quer saber quanto o Vinícius Mendes te deve.
+> Ferrugem para de contar dinheiro. Tira os óculos.
+FERRUGEM: Polícia.
+CAÍQUE: Polícia. Mas hoje eu não vim por você. Vim pelo tio dele.
+FERRUGEM: O velho morreu, eu soube. Péssima notícia.
+CAÍQUE: Para quem?
+FERRUGEM: Para mim, investigador. O velho era a garantia. O moleque não tem nada. Quem ia pagar a dívida, no fim, era o tio. Morto não paga ninguém.
+CAÍQUE: E o senhor ameaçou o Vinícius?
+FERRUGEM: Eu cobrei. Cobrar não é crime.
+CAÍQUE: Depende de como cobra.
+> Ferrugem sorri e coloca os óculos de volta.
+FERRUGEM: Escreve aí no seu tablet: eu queria o velho vivo. Vivo e generoso. Quem matou o velho me deu prejuízo.
+> Caíque olha em volta: os funcionários pararam de lavar os carros para observar. Ele recua devagar até o próprio carro.
+CAÍQUE (para si, já dentro do carro): Ótimo. Até o agiota tem álibi moral.
+
+CENA 9 | INT. IML — SALA DE NECROPSIA — TARDE
+> Sala fria, azulejo branco. O corpo de Jairo coberto até o peito. Dr. Anselmo, de avental e máscara, conversa com Lúcia, que segura uma prancheta.
+ANSELMO: Morte entre seis e quarenta e sete da manhã. Falência respiratória. Pupilas puntiformes. O quadro bate com o que a senhora suspeitou no local.
+LÚCIA: Ele sofreu?
+ANSELMO: Poucos minutos. Mas sofreu.
+> Lúcia anota. Anselmo cobre o rosto de Jairo com cuidado, quase com carinho.
+ANSELMO: Coração de atleta, sabia? Para setenta e quatro anos. Pulmão limpo, nunca fumou. Joelhos gastos. Esse homem dançava.
+LÚCIA: Como o senhor sabe?
+ANSELMO: Os sapatos. Vieram junto com o corpo, estavam no pé dele. Sola de couro lisa, gasta na ponta. Sapato de salão. Meu pai tinha um igual.
+> Lúcia olha para o par de sapatos, num saco plástico, sobre a bancada.
+LÚCIA: Vou mandar isso para a delegada.
+
+CENA 10 | INT. CAFÉ DO FÓRUM — FIM DE TARDE
+> Balcão estreito, máquina de espresso chiando. IARA BASTOS, 38, terninho vinho, óculos dourados, pasta de couro debaixo do braço, chega ao balcão.
+IARA: Um café pequeno, por favor. Sem açúcar.
+OTÁVIO (fora de quadro): Ainda sem açúcar.
+> Iara fecha os olhos por um segundo antes de se virar. OTÁVIO LINS, 40, terno cinza gasto, gravata frouxa, mochila velha cheia de processos, segura uma caneca térmica.
+IARA: Doutor Otávio.
+OTÁVIO: Doutora Iara. Quinze anos e você ainda pede café como se fosse uma sentença.
+IARA: E você ainda carrega o fórum inteiro nas costas.
+OTÁVIO: Alguém tem que carregar.
+> O café de Iara chega. Ela não toma.
+IARA: Soube do caso da Rua dos Ipês? O senhor envenenado.
+OTÁVIO: Soube que o sobrinho não tem dinheiro nem pra pagar o ônibus. Se não arrumar advogado, vem pra Defensoria. Vem pra mim.
+IARA: Homicídio doloso. Vai a júri. Eu vou acusar.
+OTÁVIO: Então vamos nos ver muito.
+IARA: Plenário não é lugar de reencontro, Otávio.
+OTÁVIO: Eu sei. É lugar de verdade.
+> Ela pega a pasta e sai. No balcão fica o café intocado. Otávio olha a xícara e sorri de canto.
+
+CENA 11 | INT. 3ª DELEGACIA — SALA DE INTERROGATÓRIO — NOITE
+> Mesa de metal, luz fria. Vinícius de um lado. Helena e Caíque do outro. A porta se abre. Otávio entra com a mochila.
+OTÁVIO: Boa noite. Otávio Lins, Defensoria Pública. Vou acompanhar o senhor Vinícius.
+HELENA: Fique à vontade, doutor.
+OTÁVIO (para Vinícius): Antes de tudo: você não é obrigado a responder nada. O silêncio é um direito seu e não pode ser usado contra você.
+VINÍCIUS: Eu quero falar. Eu não tenho nada pra esconder.
+OTÁVIO: Todo mundo que diz isso tem alguma coisa pra esconder. Mas a decisão é sua.
+VINÍCIUS: Eu vou falar.
+> Helena abre uma pasta.
+HELENA: O laudo encontrou veneno no café do seu tio. O café que o senhor fez.
+VINÍCIUS: Eu fiz o café como faço desde que me mudei pra lá. Seis meses. Por que eu ia matar ele justo hoje?
+HELENA: Porque sexta é o prazo da sua dívida. E hoje à noite o senhor ia embora.
+VINÍCIUS: Eu ia fugir dos agiotas, não da polícia!
+HELENA: E por que vocês brigaram?
+VINÍCIUS: Porque ele estava estranho. Saía de terno toda quinta à noite. Voltava cantando. Comprou perfume, doutora. Meu tio, que usava o mesmo sabonete há quarenta anos. Eu achei que alguém estava se aproveitando dele. Que alguém ia levar o dinheiro todo.
+HELENA: Alguém quem?
+VINÍCIUS: Eu não sei! Ele não me contava nada.
+> Helena anota. Uma palavra só: "quintas".
+
+CENA 12 | INT. CADEIA PÚBLICA — CELA 4 — NOITE
+> Cela coletiva, beliches de concreto. Vinícius, já de uniforme bege, sentado no chão encostado na parede, os olhos vermelhos. No beliche de baixo, um senhor de cabelo branco, SEU TONINHO, 66, lê uma revista de palavras cruzadas com os óculos na ponta do nariz.
+TONINHO: Primeira noite?
+VINÍCIUS: Primeira.
+TONINHO: A primeira é a pior. Depois vira só ruim.
+> Silêncio. Vinícius batuca com os dedos no joelho, sem perceber, um ritmo de bolero.
+TONINHO: Isso aí é bolero?
+VINÍCIUS: É. Meu tio ouvia todo dia. Eu odiava. Achava coisa de velho.
+TONINHO: E agora?
+VINÍCIUS: Agora eu não consigo parar de ouvir na cabeça.
+> Ele ri, um riso que quase vira choro.
+VINÍCIUS: Foi ele que pagou a minha primeira guitarra. Eu tinha doze anos. Minha mãe disse que era perda de dinheiro. Ele disse: deixa o menino tocar. Ele foi a todos os shows da minha banda. Todos. Sentava no fundo e não batia palma, só balançava a cabeça.
+TONINHO: E te prenderam por matar ele.
+VINÍCIUS: Me prenderam porque eu fiz o café.
+> Toninho fecha a revista.
+TONINHO: Eu estou aqui há dois anos esperando julgamento, rapaz. Um conselho: fala a verdade para o teu advogado. Toda. Até a parte que te faz parecer culpado.
+VINÍCIUS: E se a verdade me fizer parecer culpado?
+TONINHO: Aí ela vai precisar de mais tempo para aparecer. Mas aparece.
+
+CENA 13 | INT. FÓRUM — 2ª VARA CRIMINAL — DIA
+> Sala de audiências de madeira escura. MARTA SIQUEIRA, 58, toga preta, óculos de leitura no cordão. Iara de um lado. Otávio e Vinícius, algemado, do outro.
+IARA: Excelência, o Ministério Público requer a prisão preventiva de Vinícius Mendes. Há indícios de autoria: ele preparou o café envenenado, tinha motivo financeiro e é o único herdeiro. E há risco concreto de fuga: o investigado comprou passagem para deixar o estado no dia do crime.
+MARTA: Defesa.
+OTÁVIO: Excelência, meu cliente não fugiu. Ele chamou o SAMU, esperou a polícia e respondeu a todas as perguntas. A passagem era para fugir de agiotas, gente que ameaça a vida dele, e não da Justiça. Prisão antes do julgamento é exceção. Peço medidas cautelares: entregar o passaporte, comparecer em juízo, não sair da cidade.
+> Marta tira os óculos.
+MARTA: Prisão preventiva não é pena, senhor Vinícius. Ninguém aqui está dizendo que o senhor é culpado. A lei permite prender antes do julgamento quando há prova do crime, indícios de quem o cometeu e um risco concreto. Neste caso, o risco é de o senhor não estar aqui quando o processo terminar.
+MARTA: Decreto a prisão preventiva para garantir a aplicação da lei penal.
+> Vinícius fecha os olhos. Otávio coloca a mão no ombro dele. Do outro lado, Iara guarda os papéis sem olhar para Otávio.
+
+CENA 14 | INT. APARTAMENTO DE HELENA — SALA — NOITE
+> A televisão ligada num telejornal local. Na tela, uma foto de Vinícius sendo levado algemado e a legenda: "SOBRINHO PRESO POR ENVENENAR TIO POR HERANÇA". PEDRO, 19, filho de Helena, come pipoca no sofá. Helena entra, larga a bolsa.
+REPÓRTER (TV): ...a polícia acredita que o sobrinho, endividado, teria envenenado o próprio tio para ficar com três imóveis. O crime chocou a vizinhança da Rua dos Ipês...
+HELENA: A polícia não acredita em nada ainda.
+PEDRO: Eles disseram que a polícia acredita.
+HELENA: Eles disseram o que dá audiência.
+> Ela pega o controle e desliga a TV. Senta ao lado dele. Rouba um punhado de pipoca.
+PEDRO: Foi ele?
+HELENA: Tudo indica que sim.
+PEDRO: Então por que você está com essa cara?
+HELENA: Porque "tudo indica" não é a mesma coisa que "foi". Seu avô dizia que o caso mais perigoso é o que fica pronto rápido demais.
+PEDRO: Vovô falava isso sobre tudo. Sobre feijão também.
+HELENA: E estava certo sobre feijão também.
+> Pedro ri. Helena olha o relógio de couro no pulso.
+
+CENA 15 | EXT. CEMITÉRIO DA SAUDADE — DIA CHUVOSO
+> Garoa fina. Um caixão simples. Pouca gente: Dona Zuleica com um guarda-chuva preto, dois senhores do bairro, Helena um pouco afastada, debaixo de uma árvore.
+> Caíque se aproxima dela.
+CAÍQUE: O doutor Otávio pediu pra levarem o Vinícius ao enterro. Foi negado.
+HELENA: A lei permite saída escoltada para enterro de pais, filhos, cônjuge ou irmão. Tio não está na lista.
+CAÍQUE: É duro.
+HELENA: É a lei.
+> Um táxi para no portão. Desce uma mulher: MARISA VILELA, 58, cabelo ruivo acobreado, vestido preto de corte elegante, um lenço de seda estampado no pescoço, batom vermelho.
+> Ela caminha até o caixão sem guarda-chuva. Coloca sobre ele uma rosa vermelha e um disco de vinil de bolero. Fica alguns segundos de olhos fechados.
+> Dona Zuleica cutuca o senhor ao lado.
+ZULEICA (sussurrando): Quem é essa?
+SENHOR: Nunca vi.
+> Helena dá um passo na direção da mulher. Marisa abre os olhos, vira-se e caminha de volta ao táxi sem pressa.
+HELENA: Senhora! Um minuto!
+> A porta do táxi bate. O carro sai na chuva. Helena fica parada, olhando a rosa vermelha sobre o caixão.
+CAÍQUE: Doutora?
+HELENA: Pegue a placa daquele táxi.
+CAÍQUE: Eu... não peguei.
+> Helena olha para ele. Caíque guarda o tablet, envergonhado.
+
+CENA 16 | INT. 3ª DELEGACIA — SALA DE HELENA — NOITE
+> Chuva na janela. Iara entra com uma pasta. Helena está diante do quadro de cortiça. Agora há um post-it novo, escrito à mão: "Mulher do enterro. Quem?"
+IARA: Vim avisar que vou oferecer a denúncia contra Vinícius Mendes amanhã. Homicídio qualificado: veneno e motivo torpe.
+HELENA: A senhora tem o suficiente para denunciar.
+IARA: E a senhora?
+HELENA: Eu ainda não tenho o suficiente para dormir.
+IARA: Delegada, quem decide se ele é culpado não somos nós. São sete jurados, no Tribunal do Júri. A Constituição manda: crime doloso contra a vida é julgado pelo povo.
+HELENA: Então eu vou entregar ao povo a história inteira. Não só a metade que parece pronta.
+> Iara olha o post-it.
+IARA: Quem é?
+HELENA: Ainda não sei. Mas ela levou um disco de bolero para o enterro. E o Seu Jairo saía para dançar toda quinta.
+
+CENA 17 | INT. CASA DE JAIRO — SALA — NOITE
+> Casa às escuras, lacres na porta da cozinha. Helena entra sozinha com uma lanterna. Para diante da estante de discos. Pega um, ao acaso. Coloca na vitrola antiga. O bolero do primeiro dia enche a sala vazia.
+> Ela anda pela sala. Na mesa do telefone, um calendário de parede de uma farmácia do bairro. Todas as quintas-feiras dos últimos dois meses estão marcadas com uma florzinha desenhada a caneta vermelha.
+> Helena tira uma foto do calendário. No quarto, atrás da porta, um terno escuro pendurado num cabide, com um lenço vermelho no bolso do paletó. No chão, uma caixa de sapatos vazia com a etiqueta de uma loja de artigos de dança.
+> Helena senta na poltrona onde, de manhã, interrogou Vinícius. Fecha os olhos e ouve a música.
+HELENA (para si): Quem era a sua flor, Seu Jairo?
+> O disco chega ao fim e a agulha fica girando no silêncio.
+
+CENA 18 | INT. CADEIA PÚBLICA — PARLATÓRIO — NOITE
+> Divisória de vidro, telefones de parede. O AGENTE BRÁULIO, 45, traz Vinícius, de uniforme bege. Do outro lado, Otávio.
+BRÁULIO: Vinte minutos, doutor.
+OTÁVIO: Obrigado, Bráulio.
+> Vinícius pega o fone. Está mais magro em três dias.
+VINÍCIUS: Eles vão me condenar, né?
+OTÁVIO: Ainda não tem julgamento, Vinícius. Tem acusação. Vamos por partes. Me conta a manhã de novo. Cada detalhe.
+VINÍCIUS: Eu acordei, passei o café no coador, ele entrou cantando, sentou, colocou o açúcar...
+OTÁVIO: Quem colocou o açúcar?
+VINÍCIUS: Ele. Sempre ele. Do pote azul. Era da minha tia, ele não deixava ninguém mexer.
+OTÁVIO: E você? Toma café com açúcar?
+VINÍCIUS: Eu? Nunca. Desde moleque. Café é sem açúcar.
+> Otávio fica imóvel com o fone no ouvido.
+OTÁVIO: Você bebeu o mesmo café?
+VINÍCIUS: Bebi meia xícara. Antes de ele descer. Do mesmo bule.
+> Otávio larga a caneta.
+
+CENA 19 | INT. 3ª DELEGACIA — SALA DE HELENA — MADRUGADA
+> Helena sozinha, com as fotos da cena do crime espalhadas na mesa. Ela para numa delas: a mesa da cozinha, o pote de açúcar azul no centro.
+> O celular toca. É Otávio.
+OTÁVIO (telefone): Delegada, desculpe a hora. O Vinícius tomou café do mesmo bule. E ele não usa açúcar.
+> Helena já está olhando para a foto do pote azul.
+HELENA: Eu sei, doutor. Eu estou olhando para ele agora.
+> Ela desliga e liga para outro número.
+HELENA: Lúcia, desculpe acordar você. O açucareiro azul. Já analisou?
+LÚCIA (telefone, sonolenta): Está na fila. Posição vinte e dois.
+HELENA: Passe ele para a posição um.
+
+CENA 20 | TELA PRETA
+VOZ: Matar alguém. Duas palavras, a pena mais alta do Código Penal. Mas antes do artigo vem o fato. E o fato, neste caso, ainda está pela metade. No próximo episódio: quando um soco vira lesão grave. Artigo 129.
+
+CENA 21 | O VEREDITO — CARDS NARRADOS
+> Tela preta. Os cards do Veredito surgem um a um, com o texto em laranja e branco, enquanto a narradora lê.
+VOZ: Artigo 121 do Código Penal: matar alguém. É o crime de homicídio. Na forma simples, a pena é de seis a vinte anos de reclusão.
+VOZ: O parágrafo segundo traz as qualificadoras. Entre elas, o motivo torpe, como matar por herança, e o uso de veneno, que é meio insidioso porque a vítima não percebe. Basta uma qualificadora para a pena subir para doze a trinta anos. O homicídio qualificado é crime hediondo.
+VOZ: Se o crime foi cometido por relevante valor moral ou social, ou sob violenta emoção logo depois de injusta provocação da vítima, é o homicídio privilegiado: a pena diminui de um sexto a um terço. Se não houve intenção, é homicídio culposo: detenção de um a três anos.
+VOZ: Todo crime doloso contra a vida é julgado pelo Tribunal do Júri, formado por sete jurados. E a prisão preventiva, decretada antes do julgamento, não é pena: é uma medida de cautela que só se mantém enquanto o motivo existir.
+VOZ: Não confunda: o latrocínio, que é matar para roubar, é crime contra o patrimônio. E o feminicídio, desde 2024, é crime autônomo, no artigo 121-A.
+

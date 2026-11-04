@@ -1,0 +1,10 @@
+{
+  "121": { "n": 1, "crime": "Homicídio Qualificado", "title": "O Café da Herança", "slug": "o-cafe-da-heranca" },
+  "129": { "n": 2, "crime": "Lesão Corporal", "title": "Fechada no Cruzamento", "slug": "fechada-no-cruzamento" },
+  "147": { "n": 3, "crime": "Ameaça", "title": "Mensagem das 3 da Manhã", "slug": "mensagem-das-3-da-manha" },
+  "135": { "n": 4, "crime": "Omissão de Socorro", "title": "Ninguém Parou", "slug": "ninguem-parou" },
+  "138": { "n": 5, "crime": "Calúnia", "title": "O Áudio do Grupo", "slug": "o-audio-do-grupo" },
+  "140": { "n": 6, "crime": "Injúria", "title": "Mesa 12", "slug": "mesa-12" },
+  "148": { "n": 7, "crime": "Sequestro e Cárcere Privado", "title": "O Quarto dos Fundos", "slug": "o-quarto-dos-fundos" },
+  "150": { "n": 8, "crime": "Violação de Domicílio", "title": "A Chave Reserva", "slug": "a-chave-reserva" }
+}

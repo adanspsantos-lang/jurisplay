@@ -1,0 +1,617 @@
+# T1:E8 · Art. 150 · Violação de Domicílio
+## A Chave Reserva
+
+**Duração estimada:** 21 min  
+**Temporada 1:** Dos Crimes contra a Pessoa
+
+### Sinopse
+Às 4h58, a delegada Helena espera na porta de Marisa Vilela o minuto em que a lei permite entrar. No mesmo dia, uma inquilina descobre pela câmera que o dono do apartamento entra na casa dela quando ela não está. O final da temporada responde quem envenenou Seu Jairo e mostra que nem a polícia, nem o dono do imóvel, entram onde querem.
+
+### A virada jurídica
+A casa é asilo inviolável. Entrar ou ficar na casa de alguém contra a vontade de quem mora ali é crime, mesmo que quem entra seja o dono do imóvel alugado. "Casa" é qualquer lugar onde a pessoa mora, inclusive alugado. A lei só permite entrar sem consentimento em flagrante, para socorro ou, durante o dia, com ordem judicial. Para a busca policial, "dia" é das 5h às 21h. O proprietário só pode vistoriar o imóvel com dia e hora combinados com o inquilino.
+
+### Personagens do episódio
+
+Personagens fixos (Helena, Caíque, Iara, Otávio, Marta, Lúcia, Voz do Código) e do arco da temporada: ver `BIBLIA.md`.
+
+#### Patrícia Lemos
+- **Papel:** Vítima, ilustradora, 33 anos
+- **Aparência:** Mulher branca de cabelo preto curtinho estilo pixie, piercing no nariz, tatuagem de ramo de oliveira no pulso
+- **Figurino:** Macacão jeans manchado de tinta, camiseta listrada, óculos redondos de leitura
+- **Personalidade:** Independente, metódica, sensível à própria privacidade
+- **Voz:** Feminina média, irônica, acelera quando fica nervosa
+- **Prompt de imagem (EN):** `photorealistic 33-year-old white Brazilian illustrator, short black pixie cut, nose piercing, olive-branch wrist tattoo, paint-stained denim overalls over striped tee, small apartment studio full of drawings, unsettled expression looking at a phone camera app`
+
+#### Seu Armando Quintela
+- **Papel:** Proprietário do apartamento, 67 anos
+- **Aparência:** Homem branco de origem italiana, alto, curvado, cabelo branco ondulado, sobrancelhas grossas, olhos marejados
+- **Figurino:** Suéter de lã bege sobre camisa social, calça de veludo, sapato de couro gasto, um molho enorme de chaves
+- **Personalidade:** Solitário, viúvo há um ano, educado e antiquado
+- **Voz:** Masculina idosa, baixa, com leve sotaque italiano de família
+- **Prompt de imagem (EN):** `photorealistic 67-year-old tall stooped white Brazilian man of Italian descent, wavy white hair, thick eyebrows, teary eyes, beige wool sweater over dress shirt, corduroy trousers, holding a huge ring of keys, sitting alone on a sofa by a window with a city view`
+
+#### Dr. Saraiva
+- **Papel:** Promotor que assume o caso Jairo, 50 anos
+- **Aparência:** Homem pardo, cabelo grisalho curto, óculos retangulares, rosto sério e cansado
+- **Figurino:** Terno escuro, gravata vinho
+- **Personalidade:** Correto, econômico nas palavras
+- **Voz:** Masculina grave, objetiva
+- **Prompt de imagem (EN):** `photorealistic 50-year-old mixed-race Brazilian male prosecutor, short gray hair, rectangular glasses, dark suit with burgundy tie, judge's chambers at night, serious tired face`
+
+#### Bia Fontes
+- **Papel:** Advogada, cliente da mesa 7 (ponte para a Temporada 2), 34 anos
+- **Aparência:** Mulher branca, cabelo castanho-claro ondulado na altura do ombro, sorriso aberto
+- **Figurino:** Blazer cinza sobre camiseta, bolsa grande, celular sempre na mão
+- **Personalidade:** Distraída, simpática
+- **Voz:** Feminina média
+- **Prompt de imagem (EN):** `photorealistic 34-year-old white Brazilian female lawyer, wavy shoulder-length light brown hair, gray blazer over t-shirt, leaving her phone on a restaurant table as she walks to the cashier, busy restaurant at night`
+
+#### Dr. Lacerda
+- **Papel:** Advogado de Marisa, 60 anos
+- **Aparência:** Homem branco, cabelo prateado penteado para trás, bronzeado, abotoaduras de ouro
+- **Figurino:** Terno italiano grafite, gravata de seda
+- **Personalidade:** Frio, caro, econômico nas palavras
+- **Voz:** Masculina grave, pausada
+- **Prompt de imagem (EN):** `photorealistic 60-year-old white Brazilian criminal defense lawyer, silver slicked-back hair, tan, gold cufflinks, charcoal Italian suit with silk tie, interrogation room, cold composed expression`
+
+#### Marisa Vilela
+- **Papel:** Culpada pela morte de Jairo
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Vinícius Mendes
+- **Papel:** Sobrinho de Jairo
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Pedro Rocha
+- **Papel:** Filho de Helena
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Dona Zuleica
+- **Papel:** Vizinha de Jairo
+- **Ficha completa:** ver `BIBLIA.md`.
+
+---
+
+## Roteiro
+
+### CENA 1 · ANTERIORMENTE
+
+*Imagens rápidas dos episódios anteriores.*
+
+> **A VOZ DO CÓDIGO:** Anteriormente, na JURISPLAY. Marisa Vilela vendeu o carro e comprou uma passagem só de ida para a fronteira, num ônibus que sai às seis da manhã de sábado. A promotora Iara se declarou suspeita e deixou o caso. A juíza Marta autorizou a busca e a prisão temporária. Mas a lei só permite entrar numa casa com mandado depois das cinco da manhã. E às quatro e cinquenta e sete, a luz da casa de Marisa se acendeu.
+
+*Corte para a cena de abertura.*
+
+### CENA 2 · EXT. RUA DAS CAMÉLIAS — DENTRO DO CARRO DA POLÍCIA — MADRUGADA
+
+*O relógio do painel: 4:57. Helena e Caíque imóveis. A luz do andar de baixo da casa amarela, número 90, está acesa.*
+
+**CAÍQUE:** Três minutos.
+
+*4:58. Um táxi vira a esquina com o pisca-alerta ligado e para em frente à casa 90.*
+
+**CAÍQUE:** Ela chamou um táxi.
+
+**HELENA:** Calma.
+
+*A porta da casa se abre. MARISA VILELA, casaco de viagem cor de vinho, o lenço de seda no pescoço, sai puxando uma mala de rodinhas. Fecha a porta com a chave. Desce os três degraus da varanda.*
+
+*4:59. Marisa abre o portão. O motorista do táxi desce para pegar a mala.*
+
+**HELENA:** Agora.
+
+*Helena e Caíque descem do carro. Atravessam a rua. Marisa vê os dois e para no meio da calçada, com a mão no puxador da mala.*
+
+**MARISA:** Delegada. A senhora acorda cedo.
+
+*Helena olha o relógio de couro do pai no próprio pulso. O ponteiro dos minutos chega ao doze.*
+
+**HELENA:** Cinco horas em ponto, Dona Marisa. A senhora está presa temporariamente pela morte de Jairo Mendes. E eu tenho um mandado de busca para a sua casa.
+
+*Marisa não se mexe. Depois, com calma, solta o puxador da mala.*
+
+**MARISA:** Posso ao menos pagar o táxi?
+
+*Caíque entrega uma nota ao motorista, que volta para o carro sem entender nada. Helena estende a mão.*
+
+**HELENA:** A chave da casa, por favor.
+
+*Marisa abre a bolsa devagar e entrega um molho de chaves. Pendurada nele, uma pequena castanhola de madeira.*
+
+*Corte seco para preto.*
+
+### CENA 3 · VINHETA
+
+*O triângulo laranja da JURISPLAY. ART. 150. "A Chave Reserva".*
+
+### CENA 4 · INT. CASA DE MARISA — SALA E COZINHA — AMANHECER
+
+*Casa cheia de fotos de bailes, troféus de dança de salão, uma vitrola. Lúcia e dois peritos de luvas azuis, fotografando tudo. Marisa sentada numa poltrona, algemada, acompanhada por uma agente. O céu clareia lá fora.*
+
+**LÚCIA:** Delegada. O molho que ela entregou tem duas chaves. Uma é desta casa. A outra...
+
+*Lúcia ergue uma chave antiga, presa à castanhola.*
+
+**LÚCIA:** ...tem o mesmo segredo das chaves da Rua dos Ipês, 214.
+
+**CAÍQUE:** A terceira chave.
+
+**HELENA:** O gancho vazio.
+
+*Marisa olha pela janela, como se nada daquilo fosse com ela.*
+
+**MARISA:** O Jairo me deu essa chave. Eu era companheira dele. Não é crime ter a chave da casa do namorado.
+
+**HELENA:** Não, senhora. Não é.
+
+### CENA 5 · INT. CASA DE MARISA — ESCRITÓRIO — MANHÃ
+
+*Um escritório pequeno com uma escrivaninha antiga. Caíque, de luvas, abre as gavetas. Na primeira, cartas de banco empilhadas, envelopes abertos com carimbos vermelhos: "COBRANÇA", "ÚLTIMO AVISO", "NEGATIVAÇÃO".*
+
+**CAÍQUE:** Doutora. Quatro bancos. Cartão de crédito, empréstimo pessoal, cheque especial. Uma financeira que cobra juros de agiota.
+
+*Helena se aproxima. Pega uma carta com cuidado, pela ponta.*
+
+**HELENA:** Data?
+
+**CAÍQUE:** A mais antiga, há um ano e meio. A mais recente, de três semanas atrás. "Ação de execução. Penhora do imóvel."
+
+**HELENA:** Ela ia perder esta casa também.
+
+*Na parede do escritório, fotos emolduradas: Marisa jovem, campeã de concursos de dança, troféus, aplausos. Numa foto mais recente, Marisa e Jairo dançam no salão do clube. Ele de terno escuro, com um lenço vermelho no bolso. Ela de vestido verde. Os dois rindo.*
+
+*Helena olha a foto por muito tempo.*
+
+**CAÍQUE:** Eles pareciam felizes.
+
+**HELENA:** Ele parecia.
+
+### CENA 6 · INT. CASA DE MARISA — QUINTAL E DEPÓSITO DE JARDINAGEM — MANHÃ
+
+*Um quintal cheio de rosas vermelhas. No fundo, um pequeno depósito de madeira. Lúcia abre armários com cuidado: adubo, pás, regadores. No fundo de uma prateleira, uma lata antiga de biscoitos.*
+
+*Lúcia abre a lata. Dentro, um saquinho plástico fechado com granulado escuro.*
+
+**LÚCIA:** (sem levantar a voz) Delegada.
+
+*Helena se aproxima. Lúcia não toca no saquinho. Fotografa.*
+
+**LÚCIA:** Vou precisar do laboratório para confirmar. Mas pela cor e pela forma é o mesmo produto que estava no açucareiro. É proibido no Brasil há anos. Ninguém tem isso para adubar rosas.
+
+*Embaixo do saquinho, no fundo da lata, um envelope. Dentro, uma carta escrita à mão. Lúcia lê em voz baixa.*
+
+**LÚCIA:** (lendo) "Minha flor. Vi a carta do banco na sua bolsa. Quatrocentos mil reais de dívida. Por que você nunca me contou? Eu não estou bravo. Mas quinta-feira precisamos conversar. Vou rever o testamento. Não por mal, mas preciso pensar com calma. Do teu Jairo."
+
+*Silêncio no depósito.*
+
+**CAÍQUE:** Ela ia perder a casa.
+
+**HELENA:** E guardou a carta junto com o veneno.
+
+**LÚCIA:** As pessoas guardam juntas as coisas de que têm medo.
+
+### CENA 7 · INT. PROMOTORIA DE JUSTIÇA — CORREDOR — MANHÃ
+
+*Iara sai do elevador com uma pasta. O promotor Saraiva vem na direção contrária, ao telefone. Ele desliga e para diante dela.*
+
+**SARAIVA:** A delegada achou. Uma lata no depósito do quintal. O mesmo produto. E uma carta do Seu Jairo.
+
+*Iara fica imóvel. Aperta a pasta contra o peito.*
+
+**IARA:** E o Vinícius?
+
+**SARAIVA:** Vou pedir a revogação da preventiva hoje. Não há mais motivo para ele continuar preso.
+
+**IARA:** Obrigada, Saraiva.
+
+**SARAIVA:** Por quê? O caso é meu agora.
+
+**IARA:** Por isso mesmo.
+
+*Saraiva segue pelo corredor. Iara entra no banheiro feminino, vazio, e se apoia na pia. Olha para o próprio reflexo. Respira fundo, os olhos marejados.*
+
+**IARA:** (para o espelho) Você errou, Iara. E agora acertaram por você.
+
+*Ela lava o rosto, ajeita os óculos e sai.*
+
+### CENA 8 · INT. 3ª DELEGACIA — RECEPÇÃO — MANHÃ
+
+*A recepção está cheia. Helena entra com Marisa algemada; jornalistas lá fora tentam fotografar. Caíque abre caminho. No balcão, uma mulher espera com um tablet nas mãos e cara de quem não dormiu: PATRÍCIA LEMOS, 33, cabelo preto curtinho, macacão jeans manchado de tinta.*
+
+**PATRÍCIA:** Com licença, eu estou esperando há duas horas. Eu preciso registrar uma coisa.
+
+**CAÍQUE:** Senhora, hoje está um pouco...
+
+**PATRÍCIA:** Alguém está entrando na minha casa quando eu não estou.
+
+*Helena para no meio da recepção.*
+
+**HELENA:** Caíque, leve a Dona Marisa para a sala dois. Eu atendo a senhora.
+
+**CAÍQUE:** Agora?
+
+**HELENA:** Hoje é um bom dia para falar de portas.
+
+### CENA 9 · INT. APARTAMENTO DE PATRÍCIA — FLASHBACK — DIA (TRÊS SEMANAS ANTES)
+
+*Letreiro: "Três semanas antes". Patrícia chega do trabalho, larga a bolsa e para no meio da sala. O sofá está virado para a janela. Ela não lembra de ter virado.*
+
+*Ela o arrasta de volta para o lugar, desconfiada. Na cozinha, uma xícara lavada no escorredor. Ela mora sozinha e não tomou café de manhã.*
+
+**PATRÍCIA:** (para si) Eu estou ficando doida.
+
+*CORTE PARA: dias depois. Patrícia abre o guarda-roupa e congela: os cabides estão empurrados para um lado, como se alguém tivesse procurado alguma coisa no fundo.*
+
+*CORTE PARA: noite. Patrícia, sentada na cama com o notebook, compra uma câmera pequena num site. Depois se levanta e passa a corrente da porta, coisa que nunca fazia.*
+
+*CORTE PARA: dias depois. Patrícia, no trabalho, no meio de uma reunião, recebe uma notificação no celular: "Movimento detectado — Sala". Ela abre o aplicativo. Na tela, a porta do apartamento dela se abrindo com uma chave.*
+
+*Ela se levanta da reunião sem dizer nada a ninguém.*
+
+### CENA 10 · INT. 3ª DELEGACIA — SALA DE HELENA — MANHÃ
+
+*Patrícia coloca o tablet na mesa. Helena se senta à frente dela.*
+
+**PATRÍCIA:** Eu moro de aluguel há dois anos num apartamento no Edifício Bellavista. Há uns três meses, comecei a achar coisas fora do lugar. A gaveta da cômoda aberta. Uma xícara na pia que eu não usei. O sofá virado para a janela.
+
+**HELENA:** E a senhora achou que estava ficando louca.
+
+**PATRÍCIA:** Exatamente. Até que eu comprei uma câmera. Pequena, de prateleira.
+
+*Ela aperta o play. No tablet: o apartamento vazio de dia. A porta se abre com chave. Entra SEU ARMANDO QUINTELA, 67, alto, curvado, suéter bege, um molho enorme de chaves na mão.*
+
+*Ele anda pelo apartamento devagar. Abre o guarda-roupa de Patrícia e fica olhando para dentro. Fecha. Vai até a cozinha, faz um café, leva a xícara até o sofá, vira o sofá para a janela, se senta e fica olhando a cidade. Quarenta minutos sem se mexer.*
+
+**PATRÍCIA:** É o proprietário. O dono do apartamento. Ele tem a chave reserva. Ele entra, faz café, senta no meu sofá. Ele abriu o meu guarda-roupa, delegada.
+
+**HELENA:** A senhora autorizou alguma vez?
+
+**PATRÍCIA:** Nunca. Ele nem avisa. Eu nem sei há quanto tempo isso acontece.
+
+**HELENA:** Ele é o dono do imóvel. Mas a casa é sua.
+
+**PATRÍCIA:** Como assim?
+
+**HELENA:** Artigo 150. "Entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia." Durante a locação, quem tem o direito de deixar alguém entrar ou de impedir é quem mora. A senhora. Ser dono não dá a ele esse direito.
+
+**PATRÍCIA:** Mesmo sendo o apartamento dele?
+
+**HELENA:** O parágrafo quarto do artigo diz o que é "casa": qualquer compartimento habitado. Alugado, emprestado, um quarto de pensão. Casa é onde a pessoa vive.
+
+### CENA 11 · INT. 3ª DELEGACIA — SALA DE INTERROGATÓRIO 2 — MANHÃ
+
+*Marisa sentada, as mãos algemadas sobre a mesa, o lenço ainda no pescoço. Helena entra e se senta. Caíque fica de pé ao lado da porta. Otávio não está ali: é o advogado particular de Marisa, DR. LACERDA, 60, terno caro, quem está ao lado dela.*
+
+**LACERDA:** Minha cliente vai exercer o direito ao silêncio.
+
+**HELENA:** É direito dela.
+
+*Helena coloca sobre a mesa, em sacos plásticos de prova, a chave com a castanhola, a fotografia da lata de biscoitos e a carta de Jairo.*
+
+**HELENA:** Eu só vou dizer o que eu sei, Dona Marisa. A senhora tinha a chave da casa. Sabia do pote azul. Sabia que só ele usava aquele açúcar. Comprou um chip com um nome de defunto para me ameaçar. Tinha quatrocentos mil de dívida. E ia perder a casa na quinta-feira.
+
+*Marisa olha para a carta. Pela primeira vez, a máscara treme.*
+
+**MARISA:** Ele dançava tão mal, delegada. Pisava no meu pé o baile inteiro.
+
+**LACERDA:** Marisa.
+
+**MARISA:** E eu ensinava ele mesmo assim. Toda quinta.
+
+*Ela não diz mais nada. Helena se levanta.*
+
+**HELENA:** O resto a senhora conta ao júri. Ou não conta. É seu direito.
+
+### CENA 12 · INT. EDIFÍCIO BELLAVISTA — APARTAMENTO 803 — TARDE
+
+*Apartamento pequeno, cheio de pranchetas de desenho e plantas. Patrícia está na porta com Helena e Caíque. A campainha toca. Patrícia abre. Seu Armando, de suéter, com o molho de chaves, para no batente ao ver a polícia.*
+
+**ARMANDO:** Patrícia, eu... vim ver o vazamento do banheiro.
+
+**PATRÍCIA:** Não tem vazamento nenhum, Seu Armando.
+
+*Armando olha para Helena, para Caíque, para o tablet na mão de Patrícia com a imagem dele no sofá. Encolhe-se dentro do suéter.*
+
+**HELENA:** Seu Armando, o senhor entrou neste apartamento sem autorização da moradora?
+
+**ARMANDO:** Eu tenho a chave. O apartamento é meu.
+
+**HELENA:** O apartamento é seu. A casa é dela. O senhor pode entrar quando ela permitir. A Lei do Inquilinato garante ao proprietário o direito de vistoriar o imóvel, mas com dia e hora combinados com quem mora. O senhor combinou?
+
+**ARMANDO:** Não.
+
+**CAÍQUE:** E por que o senhor vinha aqui, Seu Armando?
+
+*Armando olha para o sofá virado para a janela. A voz falha.*
+
+**ARMANDO:** Este apartamento era da minha esposa. A Giovanna. Ela comprou com o dinheiro das aulas de piano. Morreu no ano passado. Ela gostava de tomar café ali, olhando a cidade. Eu não aguentei vender. Aluguei. E às vezes eu... eu só vinha sentar onde ela sentava.
+
+*Patrícia fica em silêncio. A raiva no rosto dela vira outra coisa.*
+
+**PATRÍCIA:** E o guarda-roupa?
+
+**ARMANDO:** Era o guarda-roupa dela. Eu esqueci que não era mais. Desculpe. Eu juro que não mexi em nada seu.
+
+*Silêncio longo.*
+
+**PATRÍCIA:** (baixinho) O senhor podia ter pedido.
+
+**ARMANDO:** Eu tive vergonha.
+
+**HELENA:** Seu Armando, eu entendo a sua saudade. De verdade. Mas a lei não pergunta o motivo. Entrar na casa de alguém sem permissão é crime, mesmo por saudade.
+
+**PATRÍCIA:** Ele vai ser preso?
+
+**HELENA:** Violação de domicílio de dia, sem violência, sozinho: detenção de um a três meses, ou multa. Vai para o Juizado Especial. E não depende da sua vontade: é ação pública. O Ministério Público vai propor uma transação.
+
+*Patrícia olha para Armando. Depois estende a mão aberta.*
+
+**PATRÍCIA:** A chave reserva, Seu Armando.
+
+*Ele procura no molho enorme, solta uma chave e coloca na mão dela.*
+
+### CENA 13 · INT. CASA DE ARMANDO — SALA — NOITE
+
+*Casa grande e silenciosa, móveis antigos cobertos com lençóis. No canto, um piano de parede fechado, com uma fotografia em cima: Armando jovem e uma mulher de cabelo preso, sorrindo ao piano.*
+
+*Armando chega, tira o suéter, coloca o molho de chaves na mesa. Uma chave a menos. Ele olha o espaço vazio na argola.*
+
+*Senta no banquinho do piano. Abre a tampa. Toca três notas com um dedo só, desafinadas. Para.*
+
+**ARMANDO:** (para a fotografia) Ela é uma boa moça, Giovanna. Ela tem plantas na varanda, como você.
+
+*Ele fecha a tampa do piano devagar e fica sentado no escuro.*
+
+### CENA 14 · INT. FÓRUM — GABINETE DA JUÍZA MARTA — FIM DE TARDE
+
+*Marta lê um pedido. Dr. Saraiva e Otávio diante da mesa. Lá fora, o céu alaranjado.*
+
+**SARAIVA:** Excelência, diante das provas encontradas na busca, o Ministério Público requer a revogação da prisão preventiva de Vinícius Mendes. Não há mais indícios suficientes de que ele seja o autor. O Ministério Público vai apresentar nova acusação contra Marisa Vilela.
+
+**OTÁVIO:** A defesa concorda, Excelência. Evidentemente.
+
+*Marta assina sem pressa.*
+
+**MARTA:** Prisão preventiva não é pena, doutor Saraiva. Quando o motivo desaparece, ela também tem que desaparecer. E, na dúvida, a liberdade.
+
+**MARTA:** Revogo a prisão preventiva. Expeça-se o alvará de soltura de Vinícius Mendes.
+
+*Otávio fecha os olhos por um segundo.*
+
+**MARTA:** Doutor Otávio. Um bom trabalho.
+
+**OTÁVIO:** Obrigado, Excelência. Não foi só meu.
+
+### CENA 15 · INT. CADEIA PÚBLICA — CORREDOR DE TRIAGEM — NOITE
+
+*Corredor comprido de azulejo verde, grades nas pontas. O agente Bráulio conduz Vinícius, já com a roupa do dia em que foi preso e a sacola plástica na mão, em direção à saída.*
+
+*Pela outra ponta do corredor, duas agentes trazem Marisa, de uniforme bege, sem maquiagem, sem o lenço de seda. O cabelo ruivo preso de qualquer jeito.*
+
+*Os dois param, a três metros um do outro. Os agentes também param.*
+
+*Vinícius olha para ela. Nunca a viu antes. Mas entende quem é.*
+
+**VINÍCIUS:** Ele estava feliz naquela manhã. Ele cantava. Disse que pra ele era sexta-feira.
+
+*Marisa olha para ele. Por um instante, algo atravessa o rosto dela. Ela abre a boca, como se fosse dizer alguma coisa.*
+
+*Não diz nada. Baixa os olhos.*
+
+**BRÁULIO:** Vamos, rapaz.
+
+*As duas filas se cruzam. Vinícius segue para a saída. Marisa segue para dentro. Nenhum dos dois olha para trás.*
+
+### CENA 16 · EXT. CADEIA PÚBLICA — PORTÃO — NOITE
+
+*Portão de ferro. O AGENTE BRÁULIO abre a portinhola. Vinícius sai com uma sacola plástica com roupas. Mais magro, barba crescida. Para na calçada e respira fundo o ar da noite, como se fosse a primeira vez.*
+
+*Do outro lado da rua, encostado num carro velho, Otávio. Ao lado dele, com uma marmita nas mãos, Dona Zuleica.*
+
+**ZULEICA:** Trouxe arroz, feijão e bife. Você está um palito, menino.
+
+*Vinícius ri e chora ao mesmo tempo. Abraça Zuleica com marmita e tudo. Depois se vira para Otávio.*
+
+**VINÍCIUS:** Doutor.
+
+**OTÁVIO:** Otávio.
+
+**VINÍCIUS:** Otávio. Eu fiz o café. Eu fiz o café todo dia por seis meses. E fiquei dois meses preso porque fiz o café.
+
+**OTÁVIO:** Você ficou preso porque tudo apontava pra você. E porque às vezes a verdade demora mais que a prisão.
+
+**VINÍCIUS:** Eu quero ir ao cemitério. Eu não pude ir ao enterro dele.
+
+**OTÁVIO:** Amanhã cedo eu te levo.
+
+*Vinícius olha o céu.*
+
+**VINÍCIUS:** Ele estava tão feliz naquela manhã. Disse que pra ele era sexta-feira.
+
+### CENA 17 · EXT. CEMITÉRIO DA SAUDADE — MANHÃ
+
+*Manhã de sol, sem garoa desta vez. Vinícius, de banho tomado e barba feita, diante do túmulo de Jairo. Otávio, alguns passos atrás. Dona Zuleica arruma flores no vaso.*
+
+*Sobre a lápide, ainda seca e murcha, a rosa vermelha do enterro. Vinícius a pega e a deixa de lado.*
+
+*Ele tira do bolso um pequeno alto-falante e o celular. Escolhe uma música. O bolero do primeiro episódio começa a tocar baixinho entre os túmulos.*
+
+**VINÍCIUS:** Eu achava isso música de velho, tio.
+
+*Ele ri, os olhos molhados.*
+
+**VINÍCIUS:** Ainda acho. Mas eu aprendi a tocar no violão lá dentro. O Seu Toninho pedia todo dia.
+
+*Dona Zuleica enxuga os olhos com a ponta do lenço.*
+
+**VINÍCIUS:** O senhor podia ter me contado da Marisa. Eu ia rir do senhor. Ia encher o saco. Mas eu ia ficar feliz.
+
+*Ele coloca a mão sobre a lápide.*
+
+**VINÍCIUS:** Eu vou abrir outro bar, tio. Pequeno. Com música ao vivo. Vai ter bolero às quintas.
+
+*Otávio se aproxima e coloca a mão no ombro dele. Os três ficam ali até a música acabar.*
+
+### CENA 18 · INT. JUIZADO ESPECIAL CRIMINAL — SALA DE AUDIÊNCIA — DIA
+
+*Marta preside. Dr. Saraiva de um lado. Seu Armando, de suéter, ao lado de um defensor de plantão. Patrícia sentada no lugar da vítima.*
+
+**SARAIVA:** Excelência, o autor não tem antecedentes. A pena máxima é de três meses. O Ministério Público propõe a transação penal: prestação de serviços à comunidade por dois meses.
+
+**MARTA:** Seu Armando, o senhor aceita?
+
+**ARMANDO:** Aceito, Excelência. E eu queria pedir desculpas à moça. Na frente de todo mundo.
+
+*Ele se vira para Patrícia.*
+
+**ARMANDO:** Eu entrei na sua casa como se ela ainda fosse da minha mulher. Não era. Era sua. Desculpe.
+
+*Patrícia assente.*
+
+**MARTA:** Homologo a transação. Seu Armando, a casa é de quem mora nela. A saudade não tem chave.
+
+*Na saída, Patrícia alcança Armando no corredor.*
+
+**PATRÍCIA:** Seu Armando. Eu continuo morando lá. E eu faço café todo domingo às quatro da tarde. Se o senhor tocar a campainha, eu abro.
+
+*Armando não consegue responder. Só segura a mão dela com as duas mãos.*
+
+### CENA 19 · INT. FÓRUM — 2ª VARA CRIMINAL — DIA
+
+*Sala de audiências. Marta lê um documento. Dr. Saraiva de um lado. Do outro, o Dr. Lacerda, advogado de Marisa.*
+
+**SARAIVA:** Excelência, o Ministério Público oferece denúncia contra Marisa Vilela por homicídio qualificado pelo emprego de veneno e por motivo torpe, artigo 121, parágrafo segundo, incisos um e três, e por coação no curso do processo, artigo 344, pela ameaça à delegada. E requer a conversão da prisão temporária em preventiva.
+
+**LACERDA:** A defesa se opõe. A minha cliente não tem antecedentes, tem residência fixa...
+
+**SARAIVA:** Tinha. Estava a caminho da fronteira com uma passagem só de ida.
+
+**MARTA:** Recebo a denúncia. Decreto a prisão preventiva para garantir a aplicação da lei penal.
+
+*Marta tira os óculos e se dirige à sala.*
+
+**MARTA:** Para quem nos assiste: a partir de agora, o processo segue o rito do Tribunal do Júri. Primeiro, a instrução. Depois, eu decido se há provas suficientes para levar a acusada a julgamento: é a pronúncia. Se houver, sete jurados vão decidir se ela é culpada. Até lá, ela é presumida inocente.
+
+**LACERDA:** Obrigado, Excelência.
+
+**MARTA:** Não me agradeça, doutor. É a Constituição.
+
+### CENA 20 · INT. INSTITUTO DE CRIMINALÍSTICA — LABORATÓRIO — NOITE
+
+*Lúcia tira as luvas e assina o laudo final. Caíque entra com dois copos de café.*
+
+**CAÍQUE:** O granulado da lata é o mesmo do açucareiro?
+
+**LÚCIA:** Mesma composição. Mesmo lote, provavelmente. E as digitais na lata são da Marisa.
+
+**CAÍQUE:** Então acabou.
+
+**LÚCIA:** O meu trabalho acabou. O do júri começa.
+
+*Caíque estende um dos copos.*
+
+**CAÍQUE:** Sem açúcar.
+
+**LÚCIA:** Eu sei. Você perguntou para a minha equipe.
+
+**CAÍQUE:** Na verdade, desta vez eu perguntei para você. Quer tomar um café de verdade comigo? Num lugar sem cadáver?
+
+*Lúcia olha para ele por um longo momento. Pega o copo.*
+
+**LÚCIA:** Sábado. E você paga.
+
+**CAÍQUE:** Eu pago.
+
+**LÚCIA:** E tira o boné.
+
+*Caíque tira o boné na hora. Lúcia, finalmente, sorri de verdade.*
+
+### CENA 21 · INT. APARTAMENTO DE HELENA — COZINHA — NOITE
+
+*Pedro mexe uma panela. Helena chega, larga a bolsa, tira o relógio de couro do pai e o coloca na mesa com cuidado.*
+
+**PEDRO:** Macarrão de engenheiro. Desta vez sem queimar o alho.
+
+**HELENA:** Milagre.
+
+**PEDRO:** Acabou?
+
+**HELENA:** A minha parte acabou. Agora é com o júri.
+
+**PEDRO:** Foi ela?
+
+*Helena pensa antes de responder.*
+
+**HELENA:** As provas dizem que sim. Quem decide se foi é o júri.
+
+**PEDRO:** Fato primeiro.
+
+**HELENA:** Artigo depois.
+
+*Pedro serve dois pratos. Helena olha o relógio do pai sobre a mesa.*
+
+**HELENA:** O seu avô dizia que o mais difícil nessa profissão não é achar o culpado. É não se apaixonar pelo primeiro suspeito.
+
+**PEDRO:** E você quase se apaixonou?
+
+**HELENA:** Todo mundo quase se apaixonou. O caso estava pronto. Era só assinar.
+
+**PEDRO:** E por que você não assinou?
+
+**HELENA:** Por causa de um pote de açúcar.
+
+### CENA 22 · INT. RESTAURANTE SABOR DA PRAÇA — NOITE (SEXTA-FEIRA)
+
+*Sexta-feira, casa cheia. Seu Alcides de avental circula entre as mesas. Na mesa 8, Iara, de vestido azul-marinho, sem os óculos, e Otávio, de camisa sem gravata pela primeira vez. Um vinho entre os dois.*
+
+**IARA:** Você está sem gravata.
+
+**OTÁVIO:** Você está sem coque.
+
+**IARA:** Hoje eu não sou promotora.
+
+**OTÁVIO:** E eu não sou defensor.
+
+**IARA:** Então quem a gente é?
+
+**OTÁVIO:** Dois alunos de Direito que perderam um voo há quinze anos.
+
+*Iara ri. O garçom traz dois cafés. Otávio empurra o dela com dois dedos.*
+
+**OTÁVIO:** Sem açúcar.
+
+**IARA:** Hoje... hoje eu quero com açúcar.
+
+*Otávio para, surpreso. Iara pega o açucareiro e coloca uma colher no café. Prova. Faz careta. Os dois riem.*
+
+*Na mesa 7, ao lado, BIA FONTES, 34, advogada, blazer cinza, levanta-se, deixa o celular sobre a mesa e vai até o caixa pagar a conta.*
+
+*Um rapaz de boné passa pelo corredor entre as mesas, apoia a mão na mesa 7 como quem se equilibra e segue até a porta. Quinze segundos.*
+
+*Iara, por instinto, vira a cabeça na direção da porta. Franze a testa.*
+
+**OTÁVIO:** Ei. Hoje você não é promotora.
+
+**IARA:** Eu sei.
+
+*Ela volta a olhar para Otávio. Atrás deles, Bia volta do caixa e olha para a mesa 7 vazia.*
+
+**BIA:** Seu Alcides... meu celular estava aqui.
+
+### CENA 23 · TELA PRETA
+
+> **A VOZ DO CÓDIGO:** A casa é de quem mora nela. Nem o dono, nem a polícia entram como querem. E a verdade também tem hora para entrar: às vezes ela espera até as cinco da manhã. Fim da Temporada 1. Na próxima temporada: um celular, uma mesa, oito artigos. Dos crimes contra o patrimônio.
+
+### CENA 24 · O VEREDITO — CARDS NARRADOS
+
+*Tela preta. Os cards do Veredito surgem um a um.*
+
+> **A VOZ DO CÓDIGO:** Artigo 150 do Código Penal: entrar ou permanecer, clandestina ou astuciosamente, ou contra a vontade expressa ou tácita de quem de direito, em casa alheia ou em suas dependências. É a violação de domicílio. A pena é de detenção de um a três meses, ou multa.
+
+> **A VOZ DO CÓDIGO:** A pena sobe para seis meses a dois anos se o crime é cometido à noite, em lugar ermo, com violência ou arma, ou por duas ou mais pessoas.
+
+> **A VOZ DO CÓDIGO:** Casa é qualquer compartimento habitado, o aposento ocupado de uma habitação coletiva e o lugar fechado ao público onde alguém exerce profissão. Durante o aluguel, a casa é do inquilino, e o proprietário só pode vistoriar o imóvel com dia e hora combinados.
+
+> **A VOZ DO CÓDIGO:** Não é crime entrar, durante o dia, seguindo as formalidades legais, para prender alguém ou cumprir outra diligência. Nem entrar a qualquer hora quando um crime está acontecendo ali dentro. Pela Constituição, a casa é asilo inviolável, salvo em flagrante, desastre, para prestar socorro ou, durante o dia, por ordem judicial.
+
+> **A VOZ DO CÓDIGO:** E a Lei de Abuso de Autoridade define o que é dia para cumprir um mandado de busca: entre as cinco da manhã e as nove da noite. Fora desse horário, quem entra comete crime.

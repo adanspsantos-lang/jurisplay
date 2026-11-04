@@ -7,7 +7,7 @@ window.JP_DATA = (function () {
 
   const seasons = [
     { n: 1, name: 'Dos Crimes contra a Pessoa', range: 'Art. 121 ao 154', img: IMG + 'temporadas/t1.jpg', status: 'disponivel',
-      desc: 'Vida, integridade física, honra e liberdade. Do homicídio à violação de domicílio, os crimes que atingem diretamente a pessoa.' },
+      desc: 'Seu Jairo morre depois do café da manhã e o sobrinho é preso. Mas o veneno estava no açúcar. Em oito episódios, do homicídio à violação de domicílio, a delegada Helena descobre quem envenenou Seu Jairo.' },
     { n: 2, name: 'Dos Crimes contra o Patrimônio', range: 'Art. 155 ao 183', img: IMG + 'temporadas/t2.jpg', status: 'disponivel',
       desc: 'Um celular furtado numa sexta-feira atravessa a temporada inteira: furto, roubo, extorsão, estelionato e receptação, até voltar para a dona. Atualizada pela Lei 15.397/2026.' },
     { n: 3, name: 'Dos Crimes contra a Administração Pública', range: 'Art. 312 ao 359', img: IMG + 'temporadas/t3.jpg', status: 'disponivel',
@@ -25,6 +25,7 @@ window.JP_DATA = (function () {
     { i: 'IB', n: 'Promotora Iara Bastos', r: 'Ministério Público', d: 'Acusa e lê a lei em voz alta. É por ela que o público fica sabendo o que mudou em cada artigo.' },
     { i: 'OL', n: 'Defensor Otávio Lins', r: 'Defensoria Pública', d: 'Defende os réus com teses reais. Mostra que a defesa é parte da justiça.' },
     { i: 'MS', n: 'Juíza Marta Siqueira', r: 'Vara Criminal', d: 'Decide e explica o porquê em uma frase. Suas falas são o resumo que o espectador leva para a prova.' },
+    { i: 'LP', n: 'Dra. Lúcia Paz', r: 'Perita criminal', d: '34 anos. Técnica, direta e de humor ácido. Finge não perceber o interesse do Caíque.' },
     { i: 'VC', n: 'A Voz do Código', r: 'Narradora', d: 'Fecha cada episódio com tela preta e uma frase. Liga um caso ao outro.' }
   ];
 
@@ -40,8 +41,8 @@ window.JP_DATA = (function () {
         keys: ['Conduta de matar alguém', 'Dolo: vontade de matar ou aceitação do risco', 'Qualificadoras ligadas ao motivo, ao meio, ao modo ou ao fim'],
         not: 'Latrocínio (art. 157, §3º, II): a morte acontece para roubar e é crime contra o patrimônio. Feminicídio: desde 2024 é crime autônomo, no art. 121-A.',
         changed: 'Homicídio qualificado é crime hediondo (Lei 8.072/1990). Com a Lei 14.994/2024, o feminicídio saiu do art. 121 e virou o art. 121-A, com pena de 20 a 40 anos.' },
-      quiz: { q: 'Vinícius envenenou o tio para ficar com a herança. Como o crime é classificado?', o: ['Homicídio simples, porque não houve violência física', 'Homicídio qualificado pelo veneno e pelo motivo torpe', 'Latrocínio, porque havia interesse em dinheiro'], c: 1,
-        e: 'Veneno é meio insidioso (§2º, III) e matar por herança é motivo torpe (§2º, I). Não é latrocínio, porque não houve roubo. É crime hediondo.' } }),
+      quiz: { q: 'Quem envenena uma pessoa para ficar com a herança dela comete qual crime?', o: ['Homicídio simples, porque não houve violência física', 'Homicídio qualificado pelo veneno e pelo motivo torpe', 'Latrocínio, porque havia interesse em dinheiro'], c: 1,
+        e: 'Veneno é meio insidioso (§2º, III) e matar por herança é motivo torpe (§2º, I). Não é latrocínio, porque não houve roubo. É crime hediondo e vai a júri.' } }),
 
     E({ id: '129', s: 1, n: 2, crime: 'Lesão Corporal', title: 'Fechada no Cruzamento', tag: 'Tipos, agravantes e penalidades.', dur: 17, rate: '14',
       logline: 'Uma fechada no trânsito vira briga. Um soco deixa o motoboy Edson 45 dias sem trabalhar. O tamanho do estrago muda o artigo.',
@@ -398,8 +399,8 @@ window.JP_DATA = (function () {
       desc: 'Um celular furtado numa sexta-feira atravessa a temporada inteira: furto, roubo, extorsão, estelionato e receptação, até voltar para a dona.' },
     { kicker: 'Atualizado', t1: 'Lei', t2: '15.397/2026', sub: 'Novas penas', side: 'Direito<br>em dia', img: IMG + 'hero/justica.jpg', play: '155', info: '#/catalogo/atualizados',
       desc: 'Furto de celular com pena de 4 a 10 anos, roubo com mínimo de 6 anos e estelionato sem representação da vítima. Os episódios já seguem a lei nova.' },
-    { kicker: 'Interativo', t1: 'Você é', t2: 'o juiz', sub: 'Teste seu conhecimento', side: 'Aprenda<br>decidindo', img: IMG + 'hero/balanca.jpg', play: '157', info: '#/ep/157/quiz',
-      desc: 'Cada episódio termina com uma pergunta no estilo das provas de concurso. Assista, decida e confira a sentença.' }
+    { kicker: 'Temporada 1 · Crimes contra a Pessoa', t1: 'Quem envenenou', t2: 'Seu Jairo?', sub: 'Roteiros completos', side: 'Um mistério<br>em 8 artigos', img: IMG + 'hero/balanca.jpg', play: '121', info: '#/temporada/1',
+      desc: 'O sobrinho fez o café. Mas o veneno estava no açúcar. Um mistério que atravessa oito artigos do Código Penal.' }
   ];
 
   const featured = ['121', '129', '147', '155', '157', '312', '171', '289'];

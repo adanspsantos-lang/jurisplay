@@ -1,0 +1,605 @@
+# T1:E6 · Art. 140 · Injúria
+## Mesa 12
+
+**Duração estimada:** 20 min  
+**Temporada 1:** Dos Crimes contra a Pessoa
+
+### Sinopse
+Numa quinta-feira lotada, um cliente chama a garçonete Jéssica de "burra e incompetente" na frente do salão inteiro. No dia seguinte, ela descobre que ele é o professor que vai avaliar seu estágio na faculdade de Direito. Na mesma noite, a delegada Helena vai a um baile de bolero para dançar com a principal suspeita do caso Jairo.
+
+### A virada jurídica
+Injúria é ofender a dignidade de alguém sem atribuir um fato: só o xingamento. Feita diante de várias pessoas, a pena aumenta de um terço. Ao contrário da calúnia, na injúria a retratação não isenta de pena. E o juiz só pode deixar de aplicar a pena se a vítima provocou a ofensa ou respondeu na hora com outra ofensa, o que não aconteceu.
+
+### Personagens do episódio
+
+Personagens fixos (Helena, Caíque, Iara, Otávio, Marta, Lúcia, Voz do Código) e do arco da temporada: ver `BIBLIA.md`.
+
+#### Jéssica Moraes
+- **Papel:** Vítima, garçonete e estudante de Direito, 23 anos
+- **Aparência:** Mulher parda, cabelo castanho liso preso em rabo de cavalo, sardas leves, olhos grandes
+- **Figurino:** Uniforme do restaurante com avental azul-marinho; à noite, mochila da faculdade com o Código Penal cheio de post-its
+- **Personalidade:** Trabalhadora, tímida, firme quando decide
+- **Voz:** Feminina jovem, clara
+- **Prompt de imagem (EN):** `photorealistic 23-year-old mixed-race Brazilian waitress and law student, straight brown hair in ponytail, light freckles, big eyes, navy restaurant apron, holding a tray in a busy traditional restaurant, eyes filled with tears but standing tall`
+
+#### Henrique Valle
+- **Papel:** Ofensor, professor de Direito Civil, 50 anos
+- **Aparência:** Homem branco, cabelo grisalho bem cortado, barba grisalha curta, óculos de armação de tartaruga
+- **Figurino:** Blazer azul sobre camisa sem gravata, relógio clássico, caneta-tinteiro no bolso
+- **Personalidade:** Arrogante, impaciente, acha que a posição o protege
+- **Voz:** Masculina grave, professoral, cortante
+- **Prompt de imagem (EN):** `photorealistic 50-year-old white Brazilian law professor, neat gray hair and short gray beard, tortoiseshell glasses, navy blazer over open-collar shirt, fountain pen in pocket, sitting at a restaurant table with an impatient arrogant look`
+
+#### Tiago Ferreira
+- **Papel:** Cozinheiro do Sabor da Praça, 26 anos
+- **Aparência:** Homem negro, alto, cabelo em tranças nagô curtas, sorriso tímido, cicatriz de queimadura no antebraço
+- **Figurino:** Dólmã branco, touca preta, pano de prato no ombro
+- **Personalidade:** Calado, gentil, apaixonado por Jéssica
+- **Voz:** Masculina grave e baixa
+- **Prompt de imagem (EN):** `photorealistic 26-year-old tall Black Brazilian cook, short cornrows, shy smile, small burn scar on forearm, white chef jacket, black cap, towel over shoulder, restaurant kitchen pass window`
+
+#### Dra. Beatriz Lemos
+- **Papel:** Advogada de Jéssica, coordenadora do Núcleo de Prática Jurídica, 52 anos
+- **Aparência:** Mulher negra, cabelo crespo volumoso grisalho, brincos grandes de madeira
+- **Figurino:** Vestido estampado africano com blazer preto
+- **Personalidade:** Calorosa com alunos, temida por colegas
+- **Voz:** Feminina potente, sorriso na voz
+- **Prompt de imagem (EN):** `photorealistic 52-year-old Black Brazilian female law professor, voluminous gray afro, large wooden earrings, African print dress with black blazer, university corridor, confident warm expression`
+
+#### Marisa Vilela
+- **Papel:** Professora de dança, suspeita
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Seu Alcides
+- **Papel:** Dono do Sabor da Praça
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Professora Ângela Ribas
+- **Papel:** Coordenadora do curso de Direito, 60 anos
+- **Aparência:** Mulher branca, cabelo grisalho curto, óculos de armação vermelha
+- **Figurino:** Blazer cinza, broche
+- **Personalidade:** Severa e justa
+- **Voz:** Feminina firme
+- **Prompt de imagem (EN):** `photorealistic 60-year-old white Brazilian university dean, short gray hair, red-framed glasses, gray blazer with brooch, office desk`
+
+#### Dona Celeste
+- **Papel:** Aluna de dança, 80 anos
+- **Aparência:** Mulher negra, magra, lenço colorido na cabeça
+- **Figurino:** Vestido de bolinhas, sapato de dança
+- **Personalidade:** Doce e curiosa
+- **Voz:** Feminina idosa
+- **Prompt de imagem (EN):** `photorealistic 80-year-old slim Black Brazilian woman, colorful head scarf, polka-dot dress, dance shoes, mirrored dance studio`
+
+---
+
+## Roteiro
+
+### CENA 1 · ANTERIORMENTE
+
+*Imagens rápidas dos episódios anteriores.*
+
+> **A VOZ DO CÓDIGO:** Anteriormente, na JURISPLAY. No quarto de Seu Jairo, dentro de um livro, o defensor Otávio encontrou um testamento: a casa ficava para a companheira dele, Marisa Vilela. Na última página, uma anotação: "Quinta. Conversar com M. Rasgar o testamento?" Jairo morreu antes da quinta-feira. Marisa é professora de dança no Clube Atlético Aurora. E o baile é toda quinta.
+
+*Corte para a cena de abertura.*
+
+### CENA 2 · INT. RESTAURANTE SABOR DA PRAÇA — NOITE (QUINTA-FEIRA)
+
+*Casa cheia, barulho de talheres. Seu Alcides, de camisa social e gravata-borboleta em vez do avental, atende no caixa. Helena, de blazer, come sozinha ao balcão.*
+
+**ALCIDES:** Hoje não tem baile, doutora. O clube está trocando o piso do salão. Só reabre daqui a umas semanas.
+
+**HELENA:** Então, quando reabrir, o senhor me leva.
+
+**ALCIDES:** Levo. E ensino o passo básico. Dois para lá, dois para cá. O resto é coragem.
+
+*JÉSSICA, 23, garçonete, rabo de cavalo, avental azul-marinho, equilibra três pratos em direção à mesa 12, nos fundos. Ali, HENRIQUE VALLE, 50, blazer azul, óculos de tartaruga, olha o relógio.*
+
+**JÉSSICA:** O seu filé, senhor. Desculpe a demora, a cozinha está...
+
+**HENRIQUE:** Quarenta minutos. Quarenta minutos. Eu pedi mal passado. Isto está cinza.
+
+**JÉSSICA:** Eu peço para refazerem agora mesmo.
+
+**HENRIQUE:** (alto, para o salão inteiro ouvir) Você é burra? É incompetente? Por isso que está aí, carregando prato a vida inteira.
+
+*O salão fica em silêncio. Os garfos param no ar. Jéssica segura a bandeja com força. Os nós dos dedos ficam brancos. Ela não diz nada.*
+
+*Pela janela da cozinha, TIAGO, 26, o cozinheiro, para de mexer a panela.*
+
+*Ao balcão, Helena larga o garfo e vira a cabeça devagar na direção da mesa 12.*
+
+*Corte seco para preto.*
+
+### CENA 3 · VINHETA
+
+*O triângulo laranja da JURISPLAY. ART. 140. "Mesa 12".*
+
+### CENA 4 · INT. RESTAURANTE SABOR DA PRAÇA — COZINHA — NOITE
+
+*Jéssica encostada na câmara fria, chorando em silêncio. Tiago coloca na mão dela um pratinho com um pudim.*
+
+**TIAGO:** Pudim de leite. O último da noite. Eu guardei.
+
+**JÉSSICA:** Você sempre guarda o último.
+
+**TIAGO:** Sempre guardo pra você.
+
+*Ela ri entre as lágrimas. Seu Alcides entra bufando.*
+
+**ALCIDES:** Eu pus aquele homem pra fora. Disse que aqui ninguém fala assim com a minha equipe.
+
+**JÉSSICA:** Eu estudo Direito, Seu Alcides. Eu sei o nome do que ele fez. Injúria. Artigo 140.
+
+**ALCIDES:** Então faz alguma coisa, menina.
+
+**JÉSSICA:** É ação privada. Precisa de advogado. Eu mal pago o ônibus pra faculdade.
+
+*Helena aparece na porta da cozinha.*
+
+**HELENA:** Eu vi tudo. Se precisar de testemunha, eu estava no balcão.
+
+### CENA 5 · INT. FACULDADE DE DIREITO — SALA DE AULA — NOITE
+
+*Sala cheia de estudantes cansados depois do trabalho. Na lousa, escrito à mão: "CRIMES CONTRA A HONRA: CALÚNIA · DIFAMAÇÃO · INJÚRIA". Dra. Beatriz Lemos, de brincos de madeira, anda entre as carteiras. Jéssica, na terceira fileira, não tira os olhos do caderno.*
+
+**BEATRIZ:** Vamos testar. Eu digo uma frase, vocês dizem o crime. "Fulano é um ladrão."
+
+**ESTUDANTE 1:** Calúnia!
+
+**BEATRIZ:** Errado. Ladrão é um xingamento. Não tem fato. Injúria. Agora: "Fulano furtou a carteira da professora na terça-feira, no estacionamento."
+
+**ESTUDANTE 2:** Calúnia. Fato determinado e definido como crime.
+
+**BEATRIZ:** Se for falso. Muito bem. E: "Fulano chega bêbado no trabalho toda segunda-feira."
+
+**ESTUDANTE 1:** Calúnia de novo?
+
+**BEATRIZ:** Chegar bêbado no trabalho é crime?
+
+**ESTUDANTE 1:** ...Não.
+
+**BEATRIZ:** Então é difamação. Fato ofensivo à reputação, mas que não é crime. Jéssica, você está muito quieta. "Você é burra e incompetente."
+
+*A sala fica em silêncio. Jéssica levanta a cabeça devagar.*
+
+**JÉSSICA:** Injúria, professora. Ofensa à dignidade e ao decoro. Sem fato nenhum.
+
+**BEATRIZ:** E se for dita na frente de vinte pessoas?
+
+**JÉSSICA:** Aumenta de um terço. Artigo 141, inciso três.
+
+*Beatriz percebe alguma coisa no rosto dela. Para ao lado da carteira.*
+
+**BEATRIZ:** Fica depois da aula, Jéssica.
+
+### CENA 6 · INT. FACULDADE DE DIREITO DE PORTO AURORA — SALA DE ENTREVISTA — DIA
+
+*Sala com mesa comprida. Jéssica, de camisa social, nervosa, segura uma pasta com o currículo. A porta se abre. Entra o examinador do processo seletivo de estágio: Henrique Valle.*
+
+*Os dois se reconhecem. Ele para por meio segundo. Depois se senta como se nada fosse.*
+
+**HENRIQUE:** Jéssica Moraes. Estágio no escritório-modelo de Direito Civil.
+
+**JÉSSICA:** Sim, professor.
+
+**HENRIQUE:** Boa média. Trabalha à noite?
+
+**JÉSSICA:** Num restaurante. O senhor sabe qual.
+
+*Silêncio. Henrique fecha a pasta dela.*
+
+**HENRIQUE:** Eu espero que a senhorita não confunda as coisas. O que acontece num restaurante fica no restaurante. E o que acontece nesta sala depende só do seu desempenho.
+
+*Ele sorri. Não é um sorriso gentil. Jéssica entende perfeitamente a mensagem.*
+
+### CENA 7 · INT. FACULDADE DE DIREITO — NÚCLEO DE PRÁTICA JURÍDICA — DIA
+
+*Sala cheia de estudantes atendendo pessoas. DRA. BEATRIZ LEMOS, 52, cabelo crespo grisalho volumoso, ouve Jéssica de braços cruzados.*
+
+**BEATRIZ:** Ele disse isso? Na sua cara? Na entrevista?
+
+**JÉSSICA:** Não com essas palavras. Mas disse.
+
+**BEATRIZ:** Querida, o Núcleo de Prática Jurídica existe para quem não pode pagar advogado. Você pode. Quer dizer, você pode não pagar. Eu faço a queixa.
+
+**JÉSSICA:** Professora, ele é seu colega.
+
+**BEATRIZ:** Por isso mesmo. Eu sei exatamente quem ele é.
+
+*Beatriz abre o Código.*
+
+**BEATRIZ:** Injúria, artigo 140: "Injuriar alguém, ofendendo-lhe a dignidade ou o decoro." Detenção de um a seis meses, ou multa. Feita na presença de várias pessoas, aumenta de um terço, pelo artigo 141. Ação penal privada: a queixa é nossa. Prazo de seis meses.
+
+**JÉSSICA:** E a entrevista?
+
+**BEATRIZ:** Isso é com a coordenação. Um professor não pode avaliar uma aluna que vai processar ele. Conflito de interesse. Ele sai da banca hoje.
+
+### CENA 8 · INT. FACULDADE DE DIREITO — GABINETE DA COORDENAÇÃO — DIA
+
+*Sala da coordenadora do curso, PROFESSORA ÂNGELA RIBAS, 60. Henrique Valle está de pé diante da mesa, indignado.*
+
+**HENRIQUE:** Me tirar da banca de estágio? Por causa de uma garçonete?
+
+**ÂNGELA:** Por causa de uma aluna, Henrique. Que vai entrar com uma queixa-crime contra você. Você não pode avaliar alguém com quem tem um processo. É conflito de interesse. Você ensina isso no segundo período.
+
+**HENRIQUE:** Ela vai usar isso para passar no estágio!
+
+**ÂNGELA:** Ela tem a maior média da turma. Não precisa de você para nada.
+
+*Henrique abre a boca, mas não diz nada.*
+
+**ÂNGELA:** E, sinceramente, Henrique? Gritar com uma funcionária num restaurante lotado? Você foi meu aluno. Eu não te ensinei isso.
+
+*Henrique pega a pasta e sai. Bate a porta. Ângela suspira e risca o nome dele de uma lista na mesa.*
+
+### CENA 9 · EXT. FÓRUM — ESCADARIA — FIM DE TARDE
+
+*Começa a chover forte. Iara sai do fórum com a pasta sobre a cabeça. Otávio desce atrás dela.*
+
+**OTÁVIO:** Iara! O testamento, o chip, o lenço. Você tem mais do que precisa para pedir a soltura do Vinícius.
+
+**IARA:** Eu tenho uma mulher que comprou um chip e herdou uma casa. Isso não prova que ela envenenou ninguém. E também não prova que o Vinícius não envenenou.
+
+**OTÁVIO:** Ele está preso há dois meses por um crime que você já não acredita que ele cometeu.
+
+**IARA:** Não diga o que eu acredito!
+
+*Os dois param sob a marquise do fórum. A chuva cai em cortina na frente deles.*
+
+**OTÁVIO:** Você tem medo de admitir que pode ter errado.
+
+**IARA:** Eu tenho medo de errar de novo.
+
+**OTÁVIO:** De novo?
+
+**IARA:** Da última vez que eu segui o coração em vez da razão, eu fiquei esperando você no aeroporto.
+
+*Otávio fica imóvel.*
+
+**OTÁVIO:** Você foi.
+
+**IARA:** Eu fui. E você não estava lá. Você tinha trocado o voo e não me avisou.
+
+**OTÁVIO:** Eu troquei o voo porque achei que você não ia.
+
+*Silêncio. Só a chuva. Otávio se aproxima. Iara não se afasta. Ele a beija. Ela segura a gola do terno dele.*
+
+*Ela se afasta de repente, ofegante.*
+
+**IARA:** Não. Isso não pode acontecer.
+
+**OTÁVIO:** Já aconteceu.
+
+**IARA:** Não enquanto a gente estiver no mesmo processo, Otávio. Você defende o Vinícius. Eu acuso.
+
+*Ela desce a escadaria na chuva, sem a pasta sobre a cabeça. Otávio fica sob a marquise, encharcado por dentro.*
+
+### CENA 10 · INT. APARTAMENTO DE IARA — SALA — NOITE
+
+*Apartamento elegante e silencioso, estantes de livros jurídicos em ordem. Iara, ainda de roupa molhada, sentada no chão encostada no sofá, o celular na mão.*
+
+*Ela digita: "Desculpa ter saído daquele jeito." Apaga.*
+
+*Digita: "Eu também pensei em você esses quinze anos." Apaga.*
+
+*Digita: "Isso não pode acontecer de novo." Olha para a mensagem por muito tempo. Apaga também.*
+
+*Ela joga o celular no sofá e encosta a cabeça para trás, de olhos fechados. Ri sozinha, um riso que mistura raiva e alegria.*
+
+**IARA:** (para si) Quinze anos, Iara. Quinze anos e um beijo na chuva.
+
+### CENA 11 · INT. CADEIA PÚBLICA — PARLATÓRIO — DIA
+
+*Otávio e Vinícius, separados pelo vidro. Vinícius segura um violão velho, autorizado pela direção.*
+
+**VINÍCIUS:** Consegui. O diretor deixou. O Seu Toninho pede bolero todo dia agora.
+
+**OTÁVIO:** Que bom.
+
+**VINÍCIUS:** Você está estranho.
+
+**OTÁVIO:** Eu?
+
+**VINÍCIUS:** Você não anotou nada desde que sentou. Você sempre anota.
+
+*Otávio ri, pego em flagrante.*
+
+**OTÁVIO:** Eu beijei uma pessoa.
+
+**VINÍCIUS:** E isso é ruim?
+
+**OTÁVIO:** Ela é do outro lado.
+
+**VINÍCIUS:** Do outro lado de quê?
+
+**OTÁVIO:** Do processo. Do seu processo.
+
+*Vinícius arregala os olhos. Depois começa a rir, um riso de verdade, o primeiro em semanas.*
+
+**VINÍCIUS:** A promotora? A que quer me condenar a trinta anos?
+
+**OTÁVIO:** Ela não quer te condenar. Ela quer a verdade.
+
+**VINÍCIUS:** Cara, eu estou preso por um crime que eu não cometi e o meu advogado está apaixonado pela promotora. Se isso fosse música, ia ser um bolero.
+
+*Ele dedilha três acordes no violão. Otávio balança a cabeça, sorrindo.*
+
+### CENA 12 · INT. 3ª DELEGACIA — SALA DE HELENA — MANHÃ
+
+*Jéssica e Dra. Beatriz diante de Helena, que assina um termo de depoimento.*
+
+**HELENA:** Eu vou depor como testemunha. Eu estava a três metros. Ela não respondeu nada. Nenhuma palavra.
+
+**BEATRIZ:** Isso é importante. Ele vai dizer que ela provocou.
+
+**JÉSSICA:** Por que isso importa?
+
+**HELENA:** Porque o artigo 140 permite ao juiz deixar de aplicar a pena em dois casos: se a vítima provocou a ofensa de forma reprovável, ou se respondeu na hora com outra ofensa. A retorsão imediata. Se você tivesse xingado ele de volta, o juiz podia perdoar os dois.
+
+**JÉSSICA:** E eu fiquei calada porque não queria perder o emprego.
+
+**HELENA:** E esse silêncio agora é a sua melhor prova.
+
+### CENA 13 · INT. JUIZADO ESPECIAL CRIMINAL — SALA DE AUDIÊNCIA — DIA
+
+*Marta preside. Iara, como fiscal da lei, à direita. Jéssica e Dra. Beatriz de um lado. Henrique Valle, de terno impecável, sozinho do outro.*
+
+**MARTA:** O senhor vai se defender sem advogado?
+
+**HENRIQUE:** Sou advogado, Excelência. E professor há vinte anos. Posso me defender.
+
+**MARTA:** Pode. Não sei se deve.
+
+*Risadas contidas no fundo da sala, onde estão Tiago e Seu Alcides.*
+
+**HENRIQUE:** Excelência, eu me excedi. Foi uma noite ruim. Eu peço desculpas à senhorita. Eu me retrato. E, pelo artigo 143, a retratação isenta de pena.
+
+**BEATRIZ:** Excelência, o professor deveria rever as aulas. O artigo 143 diz: o querelado que se retrata da calúnia ou da difamação fica isento de pena. Calúnia ou difamação. A injúria ficou de fora.
+
+*Henrique abre a boca e fecha.*
+
+**IARA:** O Ministério Público confirma. Na injúria, a ofensa atinge a dignidade da pessoa no momento em que é dita. Não há fato para desmentir. Por isso a lei não admite retratação.
+
+**HENRIQUE:** Então eu alego provocação. A garçonete me olhou com desprezo, resmungou alguma coisa.
+
+**BEATRIZ:** Excelência, temos uma testemunha que estava a três metros.
+
+*Helena entra e se senta no banco das testemunhas.*
+
+**HELENA:** Ela não disse uma palavra, Excelência. Segurou a bandeja e ficou parada. Eu me lembro porque ela segurou com tanta força que os dedos ficaram brancos.
+
+*Marta tira os óculos.*
+
+**MARTA:** Senhor Henrique, ser cliente não dá a ninguém o direito de humilhar. Nem ser professor.
+
+**MARTA:** Julgo procedente a queixa. Condeno o querelado por injúria, com o aumento de um terço por ter sido praticada na presença de várias pessoas, a dois meses e vinte dias de detenção, pena substituída por multa.
+
+*Henrique recolhe os papéis em silêncio. Na saída, passa por Jéssica. Para.*
+
+**HENRIQUE:** A senhorita vai ser uma boa advogada.
+
+**JÉSSICA:** Eu já sei disso, professor.
+
+### CENA 14 · INT. ÔNIBUS NOTURNO — NOITE
+
+*Ônibus quase vazio, onze da noite. Jéssica, de mochila, sentada perto da janela. Tiago entra no ponto seguinte, de dólmã dobrado debaixo do braço. Vê Jéssica, hesita, e se senta no banco ao lado.*
+
+**TIAGO:** Você pega esse ônibus?
+
+**JÉSSICA:** Todo dia. Há um ano.
+
+**TIAGO:** Eu também. Há um ano.
+
+*Os dois se olham e riem. Um ano no mesmo ônibus sem nunca se sentarem juntos.*
+
+**JÉSSICA:** Você sempre senta lá atrás.
+
+**TIAGO:** E você sempre está lendo.
+
+**JÉSSICA:** Código Penal. Não é uma leitura muito romântica.
+
+**TIAGO:** Lê um pedaço para mim.
+
+**JÉSSICA:** Sério?
+
+**TIAGO:** Sério. Qualquer artigo.
+
+*Jéssica abre o Código cheio de post-its. Procura. Lê baixinho.*
+
+**JÉSSICA:** "Artigo 5º da Constituição, inciso dez: são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas."
+
+**TIAGO:** Honra. Igual o que ele fez com você.
+
+**JÉSSICA:** Igual.
+
+*O ônibus faz uma curva. O ombro dela encosta no dele. Nenhum dos dois se afasta.*
+
+### CENA 15 · INT. RESTAURANTE SABOR DA PRAÇA — COZINHA — NOITE
+
+*Fim de expediente. Jéssica tira o avental. Tiago lava as panelas. Na bancada, um pratinho com um pudim.*
+
+**JÉSSICA:** Passei no estágio. A nova banca me escolheu.
+
+**TIAGO:** Eu sabia.
+
+**JÉSSICA:** Vou sair daqui mais cedo três dias por semana.
+
+**TIAGO:** Eu guardo o pudim do mesmo jeito.
+
+*Jéssica pega o pratinho. Hesita. Coloca de volta na bancada.*
+
+**JÉSSICA:** E se em vez do pudim você me levasse para tomar um sorvete no domingo?
+
+*Tiago deixa a panela cair na pia. Barulho enorme. Seu Alcides grita lá do salão: "Quebrou alguma coisa?"*
+
+**TIAGO:** (para Jéssica) Domingo. Sim. Domingo.
+
+### CENA 16 · INT. CLUBE ATLÉTICO AURORA — SALA DE AULA DE DANÇA — TARDE (QUINTA-FEIRA, SEMANAS DEPOIS)
+
+*Sala com espelhos e barra de balé. Marisa, de vestido vermelho e sapato de dança, conduz uma aula para seis casais de idosos. Uma vitrola toca bolero.*
+
+**MARISA:** Dois para lá, dois para cá. Seu Ernesto, o senhor não está carregando um saco de cimento. Está carregando uma dama.
+
+*Os alunos riem. Uma aluna, DONA CELESTE, 80, de lenço na cabeça, se aproxima de Marisa no intervalo.*
+
+**CELESTE:** Marisa, querida. Eu soube do Jairo. Que tragédia.
+
+*Marisa fecha os olhos. Uma lágrima desce, perfeita.*
+
+**MARISA:** Ele era o meu melhor aluno, Dona Celeste. Chegou aqui sem saber dar um passo. Em três meses, dançava como um galã.
+
+**CELESTE:** Vocês estavam namorando, não estavam? A turma toda comentava.
+
+**MARISA:** A gente se fazia companhia. Na nossa idade, companhia é tudo.
+
+**CELESTE:** E dizem que foi o sobrinho.
+
+**MARISA:** Dizem. Pobre Jairo. Tão bom com todo mundo. Até com quem não merecia.
+
+*Marisa enxuga a lágrima com a ponta do lenço de seda e bate palmas.*
+
+**MARISA:** Vamos, turma! Bolero não espera ninguém.
+
+*Ela volta para o centro da sala sorrindo. A câmera fica um instante no espelho, onde o reflexo dela não sorri.*
+
+### CENA 17 · INT. APARTAMENTO DE HELENA — QUARTO — NOITE (QUINTA-FEIRA, SEMANAS DEPOIS)
+
+*Helena diante do espelho do guarda-roupa, de vestido escuro, sem blazer, desconfortável. Pedro, encostado na porta, come uma maçã.*
+
+**PEDRO:** Você vai a um baile de bolero?
+
+**HELENA:** A trabalho.
+
+**PEDRO:** De vestido?
+
+**HELENA:** Disfarce.
+
+**PEDRO:** Mãe, você parece uma delegada de vestido.
+
+**HELENA:** E como é uma delegada de vestido?
+
+**PEDRO:** Assim. Com essa cara de quem vai prender o garçom.
+
+*Helena tenta sorrir para o espelho. Não consegue. Pedro larga a maçã e estende a mão.*
+
+**PEDRO:** Vem. O vô me ensinou bolero quando eu tinha dez anos. Dois para lá, dois para cá.
+
+**HELENA:** Seu avô dançava?
+
+**PEDRO:** Com a vovó, toda sexta, na cozinha. Você nunca viu porque estava sempre trabalhando.
+
+*Helena para. Depois pega a mão do filho. Os dois dançam desajeitados no quarto apertado, Pedro contando os passos em voz alta.*
+
+**PEDRO:** Viu? Você conduz demais.
+
+**HELENA:** Todo mundo me diz isso.
+
+### CENA 18 · INT. CARRO DE CAÍQUE — EM FRENTE AO CLUBE ATLÉTICO AURORA — NOITE
+
+*Música de bolero escapa pelas janelas abertas do clube. Caíque, ao volante, entrega a Helena um pequeno fone sem fio.*
+
+**CAÍQUE:** Se precisar, fala "que calor". Eu entro em trinta segundos.
+
+**HELENA:** Eu vou dançar, Caíque, não invadir um cativeiro.
+
+**CAÍQUE:** A senhora vai dançar com uma suspeita de homicídio.
+
+**HELENA:** Que ainda não sabe que é suspeita.
+
+**CAÍQUE:** Ela comprou um chip para ameaçar a senhora. Ela sabe.
+
+*Helena olha para o clube iluminado.*
+
+**HELENA:** Então vamos ver quem conduz.
+
+*Ela desce do carro, ajeita o vestido e entra. Seu Alcides a espera na porta, de gravata-borboleta, oferecendo o braço.*
+
+### CENA 19 · INT. CLUBE ATLÉTICO AURORA — SALÃO DE BAILE — NOITE (QUINTA-FEIRA, SEMANAS DEPOIS)
+
+*Salão antigo de piso de madeira, lustres de cristal, uma banda ao vivo toca bolero. Casais de cabelos brancos dançam com elegância. Seu Alcides conduz Helena na pista.*
+
+**ALCIDES:** Dois para lá. Dois para cá. A senhora conduz demais, doutora. Aqui quem conduz sou eu.
+
+**HELENA:** Força do hábito.
+
+*No centro do salão, MARISA VILELA, 58, vestido verde-esmeralda, o lenço de seda de flores vermelhas no pescoço, ensina um casal de alunos. Ela olha na direção de Helena. Sorri. Vem até eles.*
+
+**MARISA:** Seu Alcides, me empresta a sua dama?
+
+*Alcides se afasta, sem graça. Marisa pega a mão de Helena e a conduz como uma profissional.*
+
+**MARISA:** Delegada Helena Rocha. Eu vi a senhora no enterro do Jairo.
+
+**HELENA:** E eu vi a senhora. A senhora foi embora muito rápido.
+
+**MARISA:** Eu não gosto de despedidas. Prefiro lembrar das pessoas dançando.
+
+**HELENA:** A senhora e o Seu Jairo dançavam aqui.
+
+**MARISA:** Toda quinta. Ele era tão doce. Tímido como um menino. E tinha manias. O café às seis e meia. Duas colheres de açúcar. Sempre do pote azul da falecida esposa.
+
+*Helena erra o passo.*
+
+**HELENA:** O pote azul.
+
+**MARISA:** Ele me contava tudo, delegada.
+
+**HELENA:** O pote nunca apareceu no jornal, Dona Marisa. Só quem esteve naquela cozinha sabe dele.
+
+*Marisa não perde o ritmo. Gira Helena com leveza.*
+
+**MARISA:** Eu já tomei muito café naquela cozinha. Ele me fazia café toda sexta de manhã, depois do baile. Não é crime tomar café com um homem viúvo, é?
+
+**HELENA:** Não. E herdar uma casa também não.
+
+**MARISA:** O testamento? Ele quis fazer. Eu disse que não precisava. Eu nunca pedi nada a ele.
+
+**HELENA:** Ele ia rasgar o testamento, Dona Marisa. Na quinta-feira.
+
+*Pela primeira vez, Marisa hesita. Um quarto de segundo. Depois sorri.*
+
+**MARISA:** A senhora dança bem, delegada. Mas está pisando no meu pé.
+
+*A música termina. Marisa solta a mão de Helena, faz uma pequena reverência e volta para os alunos.*
+
+### CENA 20 · EXT. CLUBE ATLÉTICO AURORA — SAÍDA — NOITE
+
+*Helena e Seu Alcides saem do baile. Helena entra no carro. Caíque está no volante.*
+
+**CAÍQUE:** E aí?
+
+**HELENA:** Ela sabia do pote azul.
+
+**CAÍQUE:** E isso é prova?
+
+**HELENA:** Isso é um fio. Ela diz que tomava café naquela cozinha. Pode ser verdade. Mas ela hesitou quando eu falei do testamento rasgado. Ela não sabia que a gente sabia.
+
+**CAÍQUE:** E agora sabe.
+
+*O carro arranca.*
+
+### CENA 21 · INT. CLUBE ATLÉTICO AURORA — VESTIÁRIO DOS PROFESSORES — NOITE
+
+*Marisa sozinha diante do espelho. Tira o lenço de seda devagar e o dobra com cuidado. Abre a bolsa e tira um molho com uma única chave.*
+
+*No chaveiro, uma pequena castanhola de madeira. Idêntica à do molho pendurado no segundo gancho da casa de Jairo.*
+
+*Marisa olha a chave por um longo tempo. Depois a guarda no fundo da bolsa e fecha o zíper.*
+
+### CENA 22 · TELA PRETA
+
+> **A VOZ DO CÓDIGO:** Na injúria não há fato para desmentir. A ofensa acontece no instante em que é dita. Por isso, pedir desculpas não apaga o crime. No próximo episódio: um idoso trancado num quarto e um amor de juventude que bate na porta. Artigo 148.
+
+### CENA 23 · O VEREDITO — CARDS NARRADOS
+
+*Tela preta. Os cards do Veredito surgem um a um.*
+
+> **A VOZ DO CÓDIGO:** Artigo 140 do Código Penal: injuriar alguém, ofendendo-lhe a dignidade ou o decoro. A pena é de detenção de um a seis meses, ou multa.
+
+> **A VOZ DO CÓDIGO:** Na injúria não se atribui fato nenhum: é a ofensa em si, o xingamento. Basta que a vítima tome conhecimento dela. Se for cometida na presença de várias pessoas, a pena aumenta de um terço.
+
+> **A VOZ DO CÓDIGO:** Se a injúria usa violência ou vias de fato que, pela natureza ou pelo meio, são aviltantes, é a injúria real, com pena de três meses a um ano e multa, além da pena da violência. Se usa elementos de religião ou da condição de pessoa idosa ou com deficiência, a pena é de reclusão de um a três anos e multa.
+
+> **A VOZ DO CÓDIGO:** O juiz pode deixar de aplicar a pena se a vítima provocou a ofensa de forma reprovável, ou se respondeu na hora com outra ofensa. Ao contrário da calúnia e da difamação, a retratação não isenta de pena na injúria.
+
+> **A VOZ DO CÓDIGO:** Não confunda: desde 2023, a injúria racial está na Lei do Racismo, com pena de reclusão de dois a cinco anos, e o processo não depende da vítima.

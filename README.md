@@ -33,6 +33,13 @@ E({ id: '155', s: 2, n: 1, crime: 'Furto', title: 'O Celular da Mesa 7', video: 
 O player já tem: play/pausa, voltar/avançar 10 s, volume, velocidade, legendas, tela cheia, lista de episódios,
 próximo episódio automático e retomada de onde o espectador parou. Atalhos: espaço, ←, →, F, M, C, N, Esc.
 
+## Roteiros
+
+- `roteiros/BIBLIA.md`: padrão da série, elenco fixo e fichas de personagens com prompts para gerar por IA.
+- `roteiros/fonte/`: texto-fonte de cada roteiro (é aqui que se edita).
+- `roteiros/temporada-1/`: roteiros formatados, prontos para leitura e produção.
+- Depois de editar uma fonte, rode `python3 roteiros/gerar.py` para atualizar a plataforma e os roteiros formatados.
+
 ## Como trocar imagens
 
 Substitua os arquivos em `assets/img/` mantendo o mesmo nome (ex.: `assets/img/episodios/155.jpg`),

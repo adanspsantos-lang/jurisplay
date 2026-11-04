@@ -1,0 +1,296 @@
+@ep 138
+@dur 24
+@logline A uma semana do casamento da filha, a síndica Neide ouve, no grupo do condomínio, um áudio que a chama de ladra: "Ela desviou oitenta mil do fundo de obras." O pior é que o dinheiro sumiu mesmo. Para se defender, o acusador vai tentar provar que disse a verdade.
+@virada Calúnia é atribuir falsamente a alguém um fato definido como crime. Na calúnia, o acusado pode tentar provar que o fato é verdadeiro: é a exceção da verdade. Só que o desvio existiu, mas não foi Neide quem o cometeu, e a acusação contra ela continua falsa. Quem repassa a acusação sabendo que é falsa também responde. E quem se retrata por completo antes da sentença fica isento de pena, devendo fazer a retratação pelo mesmo meio, se a vítima pedir.
+@p Neide Prado | Vítima, síndica, 59 anos | Mulher negra de pele média, cabelo grisalho curto e bem cortado, óculos de leitura na ponta do nariz | Blusa de botão estampada, calça de linho, chaveiro enorme do condomínio no pescoço | Organizada, orgulhosa da própria honestidade, mãe dedicada | Feminina média, firme, emociona-se quando fala da filha | photorealistic 59-year-old Black Brazilian woman, short well-cut gray hair, reading glasses on nose tip, printed button-up blouse, large condominium keychain on a lanyard, decorating a party hall with flowers, proud dignified expression
+@p Larissa Prado | Filha de Neide, noiva, 27 anos | Mulher negra, cabelo cacheado longo, sorriso grande | Vestido de noiva simples e elegante no final; jeans e camiseta no dia a dia | Alegre, protetora da mãe | Feminina jovem, doce | photorealistic 27-year-old Black Brazilian bride, long curly hair, simple elegant wedding dress, big smile, condominium party hall decorated with white flowers and string lights
+@p Osvaldo Reis | Acusador, 63 anos | Homem branco, gordo, careca no topo com cabelo branco nas laterais, bigode, óculos bifocais | Camisa de botão para dentro da calça com cinto alto, chinelo com meia | Desconfiado, perdeu a eleição de síndico, acredita sinceramente que está denunciando um crime | Masculina grave, fala devagar e com certeza | photorealistic 63-year-old heavyset white Brazilian retired bank clerk, bald on top with white sides, mustache, bifocals, shirt tucked into high-belted pants, recording a voice message on his phone, self-righteous expression
+@p Wagner Assunção | Subsíndico e tesoureiro, 45 anos | Homem pardo, magro, cabelo liso penteado de lado, sorriso educado, unhas roídas | Camisa polo com logotipo da própria construtora, crachá | Prestativo demais, nervoso quando ninguém está olhando | Masculina suave, educada | photorealistic 45-year-old slim mixed-race Brazilian man, straight side-parted hair, polite smile, bitten nails, polo shirt with construction company logo, condo administration office, nervous eyes
+@p Dona Gilda | Vizinha que repassou o áudio, 74 anos | Mulher branca, cabelo branco armado com laquê, colar de pérolas falsas | Vestido florido, bolsa no braço, celular com letra gigante | Fofoqueira de boa-fé, repassa tudo sem ler | Feminina idosa, aguda | photorealistic 74-year-old white Brazilian woman, white hair teased with hairspray, fake pearl necklace, floral dress, holding a phone with giant font, gossiping in a building elevator
+@p Dr. Jurandir Lopes | Advogado de Osvaldo, 70 anos | Homem branco, cabelo branco penteado para trás, sobrancelhas grossas | Terno marrom antigo, gravata larga | Teatral, à moda antiga | Masculina rouca, empostada | photorealistic 70-year-old white Brazilian old-school lawyer, white slicked-back hair, thick eyebrows, vintage brown suit with wide tie, theatrical gesture in a small courtroom
+@p Dona Zuleica | Vizinha de Jairo | Ver Bíblia da Série | | | |
+@p Vinícius Mendes | Réu do caso Jairo | Ver Bíblia da Série | | | |
+
+@p Dalva Reis | Esposa de Osvaldo, 60 anos | Mulher branca, cabelo grisalho em coque baixo | Avental florido | Sensata, sincera com o marido | Feminina calma | photorealistic 60-year-old white Brazilian woman, gray hair in a low bun, floral apron, drying dishes in a tidy kitchen, skeptical look
+@p Rafael | Noivo de Larissa, 29 anos | Homem negro, magro, óculos, barba curta | Camisa social clara; no casamento, terno azul | Gentil e apaziguador | Masculina suave | photorealistic 29-year-old slim Black Brazilian man, glasses, short beard, light shirt, sitting on a balcony floor with a crossed-out guest list
+CENA 1 | ANTERIORMENTE
+> Imagens rápidas dos episódios anteriores.
+VOZ: Anteriormente, na JURISPLAY. A delegada Helena descobriu que o chip usado para ameaçá-la foi comprado numa banca em frente ao Clube Atlético Aurora, onde Seu Jairo dançava bolero toda quinta. Nas imagens da câmera, uma mulher de óculos escuros e um lenço de seda estampado. O mesmo lenço da mulher do enterro. Ninguém sabe o nome dela.
+> Corte para a cena de abertura.
+
+CENA 2 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — SALÃO DE FESTAS — FIM DE TARDE
+> Salão sendo decorado. Arranjos de flores brancas, luzes de varal. NEIDE PRADO, 59, chaveiro do condomínio no pescoço, sobe numa escada para pendurar um arranjo. LARISSA, 27, filha dela, segura a escada rindo.
+LARISSA: Mãe, desce daí. Tem gente pra isso.
+NEIDE: Tem gente pra isso, e tem a mãe da noiva. Sábado que vem, este salão vai estar o mais bonito da cidade.
+> No salão há mais quatro moradores ajudando. De repente, todos os celulares vibram ao mesmo tempo. Um após o outro.
+> Larissa olha o próprio celular. Grupo "Moradores Acácias". Um áudio de OSVALDO REIS, 1min12s. Ela aperta o play sem pensar.
+OSVALDO (áudio): Boa tarde, vizinhos. Eu não posso mais ficar calado. Eu tenho prova. A dona Neide desviou oitenta mil reais do fundo de obras. É por isso que a fachada nunca fica pronta. Ela é uma ladra. E vai fazer festa de casamento com o nosso dinheiro.
+> O salão fica em silêncio. Os vizinhos olham para Neide, lá no alto da escada. Uma senhora larga o arranjo que segurava.
+> As flores escorregam das mãos de Neide e caem no chão.
+> Corte seco para preto.
+
+CENA 3 | VINHETA
+> O triângulo laranja da JURISPLAY. ART. 138. "O Áudio do Grupo".
+
+CENA 4 | INT. APARTAMENTO DE NEIDE — SALA — NOITE
+> Neide sentada no sofá, olhando o celular. O áudio já foi repassado para outros três grupos: "Amigas da Hidro", "Igreja Santa Luzia", "Feira de Sábado". Larissa ao lado.
+LARISSA: A Dona Gilda repassou para todos os grupos dela. A tia Rosa já me ligou perguntando se é verdade.
+NEIDE: Doze anos, Larissa. Doze anos de síndica, nenhuma conta rejeitada. Eu comprei a lâmpada do corredor com o meu dinheiro quando o caixa estava vazio.
+LARISSA: Mãe, ninguém que te conhece acredita nisso.
+NEIDE: Quem me conhece não precisa acreditar. Mas e os outros? Três pessoas cancelaram a presença no casamento hoje.
+> Larissa abraça a mãe. Neide não chora. Fica olhando para o vestido de noiva pendurado na porta do quarto.
+
+CENA 5 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — SALÃO DE FESTAS — NOITE (ASSEMBLEIA)
+> O mesmo salão das flores, agora com cadeiras de plástico enfileiradas. Assembleia extraordinária. Uns quarenta moradores. Neide na mesa da frente, com a pasta de prestação de contas. Ao lado dela, Wagner, o tesoureiro. Osvaldo de pé no fundo, de braços cruzados.
+MORADOR 1: Oitenta mil, Dona Neide! A senhora vai explicar ou não vai?
+NEIDE: Eu vou explicar o que eu sei. Toda a prestação de contas está aqui. Cada nota. Cada recibo. Quem quiser pode olhar.
+MORADORA 2: Papel aceita qualquer coisa!
+OSVALDO (do fundo): E o extrato do banco, aceita qualquer coisa também?
+> Burburinho. Wagner se levanta, com as mãos para cima, conciliador.
+WAGNER: Gente, gente. Calma. Eu sou o tesoureiro e garanto: a Dona Neide é a pessoa mais honesta que eu conheço. Deve ser um erro do banco. Eu vou pessoalmente ao gerente amanhã.
+> Neide olha para Wagner, agradecida. A câmera fica um segundo a mais no rosto dele: o sorriso não chega aos olhos.
+MORADOR 1: Eu proponho a destituição da síndica até a apuração!
+> Mãos se levantam. Muitas. Neide conta em silêncio. Larissa, sentada na primeira fila, aperta os punhos.
+NEIDE: Não precisam votar.
+> Ela tira o chaveiro enorme do pescoço e o coloca sobre a mesa.
+NEIDE: Eu me afasto. Até provarem que eu não roubei. Mas o casamento da minha filha vai ser neste salão, no sábado. Está reservado e pago com o meu dinheiro.
+> Ela sai do salão de cabeça erguida. Larissa vai atrás. Ninguém fala nada.
+
+CENA 6 | INT. 3ª DELEGACIA — SALA DE HELENA — MANHÃ
+> Neide, muito arrumada, com uma pasta de prestação de contas no colo. Helena ouve o áudio.
+HELENA: Dona Neide, o direito penal protege a honra de três formas. Calúnia, difamação e injúria. É importante saber a diferença.
+NEIDE: Eu só sei que ele mentiu.
+HELENA: Injúria é a ofensa à dignidade, sem contar nenhum fato. Chamar alguém de incompetente, por exemplo. Difamação é atribuir um fato que ofende a reputação, mas que não é crime. Calúnia é a mais grave: atribuir falsamente a alguém um fato definido como crime.
+NEIDE: Desviar dinheiro do condomínio é crime.
+HELENA: É. Por isso, o que ele disse é calúnia, se for falso. Artigo 138. Detenção de seis meses a dois anos e multa.
+NEIDE: E ele chamou de ladra também.
+HELENA: Isso, sozinho, seria injúria. Mas aqui veio junto com um fato: o desvio de oitenta mil do fundo de obras. É a acusação do fato que faz a calúnia.
+NEIDE: Então a senhora vai prender ele?
+HELENA: Aí é que está. Nos crimes contra a honra de uma pessoa comum, quem acusa não é o promotor. É a própria vítima. A senhora precisa de um advogado para entrar com uma queixa-crime no fórum. E tem seis meses, a partir de quando soube quem foi o autor.
+NEIDE: Advogado custa caro. O dinheiro do casamento já acabou.
+HELENA: Então a senhora vai procurar a Defensoria Pública. Eu conheço um defensor que gosta de casos difíceis.
+
+CENA 7 | INT. DEFENSORIA PÚBLICA — SALA DE OTÁVIO — DIA
+> Otávio lê a pasta de prestação de contas de Neide. Na janela, a planta que estava morrendo agora tem uma folha nova.
+OTÁVIO: Dona Neide, normalmente eu sento do lado de quem é acusado. Hoje eu vou acusar.
+NEIDE: E o senhor sabe fazer isso?
+OTÁVIO: Vou aprender com a melhor.
+> Ele sorri sozinho. Neide não entende a piada.
+OTÁVIO: Vou preparar a queixa-crime por calúnia. E vou pedir o aumento de pena: a acusação foi feita na presença de várias pessoas e espalhada em grupos de mensagem.
+NEIDE: Eu só quero que todo mundo saiba que eu não roubei.
+OTÁVIO: Então a gente vai precisar provar duas coisas. Que a senhora não roubou. E que ele disse que roubou.
+
+CENA 8 | INT. APARTAMENTO DE OSVALDO — COZINHA — NOITE
+> Cozinha arrumada demais, com um rádio de notícias ligado. DALVA, 60, esposa de Osvaldo, lava a louça. Osvaldo, sentado à mesa, revisa a planilha dos extratos com uma régua e uma caneta marca-texto.
+DALVA: Você vai passar a noite olhando isso de novo?
+OSVALDO: Oitenta mil, Dalva. Os números não mentem.
+DALVA: Os números não. Mas quem lê os números às vezes se engana.
+> Osvaldo tira os óculos.
+OSVALDO: Você acha que eu inventei?
+DALVA: Eu acho que você perdeu a eleição por três votos e nunca engoliu isso.
+OSVALDO: Isso não tem nada a ver.
+DALVA: Osvaldo, você mandou aquele áudio às onze da noite, depois de três copos de vinho, chamando a mulher de ladra. Uma mulher que levou sopa pra você quando você operou a vesícula.
+> Osvaldo fica em silêncio. Dalva enxuga as mãos e se senta à frente dele.
+DALVA: Você tem certeza de que foi ela quem fez as transferências?
+OSVALDO: Quem mais teria acesso?
+DALVA: Você me diz. Você que é o bancário.
+> Osvaldo olha a planilha de novo. Pela primeira vez, a certeza dele vacila.
+
+CENA 9 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — ESCRITÓRIO DA ADMINISTRAÇÃO — DIA
+> Sala pequena com armário de pastas. WAGNER ASSUNÇÃO, 45, subsíndico e tesoureiro, camisa polo com o logotipo de uma construtora, recebe Helena e Caíque com um sorriso.
+WAGNER: Que coisa horrível com a Dona Neide. Uma santa. Eu cuido da tesouraria há dois anos e nunca vi nada errado.
+CAÍQUE: Quem tem acesso à conta do fundo de obras?
+WAGNER: A síndica. E eu, como tesoureiro, para pagar fornecedores. O token do banco fica comigo, a Dona Neide não gosta de tecnologia.
+HELENA: E o seu Osvaldo diz que tem prova de um desvio.
+WAGNER: Seu Osvaldo perdeu a eleição. Desde então vê fantasma em tudo.
+> Helena observa as unhas de Wagner, roídas até o sabugo.
+
+CENA 10 | INT. APARTAMENTO DE NEIDE — VARANDA — NOITE
+> Larissa e o noivo, RAFAEL, 29, sentados no chão da varanda com uma lista de convidados riscada.
+RAFAEL: Mais seis cancelaram hoje.
+LARISSA: A gente podia fazer em outro lugar. Num salão alugado. Longe daqui.
+RAFAEL: Ou podia adiar.
+> Neide aparece na porta da varanda com uma bandeja de bolo.
+NEIDE: Ninguém vai adiar nada.
+LARISSA: Mãe, as pessoas estão falando.
+NEIDE: Deixa falar. Se eu mudar o casamento de lugar, é como se eu dissesse que tenho vergonha. E eu não tenho vergonha de nada.
+> Ela coloca a bandeja no chão, entre os dois, e se senta com dificuldade.
+NEIDE: O seu pai e eu casamos naquele salão, Larissa. Trinta e um anos atrás. Ele teria orgulho de te ver lá.
+> Larissa encosta a cabeça no ombro da mãe.
+RAFAEL: Então a gente imprime mais convites.
+NEIDE: Imprime. E manda um para o Seu Osvaldo também.
+LARISSA: Mãe!
+NEIDE: Quando a verdade aparecer, eu quero ele lá. Pendurando flor.
+
+CENA 11 | INT. FÓRUM — 2ª VARA CRIMINAL — DIA
+> Primeira audiência. Marta preside. Otávio ao lado de Neide. DR. JURANDIR LOPES, 70, terno marrom antigo, ao lado de Osvaldo. Iara sentada à direita da juíza.
+OTÁVIO (para Iara, baixinho): Você do outro lado da sala hoje.
+IARA (baixinho): Eu não estou do outro lado. Na ação privada, quem acusa é a vítima. O Ministério Público só fiscaliza. Eu sou a fiscal da lei, doutor.
+OTÁVIO: Então me fiscaliza.
+IARA: Com prazer.
+> Marta bate a caneta na mesa. Os dois se calam.
+MARTA: Doutor Jurandir.
+JURANDIR: Excelência, meu cliente não caluniou ninguém. Ele disse a verdade. E o Código permite provar a verdade. É a exceção da verdade, artigo 138, parágrafo terceiro.
+> Jurandir ergue uma planilha com teatralidade.
+JURANDIR: Extratos bancários da conta do fundo de obras. Oitenta mil reais transferidos em seis vezes, nos últimos oito meses, para uma conta desconhecida. O dinheiro sumiu, Excelência!
+> Murmúrio na sala. Neide fica pálida. Otávio pega a planilha e lê rápido.
+NEIDE (sussurrando): Doutor, eu não fiz isso.
+OTÁVIO (sussurrando): Eu sei. Mas alguém fez.
+MARTA: Recebo a exceção da verdade. A defesa terá a oportunidade de provar o fato. Se provar que a querelante cometeu o desvio, não há calúnia. Audiência suspensa por quinze dias.
+
+CENA 12 | INT. FÓRUM — CORREDOR DE MÁRMORE — DIA
+> Saída da audiência. Neide, abalada, é levada por Larissa até o banco do corredor. Otávio para diante da janela. Iara sai da sala e para ao lado dele, sem olhar para ele.
+IARA: Você não esperava aquela planilha.
+OTÁVIO: Não.
+IARA: Se a exceção da verdade for provada, a sua cliente sai daqui como ladra. Com sentença.
+OTÁVIO: Ela não é ladra.
+IARA: Eu sei.
+> Otávio vira a cabeça para ela.
+OTÁVIO: Você sabe?
+IARA: Eu li a prestação de contas inteira ontem à noite. Ela comprou uma lâmpada com o próprio dinheiro e anotou: "Devolver ao caixa quando houver saldo." Ladra não anota isso.
+OTÁVIO: Como fiscal da lei, você não devia estar do meu lado.
+IARA: Eu estou do lado da lei, Otávio. Hoje ela por acaso está do seu lado.
+> Ela coloca um papel dobrado na mão dele.
+IARA: Os extratos mostram para onde foi o dinheiro. Peça a quebra do sigilo da conta de destino. Qualquer estudante pensaria nisso.
+OTÁVIO: Você podia ter pedido.
+IARA: Eu não sou parte. Você é.
+> Ela vai embora pelo corredor. Otávio desdobra o papel: o número da conta de destino, circulado em caneta vermelha.
+
+CENA 13 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — ESCRITÓRIO DA ADMINISTRAÇÃO — MADRUGADA
+> Duas da manhã. Escritório escuro, só a luz do computador. Wagner, de moletom com capuz, digita depressa. Na tela, o sistema do banco: "Histórico de acessos". Ele tenta clicar em "Excluir registros". Uma mensagem: "Operação não permitida".
+> Ele abre o armário de pastas. Tira uma pasta com o nome "Fundo de Obras", arranca algumas folhas e as enfia na mochila.
+> No canto do teto, uma pequena luz vermelha pisca: a câmera de segurança do condomínio, que ele mesmo mandou instalar no ano passado.
+> Wagner olha para a câmera. Fica pálido. Puxa o capuz sobre o rosto e sai depressa.
+
+CENA 14 | INT. 3ª DELEGACIA — SALA DE INVESTIGAÇÃO — DIA
+> Caíque cruza os extratos com os registros de acesso ao banco. Helena e Otávio ao lado.
+CAÍQUE: Seis transferências. Todas feitas pelo aplicativo do banco, com o token da tesouraria.
+OTÁVIO: Token que fica com o tesoureiro.
+CAÍQUE: E olha para onde foi o dinheiro. Conta de uma empresa chamada Assunção Reformas e Pinturas.
+HELENA: Wagner Assunção.
+CAÍQUE: E tem mais. Quatro das seis transferências foram feitas em dias em que a Dona Neide estava viajando para a casa da irmã. Ela não tinha nem o token nem como fazer.
+OTÁVIO: O desvio é verdadeiro. Mas a autora não é a Neide.
+HELENA: Então a acusação contra ela continua falsa. E o Seu Wagner acabou de ganhar um episódio próprio. Apropriação indébita.
+CAÍQUE: Temporada dois.
+> Helena olha para ele, sem entender. Caíque dá de ombros.
+
+CENA 15 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — ESCRITÓRIO DA ADMINISTRAÇÃO — DIA
+> Wagner, de camisa polo, organiza pastas como se nada tivesse acontecido. Helena e Caíque entram sem bater. Caíque coloca o tablet sobre a mesa: a imagem da câmera de segurança, Wagner de capuz, duas da manhã, arrancando folhas de uma pasta.
+WAGNER: Isso... eu estava organizando o arquivo.
+HELENA: Às duas da manhã. De capuz.
+WAGNER: Eu trabalho até tarde.
+CAÍQUE: A conta que recebeu os oitenta mil é da Assunção Reformas e Pinturas. Sua empresa. E quatro transferências foram feitas quando a síndica estava viajando.
+> Wagner se senta devagar. Roe a unha do polegar.
+WAGNER: Eu ia devolver. Eu juro que ia devolver. A empresa estava quebrando. Eram só uns meses.
+HELENA: O senhor deixou uma mulher inocente ser chamada de ladra no grupo. Ficou sentado ao lado dela na assembleia, defendendo ela, enquanto sabia de tudo.
+WAGNER: Eu não mandei o Osvaldo gravar aquele áudio!
+HELENA: Não. Mas também não abriu a boca quando ele gravou.
+> Helena se levanta.
+HELENA: O senhor vai ser indiciado por apropriação indébita. E o que o senhor arrancou daquela pasta também vai virar problema.
+> Wagner olha para a mochila, no canto da sala. Caíque já a está pegando.
+CAÍQUE: Com licença.
+
+CENA 16 | INT. CADEIA PÚBLICA — PARLATÓRIO — DIA
+> Vinícius, mais magro, do outro lado do vidro. Otávio segura um formulário.
+OTÁVIO: Consegui autorização do juiz para pegar umas roupas suas na casa do seu tio. Você precisa de quê?
+VINÍCIUS: Meu casaco preto. Uns livros. E, se der, o violão. Disseram que posso ter um violão aqui se o diretor autorizar.
+OTÁVIO: Vou tentar.
+VINÍCIUS: Doutor... Otávio. A Dona Zuleica me mandou um bolo pelo meu primo. Com um bilhete. Ela disse que viu uma mulher ruiva com o meu tio no quintal uma vez.
+OTÁVIO: A delegada já está atrás dessa mulher.
+VINÍCIUS: Meu tio namorando. Setenta e quatro anos. Saindo de terno, comprando perfume.
+> Ele ri, os olhos molhados.
+VINÍCIUS: E eu brigando com ele porque achei que estavam roubando ele. E se estavam mesmo?
+OTÁVIO: Se estavam, a gente vai descobrir.
+VINÍCIUS: E se ele estava só feliz? E eu estraguei a última manhã dele com dinheiro?
+> Otávio não tem resposta. Coloca a palma da mão no vidro. Vinícius, depois de um segundo, coloca a dele do outro lado.
+
+CENA 17 | EXT. CASA DE JAIRO — PORTÃO — DIA
+> Otávio, com autorização judicial na mão, abre o portão. Dona Zuleica, regando as plantas, se aproxima pelo muro.
+ZULEICA: O senhor é da polícia?
+OTÁVIO: Defensor do Vinícius. Vim buscar umas roupas para ele, com autorização do juiz.
+ZULEICA: Coitado do menino. Eu falei da briga, mas nunca achei que ele fosse capaz.
+
+CENA 18 | INT. CASA DE JAIRO — QUARTO DE JAIRO — DIA
+> Quarto simples, cama arrumada, um terno pendurado atrás da porta. Otávio separa roupas numa sacola. Na mesa de cabeceira, um livro antigo: "Dom Casmurro", de Machado de Assis. Dele sai a ponta de um papel dobrado.
+> Otávio não toca. Tira uma foto. Pega o celular e liga.
+OTÁVIO: Delegada? Encontrei um documento. Não mexi em nada. A senhora precisa vir aqui. E chame a perita.
+
+CENA 19 | INT. CASA DE JAIRO — QUARTO DE JAIRO — FIM DE TARDE
+> Lúcia, de luvas, abre o papel sobre um plástico. Helena, Caíque, Otávio e Iara em volta. Um testamento escrito à mão, com assinatura de Jairo e de três testemunhas.
+LÚCIA (lendo): "Eu, Jairo Mendes, em pleno juízo, deixo a casa da Rua dos Ipês, número 214, com tudo o que nela houver, à minha companheira Marisa Vilela, que me devolveu a alegria de dançar."
+> Silêncio no quarto.
+IARA: A data?
+LÚCIA: Seis semanas antes da morte.
+CAÍQUE: Três semanas antes do chip.
+HELENA: Marisa Vilela.
+> Lúcia vira o livro. Na última página, a letra de Jairo, a lápis, trêmula: "Quinta. Conversar com M. Rasgar o testamento?"
+OTÁVIO: Ele ia mudar de ideia.
+HELENA: E morreu antes da quinta-feira.
+> Iara olha para Otávio. Pela primeira vez, sem ironia.
+IARA: Isso muda o caso.
+OTÁVIO: Eu sei.
+IARA: Eu vou ter que pensar se mantenho a acusação.
+OTÁVIO: Eu sei. É por isso que eu te liguei.
+> Pela janela, Dona Zuleica espia por cima do muro.
+ZULEICA: Esse livro... Ele lia esse livro no quintal pra uma moça. Ruiva. Eu vi uma vez só. Ele estava tão feliz que eu fiquei com vergonha de perguntar.
+
+CENA 20 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — HALL DOS ELEVADORES — NOITE
+> Osvaldo espera o elevador. Dona Gilda chega com o celular de letra gigante.
+GILDA: Seu Osvaldo, o senhor viu? Disseram que foi o Wagner. O senhor vai ser preso?
+OSVALDO: Ninguém vai ser preso, Dona Gilda.
+GILDA: E eu? Eu repassei o áudio pra todo mundo!
+OSVALDO: A senhora sabia que era mentira quando repassou?
+GILDA: Claro que não! Eu nem ouvi direito, eu só encaminhei.
+OSVALDO: Então a senhora pode dormir. O Código só pune quem repassa sabendo que é falso.
+> O elevador chega. Gilda entra aliviada. Osvaldo fica do lado de fora, olhando para o celular. Abre o grupo "Moradores Acácias". Segura o botão de gravar. Solta. Não grava.
+
+CENA 21 | INT. FÓRUM — 2ª VARA CRIMINAL — DIA
+> Segunda audiência. Marta, Iara, Otávio, Neide, Jurandir, Osvaldo.
+MARTA: Doutor Jurandir, a exceção da verdade.
+JURANDIR: Excelência... a perícia bancária demonstrou que as transferências foram feitas pelo tesoureiro.
+OTÁVIO: Excelência, o fato existiu. Mas quem o praticou não foi a querelante. A exceção da verdade exige provar que a pessoa acusada cometeu o crime. E a Dona Neide não cometeu. A imputação continua falsa.
+> Iara se levanta.
+IARA: Como fiscal da lei, o Ministério Público concorda. E registra um ponto que a jurisprudência ainda discute: se um grupo de mensagens conta como rede social, o que triplicaria a pena. A doutrina se divide.
+MARTA: Senhor Osvaldo, deseja dizer alguma coisa?
+> Osvaldo se levanta devagar. Tira os óculos.
+OSVALDO: Excelência, eu achei que estava denunciando um crime. Eu vi os extratos e pensei: só pode ser ela. Eu estava com raiva da eleição. Eu acusei a pessoa errada.
+JURANDIR: Excelência, meu cliente se retrata. Artigo 143: o querelado que, antes da sentença, se retrata cabalmente da calúnia fica isento de pena.
+OTÁVIO: Excelência, a calúnia foi feita por um meio de comunicação. O parágrafo único do artigo 143 diz que, se a vítima quiser, a retratação deve ser feita pelos mesmos meios.
+MARTA: Dona Neide, a senhora quer?
+NEIDE: Quero. No mesmo grupo. Com a mesma voz.
+
+CENA 22 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — SALÃO DE FESTAS — DIA
+> O salão quase pronto para o casamento. Vizinhos ajudando. Osvaldo no centro, com o celular na mão, todos olhando para ele. Neide de braços cruzados ao fundo.
+> Osvaldo aperta o botão de gravar.
+OSVALDO: Boa tarde, vizinhos. Aqui é o Osvaldo. Há três semanas eu mandei um áudio dizendo que a Dona Neide desviou dinheiro do fundo de obras. Era mentira. Ela não desviou nada. Quem desviou foi outra pessoa, e a polícia já sabe quem. Eu peço desculpas à Dona Neide, à Larissa e a todos. Eu errei.
+> Ele solta o botão. Todos os celulares do salão vibram ao mesmo tempo. Dona Gilda já está encaminhando para os outros grupos.
+> Neide descruza os braços. Vai até a escada e pega o arranjo de flores que tinha caído no primeiro dia.
+NEIDE: Seu Osvaldo, o senhor é alto. Pendura isso aqui pra mim.
+> Osvaldo pega o arranjo, envergonhado, e sobe na escada.
+
+CENA 23 | INT. CONDOMÍNIO JARDIM DAS ACÁCIAS — SALÃO DE FESTAS — NOITE (CASAMENTO)
+> Luzes acesas, música. Larissa de vestido de noiva dança com o noivo. Neide ri no centro da pista. Osvaldo serve ponche num canto. Otávio está ali, de terno, convidado pela família, depois do fim do caso.
+> Neide puxa Otávio para dançar. Ele dança mal. Ela ri.
+NEIDE: O senhor acusa melhor do que dança, doutor.
+OTÁVIO: A senhora não viu a outra pessoa acusando.
+> Otávio olha o celular. Uma mensagem de Iara: "Aquele testamento muda muita coisa. Ainda não basta para soltar o Vinícius. Mas obrigada por ter me ligado." Ele sorri e guarda o celular.
+
+CENA 24 | INT. 3ª DELEGACIA — SALA DE HELENA — NOITE
+> Helena diante do quadro de cortiça. Ela retira o post-it "Mulher do enterro. Quem?" e escreve um novo: "MARISA VILELA". Cola no centro. Liga o fio vermelho ao açucareiro, à terceira chave, ao chip.
+> Caíque entra com um papel impresso.
+CAÍQUE: Marisa Vilela. Cinquenta e oito anos. Sem antecedentes. Endereço: Rua das Camélias, 90. Profissão registrada: professora de dança de salão.
+HELENA: Onde?
+CAÍQUE: Clube Atlético Aurora. Às quintas-feiras.
+> Helena olha o calendário na parede. Amanhã é quinta-feira.
+
+CENA 25 | TELA PRETA
+VOZ: Acusar alguém de um crime que não cometeu também é crime. Mesmo que o crime tenha acontecido. Mesmo que tenha sido só um áudio. No próximo episódio: uma garçonete, uma ofensa diante de todos e um baile de quinta-feira. Artigo 140.
+
+CENA 26 | O VEREDITO — CARDS NARRADOS
+> Tela preta. Os cards do Veredito surgem um a um.
+VOZ: Artigo 138 do Código Penal: caluniar alguém, imputando-lhe falsamente fato definido como crime. A pena é de detenção de seis meses a dois anos e multa. Quem, sabendo que a acusação é falsa, a espalha ou divulga, responde pela mesma pena.
+VOZ: Na calúnia, em regra, o acusado pode provar que o fato é verdadeiro. É a exceção da verdade. Mas precisa provar que foi a vítima quem cometeu o crime. Se o crime existiu, mas foi outra pessoa, a calúnia continua.
+VOZ: A pena aumenta de um terço se o crime é cometido na presença de várias pessoas ou por meio que facilite a divulgação. E é aplicada em triplo se cometido ou divulgado nas redes sociais.
+VOZ: Se o acusado se retrata por completo antes da sentença, fica isento de pena. Se a calúnia foi feita por um meio de comunicação, a vítima pode exigir que a retratação seja feita pelo mesmo meio.
+VOZ: Não confunda: difamação é atribuir um fato ofensivo que não é crime. Injúria é ofender sem atribuir fato nenhum. E nos crimes contra a honra de uma pessoa comum, quem acusa é a vítima, por queixa-crime, em até seis meses.
+

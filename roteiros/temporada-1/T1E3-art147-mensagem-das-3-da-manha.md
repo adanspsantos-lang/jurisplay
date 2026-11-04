@@ -1,0 +1,621 @@
+# T1:E3 · Art. 147 · Ameaça
+## Mensagem das 3 da Manhã
+
+**Duração estimada:** 21 min  
+**Temporada 1:** Dos Crimes contra a Pessoa
+
+### Sinopse
+Depois que uma sociedade acaba mal, Rogério começa a receber mensagens de madrugada. Uma promete um processo. Outra diz que sabe onde o filho dele estuda. Só uma delas é crime. Na mesma semana, a delegada Helena recebe uma mensagem parecida, com o nome do próprio filho.
+
+### A virada jurídica
+Ameaça é prometer um mal injusto e grave. Prometer um processo é exercer um direito, e isso não é crime. Na ameaça comum, a pena é de 1 a 6 meses e o processo depende da representação da vítima. Mas a mesma ameaça, feita contra uma delegada para atrapalhar uma investigação, vira outro crime: coação no curso do processo, com pena de 1 a 4 anos, e o Estado age sozinho.
+
+### Personagens do episódio
+
+Personagens fixos (Helena, Caíque, Iara, Otávio, Marta, Lúcia, Voz do Código) e do arco da temporada: ver `BIBLIA.md`.
+
+#### Rogério Alves
+- **Papel:** Vítima, dono de academia, 46 anos
+- **Aparência:** Homem branco, musculoso, careca, barba ruiva cerrada, tatuagem tribal no antebraço
+- **Figurino:** Regata de academia, agasalho esportivo, boné
+- **Personalidade:** Esquentado, mas pai devotado; o medo o deixa agressivo
+- **Voz:** Masculina forte, fala alto
+- **Prompt de imagem (EN):** `photorealistic 46-year-old white Brazilian gym owner, muscular, bald, thick red beard, tribal tattoo on forearm, tank top and track jacket, phone glowing in a dark bedroom at 3 a.m., worried face`
+
+#### Fábio Rangel
+- **Papel:** Ex-sócio, 48 anos
+- **Aparência:** Homem pardo, barrigudo, cabelo crespo grisalho, bigode, olhos vermelhos de quem dorme mal
+- **Figurino:** Camisa social amassada para fora da calça, chinelo, copo de cerveja na mão
+- **Personalidade:** Ressentido e barulhento, mas incapaz de machucar alguém
+- **Voz:** Masculina rouca, emotiva
+- **Prompt de imagem (EN):** `photorealistic 48-year-old brown-skinned Brazilian man, potbelly, graying curly hair, mustache, bloodshot eyes, wrinkled untucked shirt, sitting in a neighborhood bar with a beer, resentful expression`
+
+#### Bruno Kalil
+- **Papel:** Sócio atual de Rogério, 35 anos
+- **Aparência:** Homem branco de ascendência libanesa, magro e definido, cabelo preto com topete, sorriso de vendedor, dentes muito brancos
+- **Figurino:** Roupa fitness de marca dos pés à cabeça, relógio inteligente, garrafa de água
+- **Personalidade:** Simpático, ambicioso, manipulador
+- **Voz:** Masculina suave, persuasiva
+- **Prompt de imagem (EN):** `photorealistic 35-year-old Brazilian man of Lebanese descent, lean and toned, black quiff haircut, bright salesman smile, head-to-toe designer fitness clothes, smartwatch, modern gym reception, subtly calculating expression`
+
+#### Pedro Rocha
+- **Papel:** Filho de Helena, 19 anos
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Vinícius Mendes
+- **Papel:** Réu do caso Jairo, 39 anos
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Seu Alcides
+- **Papel:** Dono do Sabor da Praça
+- **Ficha completa:** ver `BIBLIA.md`.
+
+#### Cida
+- **Papel:** Irmã de Fábio, 52 anos
+- **Aparência:** Mulher parda, cabelo crespo preso num lenço, braços fortes
+- **Figurino:** Avental de cozinha, chinelo
+- **Personalidade:** Brava e leal ao irmão
+- **Voz:** Feminina forte, sotaque da periferia
+- **Prompt de imagem (EN):** `photorealistic 52-year-old mixed-race Brazilian woman, curly hair tied in a scarf, strong arms, kitchen apron, standing by a pressure cooker in a small kitchen, arms crossed`
+
+#### Renata
+- **Papel:** Ex-mulher de Rogério, enfermeira, 42 anos
+- **Aparência:** Mulher branca, cabelo loiro escuro em rabo de cavalo, olheiras de plantão
+- **Figurino:** Jaleco de enfermeira sob um casaco
+- **Personalidade:** Firme, protetora, racional
+- **Voz:** Feminina firme
+- **Prompt de imagem (EN):** `photorealistic 42-year-old white Brazilian nurse, dark blonde ponytail, tired eyes, scrubs under a coat, standing in an apartment doorway with arms crossed`
+
+---
+
+## Roteiro
+
+### CENA 1 · ANTERIORMENTE
+
+*Imagens rápidas dos episódios anteriores.*
+
+> **A VOZ DO CÓDIGO:** Anteriormente, na JURISPLAY. O laudo mostrou que o veneno que matou Seu Jairo estava no açucareiro, não no café. O sobrinho Vinícius bebeu do mesmo bule e sobreviveu. O defensor Otávio assumiu a defesa dele, e a promotora Iara, a acusação. Os dois já foram um casal. E na casa de Jairo havia um gancho vazio: alguém tinha a terceira chave.
+
+*Corte para a cena de abertura.*
+
+### CENA 2 · INT. APARTAMENTO DE ROGÉRIO — QUARTO — MADRUGADA
+
+*Escuro total. Um celular acende na mesa de cabeceira: 3:12. ROGÉRIO, 46, careca, barba ruiva, acorda e pega o aparelho.*
+
+*Na tela, um número desconhecido: "Sei onde o Theo estuda. Escola Pequeno Príncipe. Portão azul. Seria uma pena se um dia ele não chegasse em casa."*
+
+*Rogério se levanta de uma vez. Atravessa o corredor descalço. Abre devagar a porta do quarto do filho: uma silhueta pequena dormindo sob o edredom de dinossauros, um abajur de estrelas girando.*
+
+*Ele fecha a porta. Encosta a testa nela. Volta para a sala e rola a tela do celular até uma conversa salva como "Fábio". Mensagens de dias antes:*
+
+*"Você me roubou, Rogério." "Doze anos de sociedade e você me põe na rua." "Vou te pôr na Justiça e tirar tudo de você."*
+
+**ROGÉRIO:** (para si) Você passou do limite, Fábio.
+
+*Ele digita "Eu vou acabar com você" e para, o dedo sobre o botão de enviar. Apaga. Joga o celular no sofá.*
+
+*Corte seco para preto.*
+
+### CENA 3 · VINHETA
+
+*O triângulo laranja da JURISPLAY. ART. 147. "Mensagem das 3 da Manhã".*
+
+### CENA 4 · INT. APARTAMENTO DE HELENA — SALA — MADRUGADA
+
+*Três e doze da manhã. A mesma hora da mensagem de Rogério. Helena, sem conseguir dormir, sentada no escuro da sala com o celular na mão. A mensagem anônima aberta na tela.*
+
+*Ela se levanta, vai até a porta do quarto de Pedro, abre uma fresta. Pedro dorme de boca aberta, um livro de cálculo no peito.*
+
+*Helena fecha a porta. Volta à sala. Tira o relógio de couro do pulso e o segura nas duas mãos.*
+
+**HELENA:** (baixinho, para o relógio) Você recebia dessas, pai?
+
+*Silêncio. Ela coloca o relógio de volta no pulso.*
+
+**HELENA:** Recebia. E nunca fechou um caso por medo.
+
+*Ela abre o notebook na mesa da sala e começa a escrever: "Representação. Ameaça contra a autoridade policial. Caso Jairo Mendes."*
+
+### CENA 5 · INT. 3ª DELEGACIA — SALA DE HELENA — MANHÃ
+
+*Rogério, de agasalho esportivo, coloca o celular na mesa de Helena. Caíque ao lado.*
+
+**ROGÉRIO:** Foi o Fábio, meu ex-sócio. A gente desfez a sociedade da academia mês passado. Ele acha que eu passei a perna nele. Agora está ameaçando o meu filho.
+
+**HELENA:** Posso?
+
+*Ela rola as mensagens com calma. Lê em voz alta.*
+
+**HELENA:** "Vou te pôr na Justiça e tirar tudo de você." Esta é do número salvo como Fábio.
+
+**ROGÉRIO:** Ameaça!
+
+**HELENA:** Não, senhor. Isso não é crime.
+
+**ROGÉRIO:** Como não?
+
+**HELENA:** O artigo 147 diz: "Ameaçar alguém, por palavra, escrito ou gesto, ou qualquer outro meio simbólico, de causar-lhe mal injusto e grave." Injusto, Seu Rogério. Processar alguém é um direito de qualquer pessoa. É um mal justo. Pode ser desagradável, mas não é crime.
+
+*Rogério cruza os braços. Helena rola até a outra mensagem.*
+
+**HELENA:** Agora esta, do número desconhecido. "Sei onde o Theo estuda. Seria uma pena se um dia ele não chegasse em casa." Isso é promessa de mal injusto e grave contra o senhor, por meio do seu filho. Isso é ameaça.
+
+**CAÍQUE:** E o crime existe mesmo que nada aconteça. Basta ser capaz de causar medo.
+
+**ROGÉRIO:** Então prende ele.
+
+**HELENA:** Primeiro, o senhor precisa dizer formalmente que quer o processo. Na ameaça, a lei exige a representação da vítima. O senhor tem seis meses para isso.
+
+**ROGÉRIO:** Eu assino agora.
+
+**HELENA:** E segundo: a mensagem não veio do número do Fábio.
+
+**ROGÉRIO:** Ele usou outro chip! É óbvio!
+
+**HELENA:** Óbvio é uma palavra que eu não uso antes de terminar a investigação.
+
+### CENA 6 · EXT. ESCOLA PEQUENO PRÍNCIPE — PORTÃO AZUL — MANHÃ
+
+*Sete da manhã. Fila de carros, crianças de mochila entrando. Rogério, dentro do carro estacionado do outro lado da rua, observa o portão azul. Não tira os olhos de um menino de mochila de dinossauro que entra de mãos dadas com uma professora.*
+
+*Rogério olha pelo retrovisor. Um carro prata parado atrás dele, motor ligado, vidro escuro. Ele aperta o volante.*
+
+*O carro prata fica ali um minuto. Dois. Rogério desce do carro, caminha até ele e bate no vidro com força.*
+
+**ROGÉRIO:** Abre! Abre esse vidro!
+
+*O vidro desce devagar. Uma mãe assustada, com uma criança pequena de pijama no banco de trás, segurando um copo de café.*
+
+**MÃE:** Moço, eu estou esperando dar a hora da creche da minha filha.
+
+*Rogério recua, envergonhado.*
+
+**ROGÉRIO:** Desculpa. Desculpa, senhora. Eu achei que...
+
+*A mãe fecha o vidro e vai embora. Rogério fica sozinho na calçada, as mãos tremendo.*
+
+**ROGÉRIO:** (para si) Você está ficando louco, Rogério.
+
+### CENA 7 · INT. BAR DO ZECA — TARDE
+
+*Boteco de esquina, televisão ligada no futebol. FÁBIO, 48, camisa amassada, copo de cerveja na mão. Helena e Caíque se sentam à mesa dele.*
+
+**FÁBIO:** Ele foi chorar na polícia, foi? Doze anos eu levantei aquela academia com ele. Doze anos. E ele me botou na rua com uma mão na frente e outra atrás.
+
+**HELENA:** O senhor mandou estas mensagens?
+
+*Caíque mostra a conversa do número salvo como Fábio.*
+
+**FÁBIO:** Mandei. Mandei e mando de novo. Vou processar. Meu advogado já está preparando.
+
+**HELENA:** E esta?
+
+*Caíque mostra a mensagem das 3h12. Fábio lê. O rosto muda. Ele larga o copo.*
+
+**FÁBIO:** Não. Não, não, não. Isso não fui eu.
+
+**CAÍQUE:** Todo mundo diz isso.
+
+**FÁBIO:** Eu sou padrinho do Theo! Eu levei esse menino pra tomar vacina quando o Rogério estava viajando. Eu posso odiar o pai dele, mas eu nunca ia falar de criança.
+
+*Os olhos de Fábio se enchem de água. Helena observa por um longo segundo.*
+
+**HELENA:** Onde o senhor estava às três da manhã de terça?
+
+**FÁBIO:** Dormindo no sofá da minha irmã. Ela me acordou às seis pra eu sair antes do marido dela levantar.
+
+### CENA 8 · INT. CASA DE CIDA — COZINHA — DIA
+
+*Cozinha pequena de periferia, panela de pressão chiando. CIDA, 52, irmã de Fábio, avental e chinelo, cruza os braços diante de Helena e Caíque.*
+
+**CIDA:** Dormiu aqui, sim. Naquele sofá ali. Roncando que nem um trator. Eu acordei às duas pra tomar água e ele estava lá. Às quatro, o meu cachorro latiu e ele estava lá. Às seis eu chutei ele pra fora.
+
+**CAÍQUE:** E o celular dele?
+
+**CIDA:** Carregando na tomada da cozinha. Ali. Do lado da minha panela. Eu tropecei no fio.
+
+*Helena olha a tomada ao lado do fogão.*
+
+**CIDA:** Doutora, o meu irmão é um idiota. Bebe demais, fala demais, briga com todo mundo. Mas ele chorou quando o Theo nasceu. Chorou mais que o pai.
+
+**HELENA:** A senhora ouviu falar de outra pessoa que tivesse raiva do Rogério?
+
+**CIDA:** Raiva? Não. Mas o Fábio sempre disse que o sócio novo era sorriso demais. Aquele moço da roupa de marca. Disse que quem sorri o tempo todo está vendendo alguma coisa.
+
+*Helena e Caíque se olham.*
+
+### CENA 9 · INT. ACADEMIA FORÇA TOTAL — RECEPÇÃO — FIM DE TARDE
+
+*Academia moderna, música alta, espelhos. Rogério conversa com BRUNO KALIL, 35, roupa fitness de marca, sorriso branco demais.*
+
+**BRUNO:** Mano, eu sinto muito. Que coisa horrível. E o Theo, como está?
+
+**ROGÉRIO:** Não sabe de nada. Mas eu não durmo mais.
+
+**BRUNO:** Sabe o que eu acho? Você devia tirar um tempo. Levar o Theo pra praia, pra casa da sua mãe no interior. Esse Fábio está descontrolado.
+
+**ROGÉRIO:** E a academia?
+
+**BRUNO:** Eu seguro. Na verdade... eu já te disse. Se você quiser sair, eu compro a sua parte. Te pago hoje. Você recomeça longe disso tudo.
+
+*Rogério olha para Bruno, cansado, quase convencido.*
+
+**ROGÉRIO:** Quanto?
+
+**BRUNO:** A gente conversa. Pensa no teu filho primeiro.
+
+### CENA 10 · INT. 3ª DELEGACIA — SALA DE HELENA — FIM DE TARDE
+
+*Quadro de cortiça dividido em dois: à esquerda, o caso Jairo; à direita, um novo quadro com as fotos de Rogério, Fábio e Bruno. Caíque prende um post-it embaixo de cada um.*
+
+**CAÍQUE:** Fábio: motivo, raiva da sociedade desfeita. Mas tem álibi e chorou de verdade. Ou é um ótimo ator.
+
+**HELENA:** Ele não é um ótimo ator. Ele derrubou a cerveja.
+
+**CAÍQUE:** A ex-mulher do Rogério, a Renata: brigam pela guarda. Mas ela mora em outra cidade e estava num plantão de hospital às três da manhã. Confirmado.
+
+**HELENA:** E o Bruno?
+
+**CAÍQUE:** O sócio novo. Entrou na academia há oito meses. Comprou a parte do Fábio barato quando a sociedade acabou. Agora oferece comprar a parte do Rogério.
+
+**HELENA:** Barato também?
+
+**CAÍQUE:** Barato também. Um homem que só compra na baixa.
+
+**HELENA:** E o que faz um preço baixar, Caíque?
+
+**CAÍQUE:** Medo.
+
+*Helena fica olhando a foto de Bruno, sorrindo com dentes muito brancos.*
+
+**HELENA:** Pede o registro de acesso da porta da academia. E o nome da rede de internet de lá.
+
+**CAÍQUE:** Por quê?
+
+**HELENA:** Porque ninguém manda mensagem anônima de casa. A não ser quem acha que é mais esperto que todo mundo.
+
+### CENA 11 · INT. APARTAMENTO DE HELENA — COZINHA — NOITE
+
+*Apartamento simples, cheio de livros. PEDRO, 19, moletom da universidade, mexe uma panela de macarrão. Helena chega, larga a bolsa.*
+
+**PEDRO:** Chegou na hora. Macarrão de engenheiro: medido no grama.
+
+**HELENA:** Cheiro de alho queimado.
+
+**PEDRO:** Medido no grama, não no fogo.
+
+*Ela ri, beija a cabeça dele. O celular de Helena vibra. Número desconhecido.*
+
+*Na tela: "Feche o caso Mendes, delegada. Seu filho sai da faculdade às 22h. Bloco C. Sozinho."*
+
+*Helena fica parada. O sorriso some. Pedro percebe.*
+
+**PEDRO:** Mãe? Que foi?
+
+*Helena demora a responder. Pensa em guardar o celular. Desiste. Mostra a tela para ele.*
+
+**PEDRO:** Isso é sobre aquele senhor envenenado?
+
+**HELENA:** É.
+
+**PEDRO:** Você vai fechar o caso?
+
+**HELENA:** Não.
+
+*Pedro desliga o fogo. Senta à mesa.*
+
+**PEDRO:** Então a gente faz o quê?
+
+**HELENA:** A partir de amanhã, você volta de carona com o Caíque. E não anda sozinho até eu descobrir quem mandou isso.
+
+**PEDRO:** Mãe. Você sempre me ensinou: fato primeiro.
+
+**HELENA:** Artigo depois.
+
+**PEDRO:** Então vai descobrir o fato. Eu volto de carona.
+
+*Ela segura a mão dele em cima da mesa. Não diz mais nada.*
+
+### CENA 12 · INT. CARRO DE CAÍQUE — NOITE
+
+*Dez da noite. Caíque dirige. Pedro, de mochila e fones, no banco do passageiro. Rádio baixinho.*
+
+**PEDRO:** Você não precisava vir. Eu podia pegar um aplicativo.
+
+**CAÍQUE:** Ordem da delegada. E ela me ameaçou de coisa pior do que a mensagem que recebeu.
+
+**PEDRO:** Isso é a cara dela.
+
+*Silêncio confortável. Pedro olha para Caíque de lado.*
+
+**PEDRO:** A minha mãe disse que você gosta da perita.
+
+*Caíque quase passa o sinal vermelho. Freia em cima.*
+
+**CAÍQUE:** Ela disse isso?
+
+**PEDRO:** Disse que você leva café sem açúcar para a perita todo dia e que ela finge que não percebe.
+
+**CAÍQUE:** Eu levo café para todo mundo.
+
+**PEDRO:** Você leva café pra mim?
+
+**CAÍQUE:** ...Não.
+
+**PEDRO:** Pois é.
+
+*Caíque olha pelo retrovisor. Um carro escuro vem atrás deles desde a faculdade. Ele vira à direita sem sinalizar. O carro escuro vira também.*
+
+**PEDRO:** Que foi?
+
+**CAÍQUE:** Nada. Segura aí.
+
+*Caíque entra num posto de gasolina e para. O carro escuro passa direto, devagar. Dentro, um casal de idosos discutindo, a senhora gesticulando com um mapa de papel.*
+
+*Caíque solta o ar.*
+
+**PEDRO:** Estava achando que era o assassino?
+
+**CAÍQUE:** Estava achando que era a minha mãe. Ela dirige daquele jeito.
+
+*Os dois riem. Mas Caíque continua olhando pelo retrovisor até chegar ao prédio.*
+
+### CENA 13 · INT. 3ª DELEGACIA — SALA DE HELENA — MANHÃ
+
+*Iara está de pé diante da mesa de Helena, lendo a mensagem no celular.*
+
+**HELENA:** Quero registrar uma ameaça. Eu represento contra quem for.
+
+**IARA:** Não precisa representar, delegada.
+
+**HELENA:** Ameaça exige representação.
+
+**IARA:** Ameaça comum, sim. Mas leia de novo: "Feche o caso Mendes." Quem ameaça uma autoridade para interferir numa investigação não está cometendo só uma ameaça. Está cometendo coação no curso do processo. Artigo 344.
+
+*Iara abre o Código no celular e lê.*
+
+**IARA:** "Usar de violência ou grave ameaça, com o fim de favorecer interesse próprio ou alheio, contra autoridade, parte, ou qualquer outra pessoa que funciona ou é chamada a intervir em processo judicial, policial ou administrativo." Reclusão de um a quatro anos. Ação pública incondicionada. O Ministério Público age sozinho.
+
+**HELENA:** As mesmas palavras.
+
+**IARA:** Com outra finalidade. E a finalidade muda o crime.
+
+*Iara devolve o celular.*
+
+**IARA:** Quem mandou isso tem medo do que você vai encontrar.
+
+**HELENA:** Então eu estou no caminho certo.
+
+### CENA 14 · INT. 3ª DELEGACIA — SALA DE INVESTIGAÇÃO — DIA
+
+*Caíque cercado de dois monitores e café frio. Helena entra.*
+
+**CAÍQUE:** Duas notícias. Uma boa, uma esquisita. Qual primeiro?
+
+**HELENA:** A esquisita.
+
+**CAÍQUE:** A mensagem pra senhora veio de um chip pré-pago ativado três semanas antes da morte do Seu Jairo. Cadastrado no CPF de um homem que morreu em 2019. Beco sem saída. Por enquanto.
+
+**HELENA:** Três semanas antes da morte.
+
+**CAÍQUE:** É. Quem mandou já estava se preparando.
+
+**HELENA:** E a boa?
+
+**CAÍQUE:** A mensagem pro Rogério também foi de um aplicativo com número virtual. Só que quem mandou cometeu um erro. Às três e doze da manhã, o aparelho estava conectado a uma rede de internet sem fio. Nome da rede: "ForcaTotal_Alunos".
+
+**HELENA:** A academia.
+
+**CAÍQUE:** Que fecha à meia-noite e abre às seis. E tem porta com biometria.
+
+*Caíque abre o relatório de acessos da porta.*
+
+**CAÍQUE:** Entrada às três e cinco da manhã. Digital cadastrada em nome de Bruno Kalil.
+
+**HELENA:** O sócio novo.
+
+**CAÍQUE:** Que, por coincidência, quer comprar a parte do Rogério baratinho.
+
+**HELENA:** Ele não queria só o medo do Rogério. Queria o medo do Rogério e a culpa do Fábio.
+
+### CENA 15 · INT. APARTAMENTO DE ROGÉRIO — SALA — NOITE
+
+*Rogério arruma uma mala às pressas. RENATA, 42, ex-mulher dele, de jaleco de enfermeira por baixo do casaco, está de pé na porta, de braços cruzados.*
+
+**RENATA:** Você ia levar o Theo para o interior sem me avisar?
+
+**ROGÉRIO:** Eu ia te avisar quando chegasse lá.
+
+**RENATA:** Rogério, a guarda é compartilhada. Você não pode tirar o meu filho da cidade sem falar comigo.
+
+**ROGÉRIO:** Alguém ameaçou o nosso filho, Renata!
+
+**RENATA:** E você ia fugir em vez de deixar a polícia trabalhar?
+
+*Rogério larga a mala. Senta no braço do sofá.*
+
+**ROGÉRIO:** O Bruno disse que era melhor. Que ele cuidava da academia. Que me pagava a minha parte e eu recomeçava longe.
+
+**RENATA:** O Bruno disse.
+
+**ROGÉRIO:** É.
+
+**RENATA:** E desde quando você faz o que o Bruno diz?
+
+*Rogério não responde. O celular dele vibra. Mensagem de Helena: "Não assine nada amanhã. Estou indo à academia às 10h."*
+
+*Ele mostra a tela para Renata. Os dois se olham, entendendo ao mesmo tempo.*
+
+### CENA 16 · INT. ACADEMIA FORÇA TOTAL — ESCRITÓRIO — DIA
+
+*Bruno assina papéis. Rogério está do outro lado da mesa com um contrato de venda na mão. A porta se abre. Helena, Caíque e Fábio, que fica no batente, sem coragem de entrar.*
+
+**HELENA:** Seu Rogério, antes de assinar qualquer coisa, eu queria que o senhor visse um relatório de acesso.
+
+*Caíque coloca o tablet na mesa. Rogério lê. Olha para Bruno.*
+
+**BRUNO:** Isso é um erro. Eu vim buscar um documento.
+
+**CAÍQUE:** Às três e cinco da manhã. E às três e doze o seu celular mandou uma mensagem pelo wi-fi daqui.
+
+*Rogério se levanta devagar.*
+
+**ROGÉRIO:** Você usou o meu filho.
+
+**BRUNO:** Rogério, calma, eu...
+
+**ROGÉRIO:** Você usou o meu filho pra me tirar da minha academia.
+
+*Rogério avança. Caíque se coloca entre os dois.*
+
+**HELENA:** Seu Rogério. Se o senhor encostar nele, o próximo episódio é sobre o senhor.
+
+*Rogério para. Respira. Abaixa as mãos. Do batente, Fábio dá um passo para dentro.*
+
+**FÁBIO:** Theo está bem?
+
+**ROGÉRIO:** Está.
+
+*Os dois se olham. Muita coisa não dita.*
+
+### CENA 17 · INT. JUIZADO ESPECIAL CRIMINAL — SALA DE AUDIÊNCIA — DIA
+
+*Sala menor que a do fórum. Marta preside. Iara, Bruno e o advogado dele, Rogério no lugar da vítima. Fábio sentado no fundo.*
+
+**MARTA:** Doutora Iara.
+
+**IARA:** Excelência, o crime de ameaça tem pena máxima de seis meses. É infração de menor potencial ofensivo. O autor não tem antecedentes. Por isso, a lei permite que o Ministério Público proponha uma transação penal: uma pena alternativa, aplicada agora, sem processo.
+
+**ROGÉRIO:** Só isso? Ele ameaçou o meu filho!
+
+**IARA:** Seu Rogério, o Juizado foi criado para crimes menores serem resolvidos rápido. A transação não é absolvição. O senhor Bruno vai pagar vinte salários mínimos a uma instituição de amparo à infância e prestar serviços por seis meses. E fica cinco anos sem poder receber esse benefício de novo.
+
+**MARTA:** Senhor Bruno, aceita a proposta?
+
+*Bruno olha para o advogado. Assente.*
+
+**BRUNO:** Aceito.
+
+**MARTA:** Homologo a transação.
+
+*Marta tira os óculos e olha para Rogério.*
+
+**MARTA:** Senhor Rogério, a pena é pequena porque a lei mede o ato, não o medo. Mas o ato foi reconhecido. E está registrado.
+
+*Rogério concorda, devagar. Na saída, para ao lado de Fábio.*
+
+**ROGÉRIO:** Você ainda vai me processar?
+
+**FÁBIO:** Vou. É um direito meu.
+
+**ROGÉRIO:** É mesmo.
+
+*Quase um sorriso entre os dois.*
+
+**FÁBIO:** Mas sábado tem aniversário do Theo.
+
+**ROGÉRIO:** Sete anos.
+
+**FÁBIO:** Eu sei. Eu sou o padrinho.
+
+### CENA 18 · INT. CAFÉ DO FÓRUM — FIM DE TARDE
+
+*Iara no balcão, mexendo um café sem açúcar que não precisa ser mexido. Otávio chega, mochila no ombro.*
+
+**OTÁVIO:** Soube da delegada. A mensagem sobre o filho dela.
+
+**IARA:** Coação no curso do processo. Eu mesma vou acompanhar.
+
+**OTÁVIO:** Alguém está com medo do que ela vai achar.
+
+**IARA:** Ou alguém quer que pareça que o Vinícius tem um cúmplice do lado de fora.
+
+**OTÁVIO:** Você sempre acha o ângulo que piora para o meu cliente.
+
+**IARA:** E você sempre acha o que melhora. É para isso que existem dois lados, Otávio.
+
+*Pausa. Otávio pede um café. Olha para ela.*
+
+**OTÁVIO:** Você ficou com medo? Quando soube da ameaça?
+
+**IARA:** Por ela? Fiquei.
+
+**OTÁVIO:** E por você? Você acusa o mesmo homem.
+
+*Iara para de mexer o café.*
+
+**IARA:** Eu fiquei com medo, sim. Dormi de luz acesa. Satisfeito?
+
+**OTÁVIO:** Não. Preocupado.
+
+*Ela olha para ele de verdade, pela primeira vez no episódio.*
+
+**IARA:** Não faz isso.
+
+**OTÁVIO:** Isso o quê?
+
+**IARA:** Se preocupar comigo como se ainda tivesse o direito.
+
+*Ela deixa o dinheiro no balcão e sai. Otávio fica olhando a xícara dela, ainda cheia.*
+
+### CENA 19 · INT. CADEIA PÚBLICA — PARLATÓRIO — DIA
+
+*Otávio e Vinícius, separados pelo vidro.*
+
+**OTÁVIO:** Alguém ameaçou a delegada para ela parar de investigar.
+
+**VINÍCIUS:** Então alguém tem medo. Isso é bom pra mim?
+
+**OTÁVIO:** É bom pra verdade. Pensa comigo. Você disse que seu tio andava diferente. Saía às quintas.
+
+**VINÍCIUS:** Saía de terno. Voltava tarde, cantando. Uma vez eu achei um papel no bolso do paletó dele. Uma conta de restaurante. Jantar pra dois.
+
+**OTÁVIO:** Que restaurante?
+
+**VINÍCIUS:** Um na praça, perto do fórum. Sabor da alguma coisa.
+
+*Otávio para de anotar.*
+
+**OTÁVIO:** Sabor da Praça.
+
+### CENA 20 · INT. RESTAURANTE SABOR DA PRAÇA — NOITE
+
+*Salão tranquilo depois do jantar. SEU ALCIDES, 68, bigode branco, avental azul, empilha cadeiras. Otávio entra.*
+
+**ALCIDES:** Doutor Otávio! A cozinha fechou, mas pro senhor eu esquento um caldo.
+
+**OTÁVIO:** Hoje não, Seu Alcides. Uma pergunta só. O senhor conhecia um cliente chamado Jairo Mendes?
+
+*Alcides para de empilhar cadeiras. Tira o avental devagar.*
+
+**ALCIDES:** Seu Jairo... Fiquei sabendo. Que tristeza. Vinha toda quinta-feira, doutor. Mesa dez, no canto. Pedia bacalhau e um vinho do Porto.
+
+**OTÁVIO:** Sozinho?
+
+**ALCIDES:** Nunca. Com uma senhora muito elegante. Ruiva. Depois do jantar, os dois iam dançar no clube aqui ao lado. Eu mesmo vi, que eu também danço lá.
+
+*Otávio pega o celular e liga.*
+
+**OTÁVIO:** Delegada? A mulher do enterro tinha cabelo ruivo?
+
+*Silêncio do outro lado.*
+
+**HELENA:** (telefone) Tinha.
+
+### CENA 21 · TELA PRETA
+
+> **A VOZ DO CÓDIGO:** Uma palavra pode ser um direito ou um crime. Depende do mal prometido e de para quem ele é prometido. No próximo episódio: três carros, uma ciclista caída e ninguém parou. Artigo 135.
+
+### CENA 22 · O VEREDITO — CARDS NARRADOS
+
+*Tela preta. Os cards do Veredito surgem um a um.*
+
+> **A VOZ DO CÓDIGO:** Artigo 147 do Código Penal: ameaçar alguém, por palavra, escrito, gesto ou qualquer outro meio simbólico, de causar-lhe mal injusto e grave. A pena é de detenção de um a seis meses, ou multa.
+
+> **A VOZ DO CÓDIGO:** O mal precisa ser injusto. Prometer um processo, uma denúncia à polícia ou uma cobrança na Justiça é exercer um direito e não é crime. E o crime existe mesmo que o mal prometido nunca aconteça: basta a ameaça ser capaz de intimidar.
+
+> **A VOZ DO CÓDIGO:** Em regra, a ameaça depende de representação da vítima, que tem seis meses para isso. Quando é cometida contra a mulher por razões da condição do sexo feminino, a pena é aplicada em dobro e o Ministério Público age sem precisar da representação.
+
+> **A VOZ DO CÓDIGO:** Por ser crime de menor potencial ofensivo, a ameaça vai ao Juizado Especial, onde cabe a transação penal: uma pena alternativa aplicada sem processo, que só pode ser concedida uma vez a cada cinco anos.
+
+> **A VOZ DO CÓDIGO:** Não confunda: a ameaça feita contra uma autoridade, uma parte ou uma testemunha para interferir numa investigação ou num processo é coação no curso do processo, artigo 344, com pena de um a quatro anos de reclusão.
